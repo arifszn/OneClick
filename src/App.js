@@ -34,8 +34,8 @@ const App = () => {
                             {
                                 actions.filter(action => {
                                     return (
-                                        action.name.toLowerCase().includes(query) ||
-                                        action.description.toLowerCase().includes(query)
+                                        action.name.toLowerCase().includes(query.toLowerCase()) ||
+                                        action.description.toLowerCase().includes(query.toLowerCase())
                                     );
                                 }).map((action, index) => (
                                     <ActionCard action={action}/>
