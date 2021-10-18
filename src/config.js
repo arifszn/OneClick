@@ -1,5 +1,9 @@
 // config.js
 module.exports = {
+    misc: {
+        animation: true,
+        animationName: 'fade-in',
+    },
     themeConfig: {
         default: 'light',
 

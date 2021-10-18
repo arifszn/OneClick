@@ -1,10 +1,21 @@
 import BaseLayout from "./components/Layout/BaseLayout";
 import ActionCard from "./components/action/ActionCard";
 import { actions } from "./components/action/actions";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { misc } from "./config";
+import Aos from "aos";
+import 'aos/dist/aos.css';
 
 const App = () => {
     const [query, setQuery] = useState('');
+
+    useEffect(() => {
+        Aos.init({
+            easing: 'linear',
+            offset: 10,
+            disable: !misc.animation
+        });
+    }, [])
     
     return (
         <BaseLayout>
