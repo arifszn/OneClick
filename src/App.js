@@ -12,9 +12,9 @@ const App = () => {
                         class="w-full rounded-full input input-ghost placeholder-primary-content text-primary-content focus:text-primary-content input-bordered focus:bg-transparent"
                     />
                 </div>
-                <div className="px-4 pt-4">
+                <div className="p-4 pt-0">
                     <div class="w-full transition-colors ease-linear">
-                        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-6 p-4 mb-4">
+                        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-6 p-4">
                             {
                                 actions.map((action, index) => (
                                     <ActionCard action={action}/>
