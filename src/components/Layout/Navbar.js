@@ -40,7 +40,7 @@ const Navbar = () => {
     }
 
     return (
-        <div ref={navRef} className={`inset-x-0 top-0 z-50 w-full transition duration-200 ease-in-out border-b border-transparent bg-transparent text-primary-content fixed${scrolled ? ' border-base-200 bg-base-100 text-base-content' : ''}`}>
+        <div ref={navRef} className={`inset-x-0 top-0 z-50 w-full transition duration-200 ease-in-out border-b border-transparent bg-transparent text-primary-content fixed${scrolled ? ' border-base-200 bg-base-200 text-base-content' : ''}`}>
             <div className="mx-auto space-x-1 navbar max-w-none">
                 <div className={`flex items-center flex-none${!scrolled ? ' hidden' : ''}`}>
                     {/* eslint-disable-next-line */}
@@ -52,14 +52,14 @@ const Navbar = () => {
                             navigateToPath('home');
                         }}
                     >
-                        <div class="inline-block text-2xl font-title">
+                        <div class="inline-block text-2xl font-mono">
                             <span class="text-base-content capitalize">Create</span>{' '}<span class="text-primary capitalize">New</span>
                         </div>
                     </a>
                 </div>
                 <div className="flex-1" />
                 <div title="Change Theme" className="dropdown dropdown-end">
-                    <div tabIndex={0} className="btn btn-ghost m-1 normal-case opacity-50">
+                    <div tabIndex={0} className="btn btn-ghost m-1 normal-case">
                         <AiOutlineControl className="inline-block w-5 h-5 stroke-current md:mr-2" />
                         <span className="hidden md:inline">
                             Change Theme
@@ -78,7 +78,7 @@ const Navbar = () => {
                                             onClick={(e) => changeTheme(e, item)}
                                             className={`${theme === item ? 'active' : ''}`}
                                         >
-                                            <span className="opacity-60 capitalize">
+                                            <span className="opacity-70 capitalize">
                                                 {item === config.themeConfig.default ? 'Default' : item}
                                             </span>
                                         </a>
