@@ -1,8 +1,13 @@
-function App() {
+import BaseLayout from "./components/Layout/BaseLayout";
+
+
+const App = () => {
+    
+
     return (
-        <div>
-            Hello World
-        </div>
+        <BaseLayout>
+            
+        </BaseLayout>
     );
 }
 
