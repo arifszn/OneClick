@@ -12,14 +12,14 @@ const App = () => {
                 <div className="px-8 pt-6">
                     <input 
                         placeholder="Search Action"
-                        class="w-full rounded-full input input-ghost placeholder-primary-content text-primary-content focus:text-primary-content input-bordered focus:bg-transparent"
+                        className="w-full rounded-full input input-ghost placeholder-primary-content text-primary-content focus:text-primary-content input-bordered focus:bg-transparent"
                         value={query}
                         onChange={e => setQuery(e.target.value)}
                     />
                 </div>
                 <div className="p-4 pt-0">
-                    <div class="w-full transition-colors ease-linear">
-                        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-6 p-4">
+                    <div className="w-full transition-colors ease-linear">
+                        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-6 p-4">
                             {
                                 actions.filter(action => {
                                     return (

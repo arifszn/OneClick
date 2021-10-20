@@ -52,8 +52,8 @@ const Navbar = () => {
                             navigateToPath('home');
                         }}
                     >
-                        <div class="inline-block text-2xl font-light">
-                            <span class="text-base-content capitalize">Create</span>{' '}<span class="text-primary capitalize">New</span>
+                        <div className="inline-block text-2xl font-light">
+                            <span className="text-base-content capitalize">Create</span>{' '}<span className="text-primary capitalize">New</span>
                         </div>
                     </a>
                 </div>

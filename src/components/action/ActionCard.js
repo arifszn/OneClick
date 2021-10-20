@@ -1,15 +1,15 @@
 const ActionCard = ({ action }) => {
     return (
-        <div class="card text-center shadow-2xl compact bg-base-100">
-            <figure class="px-10 pt-10">
+        <div className="card text-center shadow-2xl compact bg-base-100">
+            <figure className="px-10 pt-10">
                 {action.icon}
             </figure>
-            <div class="card-body md:mx-2 flex flex-col h-full justify-between">
-                <h2 class="card-title">{action.name}</h2>
+            <div className="card-body md:mx-2 flex flex-col h-full justify-between">
+                <h2 className="card-title">{action.name}</h2>
                 <p>{action.description}</p>
-                <div class="justify-center card-actions">
+                <div className="justify-center card-actions">
                     <button 
-                        class="btn btn-outline btn-circle"
+                        className="btn btn-outline btn-circle"
                         onClick={(e) => {
                             e.preventDefault();
                             window.open(action.url, '_blank');
