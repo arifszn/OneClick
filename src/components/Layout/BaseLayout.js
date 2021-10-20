@@ -9,8 +9,8 @@ const BaseLayout = ({ children }) => {
                 <div className="min-h-screen pt-16 overflow-hidden hero bg-gradient-to-br to-primary from-secondary text-primary-content">
                     <div className="flex-col justify-between w-full max-w-6xl mt-10 mb-48 hero-content">
                         <div className="py-4 mb-2 text-center font-title lg:py-0">
-                            <div className="mb-2 text-3xl lg:text-5xl font-extrabold">
-                                Create New
+                            <div className="mb-2 text-3xl lg:text-5xl font-light">
+                                <span className="capitalize">Create</span>{' '}<span className="text-base-content capitalize">New</span>
                             </div>
                             <h1 className="py-2 text-2xl font-bold">
                                 Less clicking, more creating
