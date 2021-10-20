@@ -1,5 +1,5 @@
 import { AiFillGithub, AiOutlineCodepen, AiOutlineCodeSandbox } from 'react-icons/ai';
-import { SiGooglekeep, SiGooglesheets, SiJamboard, SiSvelte } from 'react-icons/si';
+import { SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiSvelte } from 'react-icons/si';
 import { FaNode, FaReact } from 'react-icons/fa';
 
 const iconSize = '4rem';
@@ -149,5 +149,11 @@ export const actions = [
         icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.000000 64.000000" width={iconSize} height={iconSize}><g transform="translate(0.000000,64.000000) scale(0.012500,-0.012500)" fill="currentcolor" stroke="none"><path d="M290 5111 c-109 -34 -205 -117 -253 -219 l-32 -67 0 -2265 0 -2265 32 -67 c40 -85 106 -151 191 -191 l67 -32 2265 0 2265 0 67 32 c85 40 151 106 191 191 l32 67 0 2270 0 2270 -33 63 c-44 84 -108 146 -190 185 l-67 32 -2255 2 c-1240 1 -2266 -2 -2280 -6z m2045 -1656 c120 -245 221 -445 225 -445 3 0 105 200 225 445 l218 445 365 0 364 0 -20 -32 c-11 -18 -180 -317 -375 -665 l-356 -632 355 -623 c196 -343 369 -647 386 -675 l29 -53 -368 0 -369 0 -224 455 c-123 250 -226 455 -229 455 -3 0 -108 -205 -234 -455 l-227 -455 -366 0 -366 0 20 33 c11 17 182 319 382 670 229 405 360 645 357 657 -4 15 -656 1183 -719 1288 l-20 32 364 0 364 0 219 -445z"/></g></svg>,
         description: "Create a website using Editor X's online tool.",
         url: 'https://editorx.new'
+    },
+    {
+        name: 'Glitch',
+        icon: <SiGlitch size={iconSize} color='#3333FF'/>,
+        description: "Create a full-stack apps in your browser and collaborate live.",
+        url: 'https://glitch.new'
     },
 ]
