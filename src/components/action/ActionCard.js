@@ -4,7 +4,7 @@ const ActionCard = ({ action }) => {
             <figure className="px-10 pt-10">
                 {action.icon}
             </figure>
-            <div className="card-body mx-2 flex flex-col h-full justify-between">
+            <div className="card-body mx-6 md:mx-2 flex flex-col h-full justify-between">
                 <h2 className="card-title">{action.name}</h2>
                 <p>{action.description}</p>
                 <div className="justify-center card-actions">
