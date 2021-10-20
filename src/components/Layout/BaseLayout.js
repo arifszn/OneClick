@@ -6,7 +6,7 @@ const BaseLayout = ({ children }) => {
         <div className="fade-in">
             <Navbar/>
             <div id="home">
-                <div className="min-h-screen pt-16 overflow-hidden hero bg-gradient-to-br from-accent to-secondary text-primary-content">
+                <div className="min-h-screen pt-16 overflow-hidden hero bg-gradient-to-br to-primary from-secondary text-primary-content">
                     <div className="flex-col justify-between w-full max-w-6xl mt-10 mb-48 hero-content">
                         <div className="py-4 mb-2 text-center font-title lg:py-0">
                             <div className="mb-2 text-3xl lg:text-5xl font-extrabold">
@@ -15,7 +15,7 @@ const BaseLayout = ({ children }) => {
                             <h1 className="py-2 text-2xl font-bold">
                                 Less clicking, more creating
                             </h1>
-                            <p className="text-sm text-opacity-70 text-base-200">
+                            <p className="text-sm text-opacity-70 opacity-60">
                                 Shortcuts to your favorite actions on the websites you love.
                             </p>
                         </div>
