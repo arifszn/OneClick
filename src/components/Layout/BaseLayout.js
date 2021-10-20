@@ -29,7 +29,7 @@ const BaseLayout = ({ children }) => {
             </div>
             <footer className="p-4 footer bg-base-300 text-base-content footer-center">
                 <div>
-                    <p className="font-mono text-sm">Made with ❤️ by <a className="text-primary" href="https://github.com/arifszn" target="_blank" rel="noreferrer">Ariful Alam</a></p>
+                    <p className="font-mono text-sm">Made with ❤️ by <a className="text-primary font-bold" href="https://github.com/arifszn" target="_blank" rel="noreferrer">Ariful Alam</a></p>
                 </div>
             </footer>
         </div>
