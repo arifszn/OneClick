@@ -1,8 +1,6 @@
-import { misc } from "../../config";
-
 const ActionCard = ({ action }) => {
     return (
-        <div class="card text-center shadow-2xl compact bg-base-100" data-aos={misc.animationName}>
+        <div class="card text-center shadow-2xl compact bg-base-100">
             <figure class="px-10 pt-10">
                 {action.icon}
             </figure>

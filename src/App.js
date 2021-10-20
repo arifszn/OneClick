@@ -1,22 +1,11 @@
 import BaseLayout from "./components/Layout/BaseLayout";
 import ActionCard from "./components/action/ActionCard";
 import { actions } from "./components/action/actions";
-import { useEffect, useState } from "react";
-import { misc } from "./config";
-import Aos from "aos";
-import 'aos/dist/aos.css';
+import { useState } from "react";
 
 const App = () => {
     const [query, setQuery] = useState('');
 
-    useEffect(() => {
-        Aos.init({
-            easing: 'linear',
-            offset: 10,
-            disable: !misc.animation
-        });
-    }, [])
-    
     return (
         <BaseLayout>
             <div className="grid w-full md:w-11/12 gap-4 mb-48 -mt-48 xl:pb-0 bg-opacity-60 glass xl:rounded-box text-base-content">
