@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="http://arifszn.github.io/createnew" target="_blank">
+    <img src="https://arifszn.github.io/assets/img/hosted/createnew/logo.png" alt="Create New" title="Create New" width="80">
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Create New</h1>
+<p align="center">Shortcuts to your favorite actions on the websites you love.</p>
+<p align="center">https://arifszn.github.io/createnew</p>
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+<p align="center">
+    <a href="https://arifszn.github.io/createnew">
+        <img src="https://arifszn.github.io/assets/img/hosted/createnew/preview.png" width="60%" alt="Preview"/>
+    </a>
+    <br/>
+    <a href="#arifszn"><img src="https://arifszn.github.io/assets/img/drop-shadow.png" width="60%" alt="Shadow"/></a>
+</p>
 
-### `npm start`
+## Live
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[https://arifszn.github.io/createnew](https://arifszn.github.io/createnew)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Available Shortcuts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Google Meet](https://meet.new) - Create a real-time meeting using Google Meet.
+- [Google Calendar](https://meeting.new) - Create and send a new Google Calendar invite.
+- [Google Docs](https://docs.new) - Create a new document using Google Docs.
+- [Google Sheet](https://sheets.new) - Create a new spreadsheet using Google Sheets.
+- [Google Keep](https://keep.new) - Create a new note using Google Keep.
+- [Google Forms](https://form.new) - Create a new form using Google Forms.
+- [Google Slides](https://slide.new) - Create an online presentation using Google Slides.
+- [Google Sites](https://site.new) - Create and publish a website using Google Sites.
+- [Google Jamboard](https://jam.new) - Create a new Jamboard with Google.
+- [GitHub](https://github.new) - Create a new GitHub repository.
+- [GitHub Gist](https://gist.new) - Create a new GitHub gist.
+- [CodePen](https://pen.new) - Prototype your frontend code in CodePen's online development sandbox.
+- [Codespace](https://snippet.new) - Create a new code snippet on Codespace.
+- [React.js](https://react.new) - Create a new React project online with CodeSandbox.
+- [Vue.js](https://vue.new) - Create a new vue.js project online with CodeSandbox.
+- [Angular.js](https://ng.new) - Create a new Angular project online CodeSandbox.
+- [Node.js](https://nodejs.new) - Create a new Node.js project online CodeSandbox.
+- [JavaScript](https://js.new) - Create a new Javascript project online with CodeSandbox.
+- [TypeScript](https://ts.new) - Create a new Typescript project online with CodeSandbox.
+- [Flutter](https://flutter.new) - Create a new Flutter project online with dartpad.
+- [CodeSandbox](https://csb.new) - Create a new project online with CodeSandbox.
+- [Svelte](https://svelte.new) - Create a new Svelte project using CodeSandbox.
+- [bit.io](https://query.new) - Easily query bit.io data repositories.
+- [Editor X](https://editorx.new) - Create a website using Editor X's online tool.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Support
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you are using this project and happy with it or just want to encourage me to continue creating stuff, you can do it by just starring and sharing the project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Any contributors who want to make this project better can make contributions, which will be greatly appreciated. To contribute, clone this repo locally and commit your code to a new branch. Feel free to create an issue or make a pull request.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Create New is licensed under the [Apache-2.0 License](https://github.com/arifszn/createnew/blob/main/LICENSE).
