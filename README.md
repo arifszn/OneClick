@@ -50,6 +50,7 @@
 - [.NET](https://dotnet.new) - Create a .NET application in Microsoft's Try .NET environment.
 - [CodeSandbox](https://csb.new) - Create a new project online with CodeSandbox.
 - [Svelte](https://svelte.new) - Create a new Svelte project using CodeSandbox.
+- [Microsoft Visual Studio](https://env.new) - Create a new Visual Studio codespace for your project.
 - [bit.io](https://query.new) - Easily query bit.io data repositories.
 - [Editor X](https://editorx.new) - Create a website using Editor X's online tool.
 - [Glitch](https://glitch.new) - Create a full-stack apps in your browser and collaborate live.
