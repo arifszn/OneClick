@@ -1,5 +1,5 @@
 import { AiFillGithub, AiOutlineCodepen, AiOutlineCodeSandbox } from 'react-icons/ai';
-import { SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiSvelte } from 'react-icons/si';
+import { SiDotnet, SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiSvelte } from 'react-icons/si';
 import { FaNode, FaReact } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
 
@@ -143,6 +143,12 @@ export const actions = [
         icon: <SiSvelte size={iconSize} color='#FF3E00'/>,
         description: "Create a new Svelte project using CodeSandbox.",
         url: 'https://svelte.new'
+    },
+    {
+        name: '.NET',
+        icon: <SiDotnet size={iconSize} color='#512BD4'/>,
+        description: "Create a .NET application in Microsoft's Try .NET environment.",
+        url: 'https://dotnet.new'
     },
     {
         name: 'CodeSandbox',

@@ -47,6 +47,7 @@
 - [TypeScript](https://ts.new) - Create a new Typescript project online with CodeSandbox.
 - [Flutter](https://flutter.new) - Create a new Flutter project online with dartpad.
 - [Ionic](https://ionic.new) - Create a high quality, cross-platform native and web app with Ionic.
+- [.NET](https://dotnet.new) - Create a .NET application in Microsoft's Try .NET environment.
 - [CodeSandbox](https://csb.new) - Create a new project online with CodeSandbox.
 - [Svelte](https://svelte.new) - Create a new Svelte project using CodeSandbox.
 - [bit.io](https://query.new) - Easily query bit.io data repositories.
