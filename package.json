@@ -1,47 +1,63 @@
 {
-  "name": "createnew",
-  "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "@craco/craco": "^6.3.0",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
-  },
-  "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
+    "name": "createnew",
+    "version": "1.0.0",
+    "description": "Shortcuts to your favorite actions on the websites you love",
+    "homepage": "https://arifszn.github.io/createnew",
+    "private": true,
+    "license": "Apache-2.0",
+    "author": "arifszn",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/arifszn/createnew.git"
+    },
+    "dependencies": {
+        "@craco/craco": "^6.3.0",
+        "@testing-library/jest-dom": "^5.14.1",
+        "@testing-library/react": "^11.2.7",
+        "@testing-library/user-event": "^12.8.3",
+        "prop-types": "^15.7.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-icons": "^4.3.1",
+        "react-scripts": "4.0.3",
+        "web-vitals": "^1.1.2"
+    },
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "craco test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "autoprefixer": "^9.8.8",
+        "daisyui": "^1.14.5",
+        "postcss": "^7.0.39",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+    },
+    "keywords": [
+        "Shortcuts",
+        ".new",
+        "create new",
+        ".new shortcuts",
+        ".new website",
+        "create .new"
     ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^9.8.8",
-    "daisyui": "^1.14.5",
-    "postcss": "^7.0.39",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
-  }
 }
