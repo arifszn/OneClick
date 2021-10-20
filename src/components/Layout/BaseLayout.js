@@ -8,7 +8,7 @@ const BaseLayout = ({ children }) => {
             <div id="home">
                 <div className="min-h-screen pt-16 overflow-hidden hero bg-gradient-to-br from-accent to-secondary text-primary-content">
                     <div className="flex-col justify-between w-full max-w-6xl mt-10 mb-48 hero-content">
-                        <h1 className="py-4 mb-2 text-center font-title lg:py-0">
+                        <div className="py-4 mb-2 text-center font-title lg:py-0">
                             <div className="mb-2 text-3xl lg:text-5xl font-extrabold">
                                 Create New
                             </div>
@@ -18,7 +18,7 @@ const BaseLayout = ({ children }) => {
                             <p className="text-sm text-opacity-70 text-base-200">
                                 Shortcuts to your favorite actions on the websites you love.
                             </p>
-                        </h1>
+                        </div>
                     </div>
                 </div>
                 <div className="relative z-10">
