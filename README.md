@@ -1,18 +1,18 @@
 <p align="center">
-  <a href="https://createnew.netlify.app" target="_blank">
-    <img src="https://arifszn.github.io/assets/img/hosted/createnew/logo.png" alt="Create New" title="Create New" width="80">
+  <a href="https://dotnew.netlify.app" target="_blank">
+    <img src="https://arifszn.github.io/assets/img/hosted/dotnew/logo.png" alt="Dot New" title="Dot New" width="80">
   </a>
 </p>
 
-<h1 align="center">Create New</h1>
+<h1 align="center">Dot New</h1>
 <p align="center">Shortcuts to your favorite actions on the websites you love.</p>
-<p align="center">https://createnew.netlify.app</p>
+<p align="center">https://dotnew.netlify.app</p>
 
 <br/>
 
 <p align="center">
-    <a href="https://createnew.netlify.app">
-        <img src="https://arifszn.github.io/assets/img/hosted/createnew/preview.png" width="60%" alt="Preview"/>
+    <a href="https://dotnew.netlify.app">
+        <img src="https://arifszn.github.io/assets/img/hosted/dotnew/preview.png" width="60%" alt="Preview"/>
     </a>
     <br/>
     <a href="#arifszn"><img src="https://arifszn.github.io/assets/img/drop-shadow.png" width="60%" alt="Shadow"/></a>
@@ -20,7 +20,7 @@
 
 ## Live
 
-[https://createnew.netlify.app](https://createnew.netlify.app)
+[https://dotnew.netlify.app](https://dotnew.netlify.app)
 
 
 ## Available Shortcuts
@@ -70,4 +70,4 @@ Any contributors who want to make this project better can make contributions, wh
 
 ## License
 
-**Create New** is licensed under the [Apache-2.0 License](https://github.com/arifszn/createnew/blob/main/LICENSE).
+**Dot New** is licensed under the [Apache-2.0 License](https://github.com/arifszn/dotnew/blob/main/LICENSE).

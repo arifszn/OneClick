@@ -23,8 +23,8 @@ export const getInitialTheme = () => {
         return config.themeConfig.default;
     }
 
-    if (localStorage.hasOwnProperty('createNewTheme')) {
-        let theme = localStorage.getItem('createNewTheme');
+    if (localStorage.hasOwnProperty('dot-new-theme')) {
+        let theme = localStorage.getItem('dot-new-theme');
         return theme;
     }
 
