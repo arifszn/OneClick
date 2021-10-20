@@ -27,7 +27,7 @@ const App = () => {
                                         action.description.toLowerCase().includes(query.toLowerCase())
                                     );
                                 }).map((action, index) => (
-                                    <ActionCard action={action}/>
+                                    <ActionCard key={index} action={action}/>
                                 ))
                             }
                         </div>
