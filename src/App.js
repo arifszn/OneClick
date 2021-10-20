@@ -11,7 +11,7 @@ const App = () => {
             <div className="grid w-full md:w-11/12 gap-4 mb-48 -mt-48 xl:pb-0 bg-opacity-60 glass xl:rounded-box text-base-content">
                 <div className="px-8 pt-6">
                     <input 
-                        placeholder="Search Action"
+                        placeholder="Search Shortcuts"
                         className="w-full rounded-full input input-ghost placeholder-primary-content text-primary-content focus:text-primary-content input-bordered focus:bg-transparent"
                         value={query}
                         onChange={e => setQuery(e.target.value)}
