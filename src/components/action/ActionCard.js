@@ -1,3 +1,5 @@
+import { ga } from "../../helpers/utils";
+
 const ActionCard = ({ action }) => {
     return (
         <div className="card text-center shadow-2xl compact bg-base-100">
@@ -12,6 +14,15 @@ const ActionCard = ({ action }) => {
                         className="btn btn-outline btn-circle"
                         onClick={(e) => {
                             e.preventDefault();
+
+                            // track google analytics event
+                            ga.event({
+                                action: "click create new button",
+                                params : {
+                                    shortcut: action.name
+                                }
+                            });
+                            
                             window.open(action.url, '_blank');
                         }}
                     >

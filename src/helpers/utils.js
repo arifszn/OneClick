@@ -34,3 +34,19 @@ export const getInitialTheme = () => {
 
     return config.themeConfig.default;
 }
+
+/**
+ * Google analytics utils
+ */
+export const ga = {
+    // log the pageview with their URL
+    pageView: (url) => {
+        window.gtag('config', process.env.REACT_APP_GOOGLE_ANALYTICS_ID, {
+            page_path: url,
+        })
+    },
+    // log specific events happening.
+    event: ({ action, params }) => {
+        window.gtag('event', action, params)
+    }
+}
