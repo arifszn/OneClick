@@ -34,6 +34,7 @@
 - [Google Slides](https://slide.new) - Create an online presentation using Google Slides.
 - [Google Sites](https://site.new) - Create and publish a website using Google Sites.
 - [Google Jamboard](https://jam.new) - Create a new Jamboard with Google.
+- [Google AppScript](https://script.new) - Create and share new editor functions using Google App Script.
 - [GitHub](https://github.new) - Create a new GitHub repository.
 - [GitHub Gist](https://gist.new) - Create a new GitHub gist.
 - [CodePen](https://pen.new) - Prototype your frontend code in CodePen's online development sandbox.
