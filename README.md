@@ -1,17 +1,17 @@
 <p align="center">
-  <a href="http://arifszn.github.io/createnew" target="_blank">
+  <a href="https://createnew.netlify.app" target="_blank">
     <img src="https://arifszn.github.io/assets/img/hosted/createnew/logo.png" alt="Create New" title="Create New" width="80">
   </a>
 </p>
 
 <h1 align="center">Create New</h1>
 <p align="center">Shortcuts to your favorite actions on the websites you love.</p>
-<p align="center">https://arifszn.github.io/createnew</p>
+<p align="center">https://createnew.netlify.app</p>
 
 <br/>
 
 <p align="center">
-    <a href="https://arifszn.github.io/createnew">
+    <a href="https://createnew.netlify.app">
         <img src="https://arifszn.github.io/assets/img/hosted/createnew/preview.png" width="60%" alt="Preview"/>
     </a>
     <br/>
@@ -20,7 +20,7 @@
 
 ## Live
 
-[https://arifszn.github.io/createnew](https://arifszn.github.io/createnew)
+[https://createnew.netlify.app](https://createnew.netlify.app)
 
 
 ## Available Shortcuts

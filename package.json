@@ -2,7 +2,7 @@
     "name": "createnew",
     "version": "1.0.0",
     "description": "Shortcuts to your favorite actions on the websites you love",
-    "homepage": "https://arifszn.github.io/createnew",
+    "homepage": "https://createnew.netlify.app",
     "private": true,
     "license": "Apache-2.0",
     "author": "arifszn",
