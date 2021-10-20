@@ -22,7 +22,7 @@ const BaseLayout = ({ children }) => {
                     </div>
                 </div>
                 <div className="relative z-10">
-                    <div className="pt-10 pb-20 hero bg-gradient-to-br from-base-100 to-base-300 text-base-content">
+                    <div className="pt-10 hero bg-gradient-to-br from-base-100 to-base-300 text-base-content">
                         {children}
                     </div>
                 </div>
