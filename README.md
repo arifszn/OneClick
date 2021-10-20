@@ -66,4 +66,4 @@ Any contributors who want to make this project better can make contributions, wh
 
 ## License
 
-Create New is licensed under the [Apache-2.0 License](https://github.com/arifszn/createnew/blob/main/LICENSE).
+**Create New** is licensed under the [Apache-2.0 License](https://github.com/arifszn/createnew/blob/main/LICENSE).
