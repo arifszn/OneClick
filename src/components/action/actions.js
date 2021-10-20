@@ -1,5 +1,5 @@
 import { AiFillGithub, AiOutlineCodepen, AiOutlineCodeSandbox } from 'react-icons/ai';
-import { SiDotnet, SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiSvelte } from 'react-icons/si';
+import { SiDotnet, SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiMiro, SiSvelte } from 'react-icons/si';
 import { FaNode, FaReact } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
 
@@ -180,6 +180,12 @@ export const actions = [
         icon: <SiGlitch size={iconSize} color='#3333FF'/>,
         description: "Create a full-stack apps in your browser and collaborate live.",
         url: 'https://glitch.new'
+    },
+    {
+        name: 'Miro',
+        icon: <SiMiro size={iconSize} color='#050038'/>,
+        description: "Create wireframes for your project using Miro.",
+        url: 'https://wireframe.new'
     },
     {
         name: 'Matlab',
