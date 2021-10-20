@@ -52,6 +52,7 @@
 - [bit.io](https://query.new) - Easily query bit.io data repositories.
 - [Editor X](https://editorx.new) - Create a website using Editor X's online tool.
 - [Glitch](https://glitch.new) - Create a full-stack apps in your browser and collaborate live.
+- [Matlab](https://matlab.new) - Use MATLAB and Simulink through your web browser.
 
 
 ## Support
