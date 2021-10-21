@@ -59,6 +59,7 @@
 - [Railway](https://dev.new) - Create a new Railway deployment in the cloud.
 - [RunKit](https://api.new) - Prototype and launch your APIs using RunKit.
 - [Stackbit](https://jamstack.new) - Create a new Jamstack site.
+- [Vercel](https://deploy.new) - Create a new project in Vercel for preview and deployment.
 
 
 ## Support
