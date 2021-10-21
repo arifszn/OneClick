@@ -1,4 +1,4 @@
-import BaseLayout from "./components/Layout/BaseLayout";
+import BaseLayout from "./components/layout/BaseLayout";
 import ActionCard from "./components/action/ActionCard";
 import { actions } from "./components/action/actions";
 import { useState } from "react";
