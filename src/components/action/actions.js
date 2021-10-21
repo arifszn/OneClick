@@ -1,5 +1,5 @@
 import { AiFillGithub, AiOutlineCodepen, AiOutlineCodeSandbox } from 'react-icons/ai';
-import { SiAdobeacrobatreader, SiBuffer, SiDotnet, SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiMiro, SiRailway, SiRunkit, SiStackbit, SiSvelte, SiVercel } from 'react-icons/si';
+import { SiAdobeacrobatreader, SiBuffer, SiCanva, SiDotnet, SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiMiro, SiRailway, SiRunkit, SiStackbit, SiSvelte, SiVercel } from 'react-icons/si';
 import { FaNode, FaReact } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
 
@@ -240,5 +240,11 @@ export const actions = [
         icon: <SiBuffer size={iconSize} />,
         description: "Schedule and manage your social media posts.",
         url: 'https://buffer.new'
+    },
+    {
+        name: 'Canva Menu',
+        icon: <SiCanva size={iconSize} color='#00C4CC'/>,
+        description: "Design an appetizing menu using customizable templates from Canva.",
+        url: 'https://menu.new'
     },
 ]

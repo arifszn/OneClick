@@ -64,6 +64,7 @@
 - [Merge PDF](https://mergepdf.new) - Combine PDFs into one file with Adobe.
 - [PDF to Word](https://pdftoword.new) - Convert PDFs to Word documents with Adobe.
 - [Buffer](https://buffer.new) - Schedule and manage your social media posts.
+- [Canva Menu](https://menu.new) - Design an appetizing menu using customizable templates from Canva.
 
 
 ## Support
