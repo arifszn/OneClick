@@ -41,20 +41,20 @@
 - [Codespace](https://snippet.new) - Create a new code snippet on Codespace.
 - [React.js](https://react.new) - Create a new React project online with CodeSandbox.
 - [Vue.js](https://vue.new) - Create a new vue.js project online with CodeSandbox.
-- [Angular.js](https://ng.new) - Create a new Angular project online CodeSandbox.
-- [Node.js](https://nodejs.new) - Create a new Node.js project online CodeSandbox.
+- [Angular.js](https://ng.new) - Create a new Angular project online with CodeSandbox.
+- [Node.js](https://nodejs.new) - Create a new Node.js project online with CodeSandbox.
 - [JavaScript](https://js.new) - Create a new Javascript project online with CodeSandbox.
 - [TypeScript](https://ts.new) - Create a new Typescript project online with CodeSandbox.
 - [Flutter](https://flutter.new) - Create a new Flutter project online with dartpad.
 - [Ionic](https://ionic.new) - Create a high quality, cross-platform native and web app with Ionic.
 - [.NET](https://dotnet.new) - Create a .NET application in Microsoft's Try .NET environment.
-- [Svelte](https://svelte.new) - Create a new Svelte project using CodeSandbox.
+- [Svelte](https://svelte.new) - Create a new Svelte project online with CodeSandbox.
 - [CodeSandbox](https://csb.new) - Create a new project online with CodeSandbox.
-- [Glitch](https://glitch.new) - Create a full-stack apps in your browser and collaborate live.
+- [Glitch](https://glitch.new) - Create a full-stack app in your browser and collaborate live.
 - [Microsoft Visual Studio](https://env.new) - Create a new Visual Studio codespace for your project.
 - [bit.io](https://query.new) - Easily query bit.io data repositories.
 - [Editor X](https://editorx.new) - Create a website using Editor X's online tool.
-- [Miro](https://wireframe.new) - Create wireframes for your project using Miro.
+- [Miro](https://wireframe.new) - Create a wireframe for your project using Miro.
 - [Matlab](https://matlab.new) - Use MATLAB and Simulink through your web browser.
 - [Railway](https://dev.new) - Create a new Railway deployment in the cloud.
 
