@@ -1,5 +1,5 @@
 import { AiFillGithub, AiOutlineCodepen, AiOutlineCodeSandbox } from 'react-icons/ai';
-import { SiDotnet, SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiMiro, SiRailway, SiRunkit, SiSvelte } from 'react-icons/si';
+import { SiDotnet, SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiMiro, SiRailway, SiRunkit, SiStackbit, SiSvelte } from 'react-icons/si';
 import { FaNode, FaReact } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
 
@@ -204,5 +204,11 @@ export const actions = [
         icon: <SiRunkit size={iconSize} color='#DB4792' />,
         description: "Prototype and launch your APIs using RunKit.",
         url: 'https://api.new'
+    },
+    {
+        name: 'Stackbit',
+        icon: <SiStackbit size={iconSize} color='#207BEA' />,
+        description: "Create a new Jamstack site.",
+        url: 'https://jamstack.new'
     },
 ]

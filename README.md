@@ -58,6 +58,7 @@
 - [Matlab](https://matlab.new) - Use MATLAB and Simulink through your web browser.
 - [Railway](https://dev.new) - Create a new Railway deployment in the cloud.
 - [RunKit](https://api.new) - Prototype and launch your APIs using RunKit.
+- [Stackbit](https://jamstack.new) - Create a new Jamstack site.
 
 
 ## Support
