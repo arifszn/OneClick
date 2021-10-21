@@ -244,7 +244,13 @@ export const actions = [
     {
         name: 'Canva Menu',
         icon: <SiCanva size={iconSize} color='#00C4CC'/>,
-        description: "Design an appetizing menu using customizable templates from Canva.",
+        description: "Create an appetizing menu using customizable templates from Canva.",
         url: 'https://menu.new'
+    },
+    {
+        name: 'Canva Resume',
+        icon: <SiCanva size={iconSize} color='#00C4CC'/>,
+        description: "Create a professional-looking resume using templates from Canva.",
+        url: 'https://resumes.new'
     },
 ]
