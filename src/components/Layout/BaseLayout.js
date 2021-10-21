@@ -10,7 +10,7 @@ const BaseLayout = ({ children }) => {
                     <div className="flex-col justify-between w-full max-w-6xl mt-10 mb-48 hero-content">
                         <div className="py-4 mb-2 text-center font-title lg:py-0">
                             <div className="mb-2 text-3xl lg:text-5xl font-light">
-                                <span className="capitalize">Dot</span>{' '}<span className="text-base-content capitalize">New</span>
+                                <span className="capitalize">Dot</span>{' '}<span className="text-neutral capitalize">New</span>
                             </div>
                             <h1 className="py-2 text-2xl font-bold">
                                 Less clicking, more creating
@@ -29,7 +29,7 @@ const BaseLayout = ({ children }) => {
             </div>
             <footer className="p-4 footer bg-base-300 text-base-content footer-center">
                 <div>
-                    <p className="font-mono text-sm">Made with ❤️ by <a className="text-primary font-bold" href="https://github.com/arifszn" target="_blank" rel="noreferrer">Ariful Alam</a></p>
+                    <p className="font-mono text-sm">Made with ❤️ by <a className="text-primary-focus" href="https://github.com/arifszn" target="_blank" rel="noreferrer">Ariful Alam</a></p>
                 </div>
             </footer>
         </div>
