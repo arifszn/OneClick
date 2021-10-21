@@ -229,4 +229,10 @@ export const actions = [
         description: "Combine PDFs into one file with Adobe.",
         url: 'https://mergepdf.new'
     },
+    {
+        name: 'PDF to Word',
+        icon: <SiAdobeacrobatreader size={iconSize} color='#EC1C24' />,
+        description: "Convert PDFs to Word documents with Adobe.",
+        url: 'https://pdftoword.new'
+    },
 ]
