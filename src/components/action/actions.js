@@ -223,4 +223,10 @@ export const actions = [
         description: "Compress PDF documents with simple drag and drop with Adobe Acrobat.",
         url: 'https://compresspdf.new'
     },
+    {
+        name: 'Merge PDF',
+        icon: <SiAdobeacrobatreader size={iconSize} color='#EC1C24' />,
+        description: "Combine PDFs into one file with Adobe.",
+        url: 'https://mergepdf.new'
+    },
 ]
