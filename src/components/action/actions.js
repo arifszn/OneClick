@@ -1,5 +1,5 @@
 import { AiFillGithub, AiOutlineCodepen, AiOutlineCodeSandbox } from 'react-icons/ai';
-import { SiAdobeacrobatreader, SiDotnet, SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiMiro, SiRailway, SiRunkit, SiStackbit, SiSvelte, SiVercel } from 'react-icons/si';
+import { SiAdobeacrobatreader, SiBuffer, SiDotnet, SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiMiro, SiRailway, SiRunkit, SiStackbit, SiSvelte, SiVercel } from 'react-icons/si';
 import { FaNode, FaReact } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
 
@@ -234,5 +234,11 @@ export const actions = [
         icon: <SiAdobeacrobatreader size={iconSize} color='#EC1C24' />,
         description: "Convert PDFs to Word documents with Adobe.",
         url: 'https://pdftoword.new'
+    },
+    {
+        name: 'Buffer',
+        icon: <SiBuffer size={iconSize} />,
+        description: "Schedule and manage your social media posts.",
+        url: 'https://buffer.new'
     },
 ]

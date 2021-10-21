@@ -63,6 +63,7 @@
 - [PDF Compress](https://compresspdf.new) - Compress PDF documents with simple drag and drop with Adobe Acrobat.
 - [Merge PDF](https://mergepdf.new) - Combine PDFs into one file with Adobe.
 - [PDF to Word](https://pdftoword.new) - Convert PDFs to Word documents with Adobe.
+- [Buffer](https://buffer.new) - Schedule and manage your social media posts.
 
 
 ## Support
