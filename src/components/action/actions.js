@@ -195,7 +195,7 @@ export const actions = [
     },
     {
         name: 'Railway',
-        icon: <SiRailway size={iconSize} color='#0B0D0E'/>,
+        icon: <SiRailway size={iconSize} />,
         description: "Create a new Railway deployment in the cloud.",
         url: 'https://dev.new'
     },
