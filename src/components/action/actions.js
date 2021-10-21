@@ -1,5 +1,5 @@
 import { AiFillGithub, AiOutlineCodepen, AiOutlineCodeSandbox } from 'react-icons/ai';
-import { SiDotnet, SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiMiro, SiRailway, SiRunkit, SiStackbit, SiSvelte, SiVercel } from 'react-icons/si';
+import { SiAdobeacrobatreader, SiDotnet, SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiMiro, SiRailway, SiRunkit, SiStackbit, SiSvelte, SiVercel } from 'react-icons/si';
 import { FaNode, FaReact } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
 
@@ -216,5 +216,11 @@ export const actions = [
         icon: <SiVercel size={iconSize} />,
         description: "Create a new project in Vercel for preview and deployment.",
         url: 'https://deploy.new'
+    },
+    {
+        name: 'PDF Compress',
+        icon: <SiAdobeacrobatreader size={iconSize} color='#EC1C24' />,
+        description: "Compress PDF documents with simple drag and drop with Adobe Acrobat.",
+        url: 'https://compresspdf.new'
     },
 ]

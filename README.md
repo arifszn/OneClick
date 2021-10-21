@@ -60,6 +60,7 @@
 - [RunKit](https://api.new) - Prototype and launch your APIs using RunKit.
 - [Stackbit](https://jamstack.new) - Create a new Jamstack site.
 - [Vercel](https://deploy.new) - Create a new project in Vercel for preview and deployment.
+- [PDF Compress](https://compresspdf.new) - Compress PDF documents with simple drag and drop with Adobe Acrobat.
 
 
 ## Support
