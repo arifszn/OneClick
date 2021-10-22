@@ -43,6 +43,7 @@
 - [Vue.js](https://vue.new) - Create a new vue.js project online with CodeSandbox.
 - [Angular.js](https://ng.new) - Create a new Angular project online with CodeSandbox.
 - [Node.js](https://nodejs.new) - Create a new Node.js project online with CodeSandbox.
+- [Next.js](https://next.new) - Create a new Next.js project online with stackblitz.
 - [JavaScript](https://js.new) - Create a new Javascript project online with CodeSandbox.
 - [TypeScript](https://ts.new) - Create a new Typescript project online with CodeSandbox.
 - [Flutter](https://flutter.new) - Create a new Flutter project online with dartpad.

@@ -1,5 +1,5 @@
 import { AiFillGithub, AiOutlineCodepen, AiOutlineCodeSandbox } from 'react-icons/ai';
-import { SiAdobeacrobatreader, SiBuffer, SiCanva, SiDotnet, SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiMiro, SiRailway, SiRunkit, SiStackbit, SiSvelte, SiVercel } from 'react-icons/si';
+import { SiAdobeacrobatreader, SiBuffer, SiCanva, SiDotnet, SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiMiro, SiNextdotjs, SiRailway, SiRunkit, SiStackbit, SiSvelte, SiVercel } from 'react-icons/si';
 import { FaNode, FaReact } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
 
@@ -113,6 +113,12 @@ export const actions = [
         icon: <FaNode size={iconSize} color='#5C9553'/>,
         description: "Create a new Node.js project online with CodeSandbox.",
         url: 'https://nodejs.new'
+    },
+    {
+        name: 'Next.js',
+        icon: <SiNextdotjs size={iconSize} />,
+        description: "Create a new Next.js project online with stackblitz.",
+        url: 'https://next.new'
     },
     {
         name: 'JavaScript',
