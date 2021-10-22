@@ -8,7 +8,7 @@ const ActionCard = ({ action }) => {
             </figure>
             <div className="card-body mx-6 md:mx-2 flex flex-col h-full justify-between">
                 <h2 className="card-title">{action.name}</h2>
-                <p>{action.description}</p>
+                <p className="opacity-70">{action.description}</p>
                 <div className="justify-center card-actions">
                     <button 
                         className="btn btn-outline btn-circle"
