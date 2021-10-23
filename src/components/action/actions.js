@@ -7,6 +7,7 @@ import {
     SiGlitch,
     SiGooglekeep,
     SiGooglesheets,
+    SiIndeed,
     SiJamboard,
     SiMiro,
     SiNextdotjs,
@@ -287,5 +288,11 @@ export const actions = [
         icon: <FaSignature size={iconSize} />,
         description: "Create a professional email signature in 30 seconds HoneyBook.",
         url: 'https://emailsignature.new'
+    },
+    {
+        name: 'Indeed',
+        icon: <SiIndeed size={iconSize} color='#003A9B' />,
+        description: "Create your online resume with Indeed.",
+        url: 'https://profile.new'
     },
 ]

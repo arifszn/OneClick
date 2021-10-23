@@ -69,6 +69,7 @@
 - [Canva Menu](https://menu.new) - Create an appetizing menu using customizable templates from Canva.
 - [Canva Resume](https://resumes.new) - Create a professional-looking resume using templates from Canva.
 - [Email Signature](https://emailsignature.new) - Create a professional email signature in 30 seconds HoneyBook.
+- [Indeed](https://profile.new) - Create your online resume with Indeed.
 
 
 ## Support
