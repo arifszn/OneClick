@@ -71,7 +71,7 @@ const Navbar = () => {
                     <div tabIndex={0} className="mt-16 overflow-y-auto shadow-2xl top-px dropdown-content h-96 w-52 rounded-b-box bg-base-200 text-base-content">
                         <ul className="p-4 menu compact">
                             {
-                                [config.themeConfig.default, ...config.themeConfig.themes.filter(item => item !== config.themeConfig.default)].map((item, index) => (
+                                config.themeConfig.themes.map((item, index) => (
                                     <li key={index}>
                                         {/* eslint-disable-next-line */}
                                         <a
@@ -79,7 +79,7 @@ const Navbar = () => {
                                             className={`${theme === item ? 'active' : ''}`}
                                         >
                                             <span className="opacity-70 capitalize">
-                                                {item === config.themeConfig.default ? 'Default' : item}
+                                                {index === 0 ? 'Default' : item}
                                             </span>
                                         </a>
                                     </li>

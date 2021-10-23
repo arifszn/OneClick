@@ -20,7 +20,7 @@ export const navigateToPath = (_path) => {
 
 export const getInitialTheme = () => {
     if (config.themeConfig.disableSwitch) {
-        return config.themeConfig.default;
+        return config.themeConfig.themes[0];
     }
 
     if (localStorage.hasOwnProperty('dot-new-theme')) {
@@ -29,10 +29,10 @@ export const getInitialTheme = () => {
     }
 
     if (config.themeConfig.respectPrefersColorScheme && !config.themeConfig.disableSwitch) {
-        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : config.themeConfig.default;
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : config.themeConfig.themes[0];
     }
 
-    return config.themeConfig.default;
+    return config.themeConfig.themes[0];
 }
 
 /**

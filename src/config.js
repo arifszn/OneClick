@@ -1,13 +1,12 @@
 // config.js
 module.exports = {
     themeConfig: {
-        default: 'cupcake',
         disableSwitch: false,
         respectPrefersColorScheme: true,
         themes: [
+            'cupcake',
             'light',
             'dark',
-            'cupcake',
             'bumblebee',
             'emerald',
             'corporate',
