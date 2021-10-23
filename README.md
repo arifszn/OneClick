@@ -72,6 +72,7 @@
 - [Indeed](https://profile.new) - Create your online resume with Indeed.
 - [Microsoft Teams](https://teams.new) - Chat with your team using Microsoft Teams.
 - [Business Card](https://businesscard.new) - Design personalized business cards with Namecheap.
+- [Personio](https://candidate.new) - Track your candidate pipeline using Personio.
 
 
 ## Support
