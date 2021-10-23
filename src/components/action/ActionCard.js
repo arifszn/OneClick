@@ -9,7 +9,7 @@ const ActionCard = ({ action }) => {
             <div className="card-body md:mx-2 flex flex-col h-full justify-between">
                 <h2 className="card-title text-sm lg:text-lg">{action.name}</h2>
                 <p className="opacity-80 text-2xs lg:text-sm">{action.description}</p>
-                <div className="justify-center card-actions">
+                <div className="justify-center mt-3 lg:mt-6">
                     <button 
                         className="btn btn-outline btn-circle btn-sm lg:btn-md"
                         onClick={(e) => {
