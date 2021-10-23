@@ -16,7 +16,7 @@ import {
     SiSvelte,
     SiVercel 
 } from 'react-icons/si';
-import { FaNode, FaReact } from 'react-icons/fa';
+import { FaNode, FaReact, FaSignature } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
 import { MdVpnLock } from 'react-icons/md';
 
@@ -281,5 +281,11 @@ export const actions = [
         icon: <SiCanva size={iconSize} color='#00C4CC'/>,
         description: "Create a professional-looking resume using templates from Canva.",
         url: 'https://resumes.new'
+    },
+    {
+        name: 'Email Signature',
+        icon: <FaSignature size={iconSize} />,
+        description: "Create a professional email signature in 30 seconds HoneyBook.",
+        url: 'https://emailsignature.new'
     },
 ]
