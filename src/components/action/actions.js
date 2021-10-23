@@ -11,6 +11,7 @@ import {
     SiJamboard,
     SiMicrosoftteams,
     SiMiro,
+    SiNamecheap,
     SiNextdotjs,
     SiRailway,
     SiRunkit,
@@ -301,5 +302,11 @@ export const actions = [
         icon: <SiMicrosoftteams size={iconSize} color='#6264A7' />,
         description: "Chat with your team using Microsoft Teams.",
         url: 'https://teams.new'
+    },
+    {
+        name: 'Business Card',
+        icon: <SiNamecheap size={iconSize} color='#DE3723' />,
+        description: "Design personalized business cards with Namecheap.",
+        url: 'https://businesscard.new'
     },
 ]

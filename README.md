@@ -71,6 +71,7 @@
 - [Email Signature](https://emailsignature.new) - Create a professional email signature in 30 seconds HoneyBook.
 - [Indeed](https://profile.new) - Create your online resume with Indeed.
 - [Microsoft Teams](https://teams.new) - Chat with your team using Microsoft Teams.
+- [Business Card](https://businesscard.new) - Design personalized business cards with Namecheap.
 
 
 ## Support
