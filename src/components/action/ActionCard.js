@@ -3,15 +3,15 @@ import { ga } from "../../helpers/utils";
 const ActionCard = ({ action }) => {
     return (
         <div className="card text-center shadow-2xl compact bg-base-100">
-            <figure className="px-10 pt-10">
+            <figure className="pt-6 lg:pt-10">
                 {action.icon}
             </figure>
-            <div className="card-body mx-6 md:mx-2 flex flex-col h-full justify-between">
-                <h2 className="card-title">{action.name}</h2>
-                <p className="opacity-70">{action.description}</p>
+            <div className="card-body md:mx-2 flex flex-col h-full justify-between">
+                <h2 className="card-title text-sm lg:text-lg">{action.name}</h2>
+                <p className="opacity-80 text-2xs lg:text-sm">{action.description}</p>
                 <div className="justify-center card-actions">
                     <button 
-                        className="btn btn-outline btn-circle"
+                        className="btn btn-outline btn-circle btn-sm lg:btn-md"
                         onClick={(e) => {
                             e.preventDefault();
 
@@ -26,7 +26,7 @@ const ActionCard = ({ action }) => {
                             window.open(action.url, '_blank');
                         }}
                     >
-                        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 12 16" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"></path></svg>
+                        <svg className="p-2" stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 12 16" height="100%" width="100%" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"></path></svg>
                     </button>
                 </div>
             </div>

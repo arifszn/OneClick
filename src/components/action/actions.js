@@ -3,7 +3,7 @@ import { SiAdobeacrobatreader, SiBuffer, SiCanva, SiDotnet, SiGlitch, SiGoogleke
 import { FaNode, FaReact } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
 
-const iconSize = '4rem';
+const iconSize = '3rem';
 
 export const actions = [
     {
