@@ -1,7 +1,24 @@
 import { AiFillGithub, AiOutlineCodepen, AiOutlineCodeSandbox } from 'react-icons/ai';
-import { SiAdobeacrobatreader, SiBuffer, SiCanva, SiDotnet, SiGlitch, SiGooglekeep, SiGooglesheets, SiJamboard, SiMiro, SiNextdotjs, SiRailway, SiRunkit, SiStackbit, SiSvelte, SiVercel } from 'react-icons/si';
+import { 
+    SiAdobeacrobatreader,
+    SiBuffer,
+    SiCanva,
+    SiDotnet,
+    SiGlitch,
+    SiGooglekeep,
+    SiGooglesheets,
+    SiJamboard,
+    SiMiro,
+    SiNextdotjs,
+    SiRailway,
+    SiRunkit,
+    SiStackbit,
+    SiSvelte,
+    SiVercel 
+} from 'react-icons/si';
 import { FaNode, FaReact } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
+import { MdVpnLock } from 'react-icons/md';
 
 const iconSize = '3rem';
 
@@ -167,6 +184,12 @@ export const actions = [
         icon: <SiGlitch size={iconSize} color='#3333FF'/>,
         description: "Create a full-stack app in your browser and collaborate live.",
         url: 'https://glitch.new'
+    },
+    {
+        name: 'Proxy',
+        icon: <MdVpnLock size={iconSize}/>,
+        description: "Use a proxy server without having to connect to a VPN.",
+        url: 'https://vpn.new'
     },
     {
         name: 'Microsoft Visual Studio',

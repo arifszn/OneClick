@@ -52,6 +52,7 @@
 - [Svelte](https://svelte.new) - Create a new Svelte project online with CodeSandbox.
 - [CodeSandbox](https://csb.new) - Create a new project online with CodeSandbox.
 - [Glitch](https://glitch.new) - Create a full-stack app in your browser and collaborate live.
+- [Proxy](https://vpn.new) - Use a proxy server without having to connect to a VPN.
 - [Microsoft Visual Studio](https://env.new) - Create a new Visual Studio codespace for your project.
 - [bit.io](https://query.new) - Easily query bit.io data repositories.
 - [Editor X](https://editorx.new) - Create a website using Editor X's online tool.
