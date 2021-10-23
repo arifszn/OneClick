@@ -9,6 +9,7 @@ import {
     SiGooglesheets,
     SiIndeed,
     SiJamboard,
+    SiMicrosoftteams,
     SiMiro,
     SiNextdotjs,
     SiRailway,
@@ -294,5 +295,11 @@ export const actions = [
         icon: <SiIndeed size={iconSize} color='#003A9B' />,
         description: "Create your online resume with Indeed.",
         url: 'https://profile.new'
+    },
+    {
+        name: 'Microsoft Teams',
+        icon: <SiMicrosoftteams size={iconSize} color='#6264A7' />,
+        description: "Chat with your team using Microsoft Teams.",
+        url: 'https://teams.new'
     },
 ]
