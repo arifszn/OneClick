@@ -88,6 +88,7 @@
 - [Medium](https://story.new) - Create a new story on Medium.
 - [Spotify](https://playlist.new) - Create a new Spotify playlist.
 - [Video Editor](https://recording.new) - Edit your video online.
+- [Asana](https://asana.new) - Add a new task to your Asana project.
 
 
 ## Support
