@@ -380,4 +380,10 @@ export const actions = [
         description: "Create a new blog on wordpress.com.",
         url: 'https://blog.new'
     },
+    {
+        name: 'Blog Post',
+        icon: <SiWordpress size={iconSize} color='#21759B' />,
+        description: "Create a new blog post on your Wordpress blog.",
+        url: 'https://post.new'
+    },
 ]

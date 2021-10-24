@@ -83,6 +83,7 @@
 - [Logo](https://logo.new) - Create a new logo for your business with Adobe Spark.
 - [Photoshop](https://photo.new) - Edit an image using Adobe Photoshop online.
 - [Wordpress](https://blog.new) - Create a new blog on wordpress.com.
+- [Blog Post](https://post.new) - Create a new blog post on your Wordpress blog.
 
 
 ## Support
