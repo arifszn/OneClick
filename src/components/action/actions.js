@@ -18,6 +18,7 @@ import {
     SiRailway,
     SiRunkit,
     SiShopify,
+    SiSpotify,
     SiStackbit,
     SiSurveymonkey,
     SiSvelte,
@@ -398,5 +399,11 @@ export const actions = [
         icon: <SiMedium size={iconSize} />,
         description: "Create a new story on Medium.",
         url: 'https://story.new'
+    },
+    {
+        name: 'Spotify',
+        icon: <SiSpotify size={iconSize} color='#1DB954'/>,
+        description: "Create a new Spotify playlist.",
+        url: 'https://playlist.new'
     },
 ]
