@@ -271,6 +271,12 @@ export const actions = [
         url: 'https://pdftoword.new'
     },
     {
+        name: 'JPG to PDF',
+        icon: <SiAdobeacrobatreader size={iconSize} color='#EC1C24' />,
+        description: "Convert JPG images to PDF with Adobe Acrobat.",
+        url: 'https://jpgtopdf.new'
+    },
+    {
         name: 'Buffer',
         icon: <SiBuffer size={iconSize} />,
         description: "Schedule and manage your social media posts.",

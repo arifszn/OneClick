@@ -65,6 +65,7 @@
 - [PDF Compress](https://compresspdf.new) - Compress PDF documents with simple drag and drop with Adobe Acrobat.
 - [Merge PDF](https://mergepdf.new) - Combine PDFs into one file with Adobe.
 - [PDF to Word](https://pdftoword.new) - Convert PDFs to Word documents with Adobe.
+- [JPG to PDF](https://jpgtopdf.new) - Convert JPG images to PDF with Adobe Acrobat.
 - [Buffer](https://buffer.new) - Schedule and manage your social media posts.
 - [Email Signature](https://emailsignature.new) - Create a professional email signature in 30 seconds HoneyBook.
 - [Canva Menu](https://menu.new) - Create an appetizing menu using customizable templates from Canva.
