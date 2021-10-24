@@ -4,7 +4,7 @@ import { AiOutlineControl } from 'react-icons/ai';
 import config from '../../config';
 import { ThemeContext } from '../../contexts/ThemeContext';
 
-const Navbar = () => {
+const Navbar = ({query, setQuery}) => {
     const [theme, setTheme] = useContext(ThemeContext);
     const [scrolled, setScrolled] = useState(false);
     const navRef = useRef(null);
@@ -58,6 +58,14 @@ const Navbar = () => {
                     </a>
                 </div>
                 <div className="flex-1" />
+                <div>
+                    <input 
+                        placeholder="Search Shortcuts"
+                        className={`w-full rounded-full input input-ghost placeholder-current text-current focus:text-current focus:bg-transparent text-center ${scrolled ? 'input-bordered border-current' : ''}`}
+                        value={query}
+                        onChange={e => setQuery(e.target.value)}
+                    />
+                </div>
                 <div title="Change Theme" className="dropdown dropdown-end">
                     <div tabIndex={0} className="btn btn-ghost m-1 normal-case">
                         <AiOutlineControl className="inline-block w-5 h-5 stroke-current md:mr-2" />

@@ -1,10 +1,10 @@
 import Navbar from './Navbar';
 import PropTypes from 'prop-types';
 
-const BaseLayout = ({ children }) => {
+const BaseLayout = (props) => {
     return (
         <div className="fade-in">
-            <Navbar/>
+            <Navbar query={props.query} setQuery={props.setQuery}/>
             <div id="home">
                 <div className="min-h-screen pt-16 overflow-hidden hero bg-gradient-to-br to-primary from-secondary text-primary-content">
                     <div className="flex-col justify-between w-full max-w-6xl mt-10 mb-48 hero-content">
@@ -23,7 +23,7 @@ const BaseLayout = ({ children }) => {
                 </div>
                 <div className="relative z-10">
                     <div className="pt-10 hero bg-gradient-to-br from-base-100 to-base-300 text-base-content">
-                        {children}
+                        {props.children}
                     </div>
                 </div>
             </div>
@@ -38,6 +38,8 @@ const BaseLayout = ({ children }) => {
 
 BaseLayout.propTypes = {
     children: PropTypes.node,
+    query: PropTypes.string.isRequired,
+    setQuery: PropTypes.func.isRequired,
 }
 
 export default BaseLayout;
