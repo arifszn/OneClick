@@ -96,6 +96,7 @@
 - [InVision](https://freehand.new) - Collaborate on an online whiteboard using InVision's Freehand.
 - [Microsoft Excel](https://excel.new) - Create a spreadsheet using Excel.
 - [Microsoft PowerPoint](https://powerpoint.new) - Create a new presentation using PowerPoint.
+- [Microsoft Word](https://word.new) - Create a new document using Word.
 
 
 ## Support

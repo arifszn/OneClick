@@ -18,6 +18,7 @@ import {
     SiMicrosoftexcel,
     SiMicrosoftpowerpoint,
     SiMicrosoftteams,
+    SiMicrosoftword,
     SiMiro,
     SiNamecheap,
     SiNextdotjs,
@@ -466,5 +467,11 @@ export const actions = [
         icon: <SiMicrosoftpowerpoint size={iconSize} color='#B7472A' />,
         description: "Create a new presentation using PowerPoint.",
         url: 'https://powerpoint.new'
+    },
+    {
+        name: 'Microsoft Word',
+        icon: <SiMicrosoftword size={iconSize} color='#2B579A' />,
+        description: "Create a new document using Word.",
+        url: 'https://word.new'
     },
 ]
