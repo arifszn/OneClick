@@ -72,9 +72,9 @@
 - [Indeed](https://profile.new) - Create your online resume with Indeed.
 - [Microsoft Teams](https://teams.new) - Chat with your team using Microsoft Teams.
 - [Business Card](https://businesscard.new) - Design personalized business cards with Namecheap.
+- [Business Name](https://businessname.new) - Designate your business name on Shopify.
 - [Personio](https://candidate.new) - Track your candidate pipeline using Personio.
 - [Shopify](https://shopify.new) - Start a new online shop on Shopify.
-- [Business Name](https://businessname.new) - Designate your business name on Shopify.
 
 
 ## Support
