@@ -31,6 +31,7 @@ import {
 import { FaNode, FaReact, FaSignature } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
 import { MdVpnLock } from 'react-icons/md';
+import { BiChalkboard } from 'react-icons/bi';
 
 const iconSize = '3rem';
 
@@ -425,5 +426,11 @@ export const actions = [
         icon: <SiBitly size={iconSize} color='#EE6123' />,
         description: "Create memorable, short links to your website with Bitly.",
         url: 'https://bitly.new'
+    },
+    {
+        name: 'Board',
+        icon: <BiChalkboard size={iconSize} />,
+        description: "Collaborate remotely on an online whiteboard.",
+        url: 'https://board.new'
     },
 ]

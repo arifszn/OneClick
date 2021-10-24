@@ -90,6 +90,7 @@
 - [Video Editor](https://recording.new) - Edit your video online.
 - [Asana](https://asana.new) - Add a new task to your Asana project.
 - [Bitly](https://bitly.new) - Create memorable, short links to your website with Bitly.
+- [Board](https://board.new) - Collaborate remotely on an online whiteboard.
 
 
 ## Support
