@@ -93,6 +93,7 @@
 - [Asana](https://asana.new) - Add a new task to your Asana project.
 - [Bitly](https://bitly.new) - Create memorable, short links to your website with Bitly.
 - [Resume](https://resume.new) - Build a new resume with one of CV2You's customizable templates.
+- [InVision](https://freehand.new) - Collaborate on an online whiteboard using InVision's Freehand.
 
 
 ## Support
