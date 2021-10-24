@@ -88,9 +88,10 @@
 - [Medium](https://story.new) - Create a new story on Medium.
 - [Spotify](https://playlist.new) - Create a new Spotify playlist.
 - [Video Editor](https://recording.new) - Edit your video online.
+- [Board](https://board.new) - Collaborate remotely on an online whiteboard.
 - [Asana](https://asana.new) - Add a new task to your Asana project.
 - [Bitly](https://bitly.new) - Create memorable, short links to your website with Bitly.
-- [Board](https://board.new) - Collaborate remotely on an online whiteboard.
+- [Resume](https://resume.new) - Build a new resume with one of CV2You's customizable templates.
 
 
 ## Support
