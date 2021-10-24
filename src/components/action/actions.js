@@ -21,7 +21,8 @@ import {
     SiSurveymonkey,
     SiSvelte,
     SiVercel, 
-    SiWix
+    SiWix,
+    SiWordpress
 } from 'react-icons/si';
 import { FaNode, FaReact, FaSignature } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
@@ -372,5 +373,11 @@ export const actions = [
         icon: <SiAdobephotoshop size={iconSize} color='#31A8FF' />,
         description: "Edit an image using Adobe Photoshop online.",
         url: 'https://photo.new'
+    },
+    {
+        name: 'Wordpress',
+        icon: <SiWordpress size={iconSize} color='#21759B' />,
+        description: "Create a new blog on wordpress.com.",
+        url: 'https://blog.new'
     },
 ]

@@ -82,6 +82,7 @@
 - [Adobe Spark](https://create.new) - Design beautiful social media posts and more with Adobe Spark.
 - [Logo](https://logo.new) - Create a new logo for your business with Adobe Spark.
 - [Photoshop](https://photo.new) - Edit an image using Adobe Photoshop online.
+- [Wordpress](https://blog.new) - Create a new blog on wordpress.com.
 
 
 ## Support
