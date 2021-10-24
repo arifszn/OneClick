@@ -87,6 +87,7 @@
 - [BeFunky](https://befunky.new) - Quickly edit, filter, and enhance your photos with BeFunky.
 - [Medium](https://story.new) - Create a new story on Medium.
 - [Spotify](https://playlist.new) - Create a new Spotify playlist.
+- [Video Editor](https://recording.new) - Edit your video online.
 
 
 ## Support
