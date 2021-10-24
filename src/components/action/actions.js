@@ -22,6 +22,7 @@ import {
     SiMiro,
     SiNamecheap,
     SiNextdotjs,
+    SiPrezi,
     SiRailway,
     SiRunkit,
     SiShopify,
@@ -473,5 +474,11 @@ export const actions = [
         icon: <SiMicrosoftword size={iconSize} color='#2B579A' />,
         description: "Create a new document using Word.",
         url: 'https://word.new'
+    },
+    {
+        name: 'Prezi',
+        icon: <SiPrezi size={iconSize} color='#3181FF' />,
+        description: "Design beautiful presentations using Prezi.",
+        url: 'https://prezi.new'
     },
 ]

@@ -97,6 +97,7 @@
 - [Microsoft Excel](https://excel.new) - Create a spreadsheet using Excel.
 - [Microsoft PowerPoint](https://powerpoint.new) - Create a new presentation using PowerPoint.
 - [Microsoft Word](https://word.new) - Create a new document using Word.
+- [Prezi](https://prezi.new) - Design beautiful presentations using Prezi.
 
 
 ## Support
