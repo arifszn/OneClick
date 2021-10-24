@@ -66,13 +66,14 @@
 - [Merge PDF](https://mergepdf.new) - Combine PDFs into one file with Adobe.
 - [PDF to Word](https://pdftoword.new) - Convert PDFs to Word documents with Adobe.
 - [Buffer](https://buffer.new) - Schedule and manage your social media posts.
+- [Email Signature](https://emailsignature.new) - Create a professional email signature in 30 seconds HoneyBook.
 - [Canva Menu](https://menu.new) - Create an appetizing menu using customizable templates from Canva.
 - [Canva Resume](https://resumes.new) - Create a professional-looking resume using templates from Canva.
-- [Email Signature](https://emailsignature.new) - Create a professional email signature in 30 seconds HoneyBook.
 - [Indeed](https://profile.new) - Create your online resume with Indeed.
 - [Microsoft Teams](https://teams.new) - Chat with your team using Microsoft Teams.
 - [Business Card](https://businesscard.new) - Design personalized business cards with Namecheap.
 - [Personio](https://candidate.new) - Track your candidate pipeline using Personio.
+- [Shopify](https://shopify.new) - Start a new online shop on Shopify.
 
 
 ## Support
