@@ -17,6 +17,7 @@ import {
     SiRunkit,
     SiShopify,
     SiStackbit,
+    SiSurveymonkey,
     SiSvelte,
     SiVercel 
 } from 'react-icons/si';
@@ -327,5 +328,11 @@ export const actions = [
         icon: <SiShopify size={iconSize} color='#7AB55C' />,
         description: "Start a new online shop on Shopify.",
         url: 'https://shopify.new'
+    },
+    {
+        name: 'SurveyMonkey',
+        icon: <SiSurveymonkey size={iconSize} color='#00BF6F' />,
+        description: "Create a new survey using SurveyMonkey.",
+        url: 'https://surveymonkey.new'
     },
 ]
