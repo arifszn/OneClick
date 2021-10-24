@@ -85,6 +85,7 @@
 - [Wordpress](https://blog.new) - Create a new blog on wordpress.com.
 - [Blog Post](https://post.new) - Create a new blog post on your Wordpress blog.
 - [BeFunky](https://befunky.new) - Quickly edit, filter, and enhance your photos with BeFunky.
+- [Medium](https://story.new) - Create a new story on Medium.
 
 
 ## Support
