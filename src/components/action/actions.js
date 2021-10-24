@@ -19,7 +19,8 @@ import {
     SiStackbit,
     SiSurveymonkey,
     SiSvelte,
-    SiVercel 
+    SiVercel, 
+    SiWix
 } from 'react-icons/si';
 import { FaNode, FaReact, FaSignature } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
@@ -334,5 +335,11 @@ export const actions = [
         icon: <SiSurveymonkey size={iconSize} color='#00BF6F' />,
         description: "Create a new survey using SurveyMonkey.",
         url: 'https://surveymonkey.new'
+    },
+    {
+        name: 'Wix',
+        icon: <SiWix size={iconSize} color='#0C6EFC' />,
+        description: "Build a new website using Wix.",
+        url: 'https://wix.new'
     },
 ]

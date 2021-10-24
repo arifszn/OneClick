@@ -76,6 +76,7 @@
 - [Personio](https://candidate.new) - Track your candidate pipeline using Personio.
 - [Shopify](https://shopify.new) - Start a new online shop on Shopify.
 - [SurveyMonkey](https://surveymonkey.new) - Create a new survey using SurveyMonkey.
+- [Wix](https://wix.new) - Build a new website using Wix.
 
 
 ## Support
