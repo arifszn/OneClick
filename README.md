@@ -98,6 +98,7 @@
 - [Microsoft PowerPoint](https://powerpoint.new) - Create a new presentation using PowerPoint.
 - [Microsoft Word](https://word.new) - Create a new document using Word.
 - [Prezi](https://prezi.new) - Design beautiful presentations using Prezi.
+- [Text Editor](https://text.new) - Quickly write a note in online text editor.
 
 
 ## Support

@@ -36,7 +36,7 @@ import {
 } from 'react-icons/si';
 import { FaNode, FaReact, FaSignature } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
-import { MdVpnLock } from 'react-icons/md';
+import { MdOutlineTextFields, MdVpnLock } from 'react-icons/md';
 import { BiChalkboard } from 'react-icons/bi';
 
 const iconSize = '3rem';
@@ -447,7 +447,7 @@ export const actions = [
     },
     {
         name: 'Resume',
-        icon: <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" width={iconSize} height={iconSize} xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linejoin="round" stroke-width="32" d="M416 221.25V416a48 48 0 01-48 48H144a48 48 0 01-48-48V96a48 48 0 0148-48h98.75a32 32 0 0122.62 9.37l141.26 141.26a32 32 0 019.37 22.62z"></path><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M256 56v120a32 32 0 0032 32h120m-232 80h160m-160 80h160"></path></svg>,
+        icon: <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" width={iconSize} height={iconSize} xmlns="http://www.w3.org/2000/svg"><path fill="none" strokeLinejoin="round" strokeWidth="32" d="M416 221.25V416a48 48 0 01-48 48H144a48 48 0 01-48-48V96a48 48 0 0148-48h98.75a32 32 0 0122.62 9.37l141.26 141.26a32 32 0 019.37 22.62z"></path><path fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M256 56v120a32 32 0 0032 32h120m-232 80h160m-160 80h160"></path></svg>,
         description: "Build a new resume with one of CV2You's customizable templates.",
         url: 'https://resume.new'
     },
@@ -480,5 +480,11 @@ export const actions = [
         icon: <SiPrezi size={iconSize} color='#3181FF' />,
         description: "Design beautiful presentations using Prezi.",
         url: 'https://prezi.new'
+    },
+    {
+        name: 'Text Editor',
+        icon: <MdOutlineTextFields size={iconSize} />,
+        description: "Quickly write a note in online text editor.",
+        url: 'https://text.new'
     },
 ]
