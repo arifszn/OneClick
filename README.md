@@ -89,6 +89,7 @@
 - [Spotify](https://playlist.new) - Create a new Spotify playlist.
 - [Video Editor](https://recording.new) - Edit your video online.
 - [Asana](https://asana.new) - Add a new task to your Asana project.
+- [Bitly](https://bitly.new) - Create memorable, short links to your website with Bitly.
 
 
 ## Support

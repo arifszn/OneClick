@@ -3,6 +3,7 @@ import {
     SiAdobeacrobatreader,
     SiAdobephotoshop,
     SiAsana,
+    SiBitly,
     SiBuffer,
     SiCanva,
     SiDotnet,
@@ -418,5 +419,11 @@ export const actions = [
         icon: <SiAsana size={iconSize} />,
         description: "Add a new task to your Asana project.",
         url: 'https://asana.new'
+    },
+    {
+        name: 'Bitly',
+        icon: <SiBitly size={iconSize} color='#EE6123' />,
+        description: "Create memorable, short links to your website with Bitly.",
+        url: 'https://bitly.new'
     },
 ]
