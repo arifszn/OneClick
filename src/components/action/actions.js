@@ -10,6 +10,7 @@ import {
     SiGlitch,
     SiGooglekeep,
     SiGooglesheets,
+    SiHashnode,
     SiIndeed,
     SiJamboard,
     SiMedium,
@@ -402,6 +403,12 @@ export const actions = [
         icon: <SiMedium size={iconSize} />,
         description: "Create a new story on Medium.",
         url: 'https://story.new'
+    },
+    {
+        name: 'Hashnode',
+        icon: <SiHashnode size={iconSize} color='#2962FF' />,
+        description: "Create a new developer blog post using hashnode.",
+        url: 'https://hn.new'
     },
     {
         name: 'Spotify',

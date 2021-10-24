@@ -86,6 +86,7 @@
 - [Blog Post](https://post.new) - Create a new blog post on your Wordpress blog.
 - [BeFunky](https://befunky.new) - Quickly edit, filter, and enhance your photos with BeFunky.
 - [Medium](https://story.new) - Create a new story on Medium.
+- [Hashnode](https://hn.new) - Create a new developer blog post using hashnode.
 - [Spotify](https://playlist.new) - Create a new Spotify playlist.
 - [Video Editor](https://recording.new) - Edit your video online.
 - [Board](https://board.new) - Collaborate remotely on an online whiteboard.
