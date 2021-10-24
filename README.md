@@ -81,6 +81,7 @@
 - [Wix](https://wix.new) - Build a new website using Wix.
 - [Adobe Spark](https://create.new) - Design beautiful social media posts and more with Adobe Spark.
 - [Logo](https://logo.new) - Create a new logo for your business with Adobe Spark.
+- [Photoshop](https://photo.new) - Edit an image using Adobe Photoshop online.
 
 
 ## Support
