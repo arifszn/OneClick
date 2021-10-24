@@ -16,6 +16,7 @@ import {
     SiJamboard,
     SiMedium,
     SiMicrosoftexcel,
+    SiMicrosoftpowerpoint,
     SiMicrosoftteams,
     SiMiro,
     SiNamecheap,
@@ -459,5 +460,11 @@ export const actions = [
         icon: <SiMicrosoftexcel size={iconSize} color='#217346' />,
         description: "Create a spreadsheet using Excel.",
         url: 'https://excel.new'
+    },
+    {
+        name: 'Microsoft PowerPoint',
+        icon: <SiMicrosoftpowerpoint size={iconSize} color='#B7472A' />,
+        description: "Create a new presentation using PowerPoint.",
+        url: 'https://powerpoint.new'
     },
 ]
