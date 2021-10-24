@@ -322,4 +322,10 @@ export const actions = [
         description: "Start a new online shop on Shopify.",
         url: 'https://shopify.new'
     },
+    {
+        name: 'Business Name',
+        icon: <SiShopify size={iconSize} color='#7AB55C' />,
+        description: "Designate your business name on Shopify.",
+        url: 'https://businessname.new'
+    },
 ]
