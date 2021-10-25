@@ -7,6 +7,7 @@ import {
     SiBuffer,
     SiCanva,
     SiDashlane,
+    SiDiagramsdotnet,
     SiDiscord,
     SiDotnet,
     SiGlitch,
@@ -514,5 +515,11 @@ export const actions = [
         icon: <RiUserSearchLine size={iconSize} />,
         description: "Create a fake profile to protect your identity using FakePersonGenerator.",
         url: 'https://user.new'
+    },
+    {
+        name: 'Diagram',
+        icon: <SiDiagramsdotnet size={iconSize} color='#F08705'/>,
+        description: "Create a flowchart diagram using Diagrams.net",
+        url: 'https://diagram.new'
     },
 ]
