@@ -41,6 +41,7 @@ import { FaNode, FaReact, FaSignature } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
 import { MdOutlineTextFields, MdVpnLock } from 'react-icons/md';
 import { BiChalkboard } from 'react-icons/bi';
+import { RiUserSearchLine } from 'react-icons/ri';
 
 const iconSize = '3rem';
 
@@ -507,5 +508,11 @@ export const actions = [
         icon: <SiDiscord size={iconSize} color='#5865F2' />,
         description: "Start a new Discord community where you can hang out and chat with friends.",
         url: 'https://discord.new'
+    },
+    {
+        name: 'FakePersonGenerator',
+        icon: <RiUserSearchLine size={iconSize} />,
+        description: "Create a fake profile to protect your identity using FakePersonGenerator.",
+        url: 'https://user.new'
     },
 ]

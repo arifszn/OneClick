@@ -102,6 +102,7 @@
 - [Kahoot](https://quiz.new) - Create an online quiz using Kahoot.
 - [Dashlane](https://password.new) - Keep your online accounts secure with Dashlane's password generator.
 - [Discord](https://discord.new) - Start a new Discord community where you can hang out and chat with friends.
+- [FakePersonGenerator](https://user.new) - Create a fake profile to protect your identity using FakePersonGenerator.
 
 
 ## Support
