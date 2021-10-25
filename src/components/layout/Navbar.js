@@ -42,7 +42,7 @@ const Navbar = ({query, setQuery}) => {
     return (
         <div ref={navRef} className={`inset-x-0 top-0 z-50 w-full transition duration-200 ease-in-out border-b border-transparent bg-transparent text-primary-content fixed ${scrolled ? 'border-base-200 bg-base-200 text-base-content' : ''}`}>
             <div className="mx-auto space-x-1 navbar max-w-none">
-                <div className={`flex items-center flex-none ${!scrolled ? 'hidden' : ''}`}>
+                <div className={`${!scrolled ? 'hidden' : 'hidden md:flex items-center flex-none'}`}>
                     {/* eslint-disable-next-line */}
                     <a
                         aria-label="Home"
