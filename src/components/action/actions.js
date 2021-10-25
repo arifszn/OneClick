@@ -511,7 +511,7 @@ export const actions = [
         url: 'https://discord.new'
     },
     {
-        name: 'FakePersonGenerator',
+        name: 'Fake Person Generator',
         icon: <RiUserSearchLine size={iconSize} />,
         description: "Create a fake profile to protect your identity using FakePersonGenerator.",
         url: 'https://user.new'
