@@ -14,6 +14,7 @@ import {
     SiIndeed,
     SiInvision,
     SiJamboard,
+    SiKahoot,
     SiMedium,
     SiMicrosoftexcel,
     SiMicrosoftpowerpoint,
@@ -486,5 +487,11 @@ export const actions = [
         icon: <MdOutlineTextFields size={iconSize} />,
         description: "Quickly write a note in online text editor.",
         url: 'https://text.new'
+    },
+    {
+        name: 'Kahoot',
+        icon: <SiKahoot size={iconSize} color='#46178F' />,
+        description: "Create an online quiz using Kahoot.",
+        url: 'https://quiz.new'
     },
 ]
