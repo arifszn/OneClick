@@ -6,6 +6,7 @@ import {
     SiBitly,
     SiBuffer,
     SiCanva,
+    SiDashlane,
     SiDotnet,
     SiGlitch,
     SiGooglekeep,
@@ -493,5 +494,11 @@ export const actions = [
         icon: <SiKahoot size={iconSize} color='#46178F' />,
         description: "Create an online quiz using Kahoot.",
         url: 'https://quiz.new'
+    },
+    {
+        name: 'Dashlane',
+        icon: <SiDashlane size={iconSize} color='#0E353D' />,
+        description: "Keep your online accounts secure with Dashlane's password generator.",
+        url: 'https://password.new'
     },
 ]

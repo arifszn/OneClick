@@ -100,6 +100,7 @@
 - [Prezi](https://prezi.new) - Design beautiful presentations using Prezi.
 - [Text Editor](https://text.new) - Quickly write a note in online text editor.
 - [Kahoot](https://quiz.new) - Create an online quiz using Kahoot.
+- [Dashlane](https://password.new) - Keep your online accounts secure with Dashlane's password generator.
 
 
 ## Support
