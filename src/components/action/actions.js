@@ -7,6 +7,7 @@ import {
     SiBuffer,
     SiCanva,
     SiDashlane,
+    SiDiscord,
     SiDotnet,
     SiGlitch,
     SiGooglekeep,
@@ -500,5 +501,11 @@ export const actions = [
         icon: <SiDashlane size={iconSize} color='#0E353D' />,
         description: "Keep your online accounts secure with Dashlane's password generator.",
         url: 'https://password.new'
+    },
+    {
+        name: 'Discord',
+        icon: <SiDiscord size={iconSize} color='#5865F2' />,
+        description: "Start a new Discord community where you can hang out and chat with friends.",
+        url: 'https://discord.new'
     },
 ]
