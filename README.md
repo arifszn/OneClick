@@ -35,6 +35,13 @@
 - [Google Sites](https://site.new) - Create and publish a website using Google Sites.
 - [Google Jamboard](https://jam.new) - Create a new Jamboard with Google.
 - [Google AppScript](https://script.new) - Create and share new editor functions using Google App Script.
+- [Bitly](https://bitly.new) - Create memorable, short links to your website with Bitly.
+- [BeFunky](https://befunky.new) - Quickly edit, filter, and enhance your photos with BeFunky.
+- [Proxy](https://vpn.new) - Use a proxy server without having to connect to a VPN.
+- [Medium](https://story.new) - Create a new story on Medium.
+- [Hashnode](https://hn.new) - Create a new developer blog post using hashnode.
+- [Spotify](https://playlist.new) - Create a new Spotify playlist.
+- [SurveyMonkey](https://surveymonkey.new) - Create a new survey using SurveyMonkey.
 - [GitHub](https://github.new) - Create a new GitHub repository.
 - [GitHub Gist](https://gist.new) - Create a new GitHub gist.
 - [CodePen](https://pen.new) - Prototype your frontend code in CodePen's online development sandbox.
@@ -52,14 +59,12 @@
 - [Svelte](https://svelte.new) - Create a new Svelte project online with CodeSandbox.
 - [CodeSandbox](https://csb.new) - Create a new project online with CodeSandbox.
 - [Glitch](https://glitch.new) - Create a full-stack app in your browser and collaborate live.
-- [Proxy](https://vpn.new) - Use a proxy server without having to connect to a VPN.
+- [Microsoft Excel](https://excel.new) - Create a spreadsheet using Excel.
+- [Microsoft PowerPoint](https://powerpoint.new) - Create a new presentation using PowerPoint.
+- [Microsoft Word](https://word.new) - Create a new document using Word.
 - [Microsoft Visual Studio](https://env.new) - Create a new Visual Studio codespace for your project.
-- [bit.io](https://query.new) - Easily query bit.io data repositories.
+- [Microsoft Teams](https://teams.new) - Chat with your team using Microsoft Teams.
 - [Editor X](https://editorx.new) - Create a website using Editor X's online tool.
-- [Miro](https://wireframe.new) - Create a wireframe for your project using Miro.
-- [Matlab](https://matlab.new) - Use MATLAB and Simulink through your web browser.
-- [Railway](https://dev.new) - Create a new Railway deployment in the cloud.
-- [RunKit](https://api.new) - Prototype and launch your APIs using RunKit.
 - [Stackbit](https://jamstack.new) - Create a new Jamstack site.
 - [Vercel](https://deploy.new) - Create a new project in Vercel for preview and deployment.
 - [PDF Compress](https://compresspdf.new) - Compress PDF documents with simple drag and drop with Adobe Acrobat.
@@ -72,38 +77,33 @@
 - [Canva Menu](https://menu.new) - Create an appetizing menu using customizable templates from Canva.
 - [Canva Resume](https://resumes.new) - Create a professional-looking resume using templates from Canva.
 - [Indeed](https://profile.new) - Create your online resume with Indeed.
-- [Microsoft Teams](https://teams.new) - Chat with your team using Microsoft Teams.
 - [Shopify](https://shopify.new) - Start a new online shop on Shopify.
 - [Business Name](https://businessname.new) - Designate your business name on Shopify.
 - [Business Card](https://businesscard.new) - Design personalized business cards with Namecheap.
 - [Personio](https://candidate.new) - Track your candidate pipeline using Personio.
-- [SurveyMonkey](https://surveymonkey.new) - Create a new survey using SurveyMonkey.
 - [Wix](https://wix.new) - Build a new website using Wix.
 - [Adobe Spark](https://create.new) - Design beautiful social media posts and more with Adobe Spark.
 - [Logo](https://logo.new) - Create a new logo for your business with Adobe Spark.
 - [Photoshop](https://photo.new) - Edit an image using Adobe Photoshop online.
 - [Wordpress](https://blog.new) - Create a new blog on wordpress.com.
 - [Blog Post](https://post.new) - Create a new blog post on your Wordpress blog.
-- [BeFunky](https://befunky.new) - Quickly edit, filter, and enhance your photos with BeFunky.
-- [Medium](https://story.new) - Create a new story on Medium.
-- [Hashnode](https://hn.new) - Create a new developer blog post using hashnode.
-- [Spotify](https://playlist.new) - Create a new Spotify playlist.
 - [Video Editor](https://recording.new) - Edit your video online.
 - [Board](https://board.new) - Collaborate remotely on an online whiteboard.
 - [Asana](https://asana.new) - Add a new task to your Asana project.
-- [Bitly](https://bitly.new) - Create memorable, short links to your website with Bitly.
 - [Resume](https://resume.new) - Build a new resume with one of CV2You's customizable templates.
 - [InVision](https://freehand.new) - Collaborate on an online whiteboard using InVision's Freehand.
-- [Microsoft Excel](https://excel.new) - Create a spreadsheet using Excel.
-- [Microsoft PowerPoint](https://powerpoint.new) - Create a new presentation using PowerPoint.
-- [Microsoft Word](https://word.new) - Create a new document using Word.
 - [Prezi](https://prezi.new) - Design beautiful presentations using Prezi.
 - [Text Editor](https://text.new) - Quickly write a note in online text editor.
 - [Kahoot](https://quiz.new) - Create an online quiz using Kahoot.
 - [Dashlane](https://password.new) - Keep your online accounts secure with Dashlane's password generator.
 - [Discord](https://discord.new) - Start a new Discord community where you can hang out and chat with friends.
-- [Fake Person Generator](https://user.new) - Create a fake profile to protect your identity using FakePersonGenerator.
-- [Diagram](https://diagram.new) - Create a flowchart diagram using Diagrams.net
+- [Fake Person Generator](https://user.new) - Create a fake profile to protect your identity.
+- [Diagram](https://diagram.new) - Create a flowchart diagram using Diagrams.net.
+- [bit.io](https://query.new) - Easily query bit.io data repositories.
+- [Miro](https://wireframe.new) - Create a wireframe for your project using Miro.
+- [Matlab](https://matlab.new) - Use MATLAB and Simulink through your web browser.
+- [Railway](https://dev.new) - Create a new Railway deployment in the cloud.
+- [RunKit](https://api.new) - Prototype and launch your APIs using RunKit.
 
 
 ## Support

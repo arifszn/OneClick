@@ -108,6 +108,48 @@ export const actions = [
         url: 'https://script.new'
     },
     {
+        name: 'Bitly',
+        icon: <SiBitly size={iconSize} color='#EE6123' />,
+        description: "Create memorable, short links to your website with Bitly.",
+        url: 'https://bitly.new'
+    },
+    {
+        name: 'BeFunky',
+        icon: <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width={iconSize} height={iconSize} viewBox="0 0 120.000000 120.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,120.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none"><path d="M287 719 l2 -312 31 -63 c71 -145 240 -211 393 -154 76 29 130 79 169 157 27 56 32 77 32 137 0 123 -69 232 -182 287 -38 19 -63 24 -132 23 -104 0 -163 -26 -232 -103 l-46 -51 6 195 5 195 -24 0 -24 0 2 -311z m432 12 c139 -72 194 -228 127 -364 -127 -261 -516 -175 -516 114 0 81 23 142 75 193 34 34 93 68 140 80 37 9 135 -4 174 -23z"/><path d="M510 714 c0 -10 13 -26 74 -92 19 -21 25 -33 16 -32 -48 7 -230 -1 -230 -10 0 -6 37 -10 91 -10 80 0 90 -2 79 -15 -7 -8 -15 -13 -19 -10 -4 2 -41 -30 -82 -72 -41 -42 -66 -71 -56 -64 9 8 17 10 17 6 0 -4 7 -2 15 5 8 7 12 16 9 21 -3 5 3 9 12 9 10 0 14 3 11 7 -5 4 35 33 47 33 1 0 3 -51 5 -112 3 -131 11 -159 11 -40 0 76 15 118 27 76 6 -21 93 -90 93 -74 0 6 -3 10 -8 10 -4 0 -13 10 -21 23 -13 20 -13 21 2 9 9 -8 21 -10 28 -7 6 4 57 11 113 15 l101 7 -87 2 c-48 0 -90 6 -93 11 -3 6 -1 10 5 10 13 0 136 125 152 155 13 22 -124 -101 -161 -146 -34 -41 -77 -39 -119 4 -39 41 -40 64 -4 105 39 44 88 44 125 2 15 -16 27 -35 27 -41 0 -5 5 -7 10 -4 6 3 10 21 10 38 0 20 -3 27 -8 19 -6 -9 -35 15 -100 80 -51 51 -92 88 -92 82z"/></g></svg>,
+        description: "Quickly edit, filter, and enhance your photos with BeFunky.",
+        url: 'https://befunky.new'
+    },
+    {
+        name: 'Proxy',
+        icon: <MdVpnLock size={iconSize}/>,
+        description: "Use a proxy server without having to connect to a VPN.",
+        url: 'https://vpn.new'
+    },
+    {
+        name: 'Medium',
+        icon: <SiMedium size={iconSize} />,
+        description: "Create a new story on Medium.",
+        url: 'https://story.new'
+    },
+    {
+        name: 'Hashnode',
+        icon: <SiHashnode size={iconSize} color='#2962FF' />,
+        description: "Create a new developer blog post using hashnode.",
+        url: 'https://hn.new'
+    },
+    {
+        name: 'Spotify',
+        icon: <SiSpotify size={iconSize} color='#1DB954'/>,
+        description: "Create a new Spotify playlist.",
+        url: 'https://playlist.new'
+    },
+    {
+        name: 'SurveyMonkey',
+        icon: <SiSurveymonkey size={iconSize} color='#00BF6F' />,
+        description: "Create a new survey using SurveyMonkey.",
+        url: 'https://surveymonkey.new'
+    },
+    {
         name: 'GitHub',
         icon: <AiFillGithub size={iconSize} />,
         description: "Create a new GitHub repository.",
@@ -210,10 +252,22 @@ export const actions = [
         url: 'https://glitch.new'
     },
     {
-        name: 'Proxy',
-        icon: <MdVpnLock size={iconSize}/>,
-        description: "Use a proxy server without having to connect to a VPN.",
-        url: 'https://vpn.new'
+        name: 'Microsoft Excel',
+        icon: <SiMicrosoftexcel size={iconSize} color='#217346' />,
+        description: "Create a spreadsheet using Excel.",
+        url: 'https://excel.new'
+    },
+    {
+        name: 'Microsoft PowerPoint',
+        icon: <SiMicrosoftpowerpoint size={iconSize} color='#B7472A' />,
+        description: "Create a new presentation using PowerPoint.",
+        url: 'https://powerpoint.new'
+    },
+    {
+        name: 'Microsoft Word',
+        icon: <SiMicrosoftword size={iconSize} color='#2B579A' />,
+        description: "Create a new document using Word.",
+        url: 'https://word.new'
     },
     {
         name: 'Microsoft Visual Studio',
@@ -222,41 +276,16 @@ export const actions = [
         url: 'https://env.new'
     },
     {
-        name: 'bit.io',
-        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 17" width={iconSize} height={iconSize}>
-          <path fill="#FDBD28" fillRule="evenodd" d="M8.88.56a7.9 7.9 0 010 15.8 7.9 7.9 0 010-15.8zm-6.23 7.9c0 .45.05.88.14 1.3 0 .03.06.03.06 0A6 6 0 018.88 3.8c.29 0 .52.23.52.51 0 .29-.23.52-.52.52a4.97 4.97 0 00-5 4.92c0 .06.07.07.09.02.65-1.92 2.65-3.25 4.91-3.25.29 0 .52.23.52.51 0 .29-.23.52-.52.52-2.33 0-4.1 1.66-4.1 3.56 0 1.9 1.77 3.57 4.1 3.57a6.22 6.22 0 006.09-7.59c-.01-.02-.05-.02-.05 0a5.9 5.9 0 01-5.9 5.9.52.52 0 01-.52-.52c0-.28.23-.51.51-.51 2.7 0 4.89-2.18 4.89-4.86 0-.04-.06-.05-.07-.01A4.98 4.98 0 019 10.4a.52.52 0 01-.51-.52c0-.28.23-.51.51-.51C11.27 9.37 13 7.72 13 5.8c0-1.7-1.38-3.2-3.28-3.5a6.22 6.22 0 00-7.07 6.16z" clipRule="evenodd"></path></svg>,
-        description: "Easily query bit.io data repositories.",
-        url: 'https://query.new'
+        name: 'Microsoft Teams',
+        icon: <SiMicrosoftteams size={iconSize} color='#6264A7' />,
+        description: "Chat with your team using Microsoft Teams.",
+        url: 'https://teams.new'
     },
     {
         name: 'Editor X',
         icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.000000 64.000000" width={iconSize} height={iconSize}><g transform="translate(0.000000,64.000000) scale(0.012500,-0.012500)" fill="currentcolor" stroke="none"><path d="M290 5111 c-109 -34 -205 -117 -253 -219 l-32 -67 0 -2265 0 -2265 32 -67 c40 -85 106 -151 191 -191 l67 -32 2265 0 2265 0 67 32 c85 40 151 106 191 191 l32 67 0 2270 0 2270 -33 63 c-44 84 -108 146 -190 185 l-67 32 -2255 2 c-1240 1 -2266 -2 -2280 -6z m2045 -1656 c120 -245 221 -445 225 -445 3 0 105 200 225 445 l218 445 365 0 364 0 -20 -32 c-11 -18 -180 -317 -375 -665 l-356 -632 355 -623 c196 -343 369 -647 386 -675 l29 -53 -368 0 -369 0 -224 455 c-123 250 -226 455 -229 455 -3 0 -108 -205 -234 -455 l-227 -455 -366 0 -366 0 20 33 c11 17 182 319 382 670 229 405 360 645 357 657 -4 15 -656 1183 -719 1288 l-20 32 364 0 364 0 219 -445z"/></g></svg>,
         description: "Create a website using Editor X's online tool.",
         url: 'https://editorx.new'
-    },
-    {
-        name: 'Miro',
-        icon: <SiMiro size={iconSize} />,
-        description: "Create a wireframe for your project using Miro.",
-        url: 'https://wireframe.new'
-    },
-    {
-        name: 'Matlab',
-        icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width={iconSize} height={iconSize}><linearGradient id="Z8bG89TnZW8~BwJjzqmnXa" x1="22.645" x2="26.757" y1="10.881" y2="23.854" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#4adddf"/><stop offset=".699" stopColor="#3f5352"/><stop offset=".863" stopColor="#442729"/></linearGradient><path fill="url(#Z8bG89TnZW8~BwJjzqmnXa)" d="M21,27l-7-6c0,0,1-1.5,2.5-3s2.736-1.852,4.5-3c3.511-2.284,6.5-12,11-12L21,27z"/><linearGradient id="Z8bG89TnZW8~BwJjzqmnXb" x1="1" x2="37.775" y1="27.033" y2="27.033" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#4adddf"/><stop offset=".792" stopColor="#3f5352"/><stop offset="1" stopColor="#442729"/></linearGradient><polygon fill="url(#Z8bG89TnZW8~BwJjzqmnXb)" points="11,33.066 1,26 14,21 21.277,26.465 14,32.066"/><linearGradient id="Z8bG89TnZW8~BwJjzqmnXc" x1="11" x2="47" y1="24" y2="24" gradientUnits="userSpaceOnUse"><stop offset=".206" stopColor="#53140f"/><stop offset=".3" stopColor="#84360f"/><stop offset=".413" stopColor="#b85b10"/><stop offset=".511" stopColor="#df7610"/><stop offset=".59" stopColor="#f68710"/><stop offset=".639" stopColor="#ff8d10"/><stop offset=".729" stopColor="#fd8a10"/><stop offset=".8" stopColor="#f58010"/><stop offset=".865" stopColor="#e86f10"/><stop offset=".925" stopColor="#d65811"/><stop offset=".982" stopColor="#c03a11"/><stop offset="1" stopColor="#b72f11"/></linearGradient><path fill="url(#Z8bG89TnZW8~BwJjzqmnXc)" d="M32,3c5,0,13,27,15,34c0,0-7.017-6.63-11-6s-5.47,6.548-9.725,10.756C23.5,44.5,21,45,21,45 s-0.206-8.124-5-11c-2.5-1.5-5-1-5-1s6.049-2.901,9.474-8.174S28.5,3,32,3z"/></svg>,
-        description: "Use MATLAB and Simulink through your web browser.",
-        url: 'https://matlab.new'
-    },
-    {
-        name: 'Railway',
-        icon: <SiRailway size={iconSize} />,
-        description: "Create a new Railway deployment in the cloud.",
-        url: 'https://dev.new'
-    },
-    {
-        name: 'RunKit',
-        icon: <SiRunkit size={iconSize} color='#DB4792' />,
-        description: "Prototype and launch your APIs using RunKit.",
-        url: 'https://api.new'
     },
     {
         name: 'Stackbit',
@@ -331,12 +360,6 @@ export const actions = [
         url: 'https://profile.new'
     },
     {
-        name: 'Microsoft Teams',
-        icon: <SiMicrosoftteams size={iconSize} color='#6264A7' />,
-        description: "Chat with your team using Microsoft Teams.",
-        url: 'https://teams.new'
-    },
-    {
         name: 'Shopify',
         icon: <SiShopify size={iconSize} color='#7AB55C' />,
         description: "Start a new online shop on Shopify.",
@@ -359,12 +382,6 @@ export const actions = [
         icon: <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" width={iconSize} height={iconSize}><title>Personio</title><path d="M21.603 24H2.47v-1.563h19.133Zm-6.167-4.044c.557.145 1.137-.244 1.303-.867.166-.624-.157-1.25-.713-1.39-.556-.142-1.137.24-1.304.865-.167.624.156 1.25.714 1.39zM22.37.676c-1.737-1.347-5.387-.43-8.145.576A41.707 41.705 0 0 0 5.64 5.625C3.624 6.985 1.135 8.987.748 10.814a1.43 1.43 0 0 0 .28 1.263c.505.59 1.354.576 1.516.568a.781.781 0 0 0 .51-1.368.783.783 0 0 0-.58-.193.877.877 0 0 1-.181-.016c.58-2.136 6.69-6.232 12.47-8.342 3.858-1.408 5.964-1.342 6.649-.81.284.22.433.487.23 1.062-.545 1.535-3.2 3.96-7.108 6.48-.725.467-1.434.898-2.11 1.29.544-1.92 1.1-3.88 1.582-5.561a.782.782 0 0 0-1.504-.43 2070.72 2070.634 0 0 0-2.002 7.05c-1.564.811-2.754 1.3-3.22 1.366a.783.783 0 0 0-1.025 1.095c.134.226.4.476.929.476.088 0 .177-.007.264-.02.54-.073 1.417-.395 2.485-.884-.758 2.702-1.373 4.975-1.407 5.282a.781.781 0 0 0 .69.858.668.668 0 0 0 .087 0 .783.783 0 0 0 .775-.685c.062-.38.822-3.133 1.746-6.42a58.241 58.239 0 0 0 4.01-2.401c5.435-3.587 7.007-5.917 7.362-7.241.277-1.02-.017-1.93-.825-2.557z"/></svg>,
         description: "Track your candidate pipeline using Personio.",
         url: 'https://candidate.new'
-    },
-    {
-        name: 'SurveyMonkey',
-        icon: <SiSurveymonkey size={iconSize} color='#00BF6F' />,
-        description: "Create a new survey using SurveyMonkey.",
-        url: 'https://surveymonkey.new'
     },
     {
         name: 'Wix',
@@ -403,30 +420,6 @@ export const actions = [
         url: 'https://post.new'
     },
     {
-        name: 'BeFunky',
-        icon: <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width={iconSize} height={iconSize} viewBox="0 0 120.000000 120.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,120.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none"><path d="M287 719 l2 -312 31 -63 c71 -145 240 -211 393 -154 76 29 130 79 169 157 27 56 32 77 32 137 0 123 -69 232 -182 287 -38 19 -63 24 -132 23 -104 0 -163 -26 -232 -103 l-46 -51 6 195 5 195 -24 0 -24 0 2 -311z m432 12 c139 -72 194 -228 127 -364 -127 -261 -516 -175 -516 114 0 81 23 142 75 193 34 34 93 68 140 80 37 9 135 -4 174 -23z"/><path d="M510 714 c0 -10 13 -26 74 -92 19 -21 25 -33 16 -32 -48 7 -230 -1 -230 -10 0 -6 37 -10 91 -10 80 0 90 -2 79 -15 -7 -8 -15 -13 -19 -10 -4 2 -41 -30 -82 -72 -41 -42 -66 -71 -56 -64 9 8 17 10 17 6 0 -4 7 -2 15 5 8 7 12 16 9 21 -3 5 3 9 12 9 10 0 14 3 11 7 -5 4 35 33 47 33 1 0 3 -51 5 -112 3 -131 11 -159 11 -40 0 76 15 118 27 76 6 -21 93 -90 93 -74 0 6 -3 10 -8 10 -4 0 -13 10 -21 23 -13 20 -13 21 2 9 9 -8 21 -10 28 -7 6 4 57 11 113 15 l101 7 -87 2 c-48 0 -90 6 -93 11 -3 6 -1 10 5 10 13 0 136 125 152 155 13 22 -124 -101 -161 -146 -34 -41 -77 -39 -119 4 -39 41 -40 64 -4 105 39 44 88 44 125 2 15 -16 27 -35 27 -41 0 -5 5 -7 10 -4 6 3 10 21 10 38 0 20 -3 27 -8 19 -6 -9 -35 15 -100 80 -51 51 -92 88 -92 82z"/></g></svg>,
-        description: "Quickly edit, filter, and enhance your photos with BeFunky.",
-        url: 'https://befunky.new'
-    },
-    {
-        name: 'Medium',
-        icon: <SiMedium size={iconSize} />,
-        description: "Create a new story on Medium.",
-        url: 'https://story.new'
-    },
-    {
-        name: 'Hashnode',
-        icon: <SiHashnode size={iconSize} color='#2962FF' />,
-        description: "Create a new developer blog post using hashnode.",
-        url: 'https://hn.new'
-    },
-    {
-        name: 'Spotify',
-        icon: <SiSpotify size={iconSize} color='#1DB954'/>,
-        description: "Create a new Spotify playlist.",
-        url: 'https://playlist.new'
-    },
-    {
         name: 'Video Editor',
         icon: <svg aria-hidden="true" aria-label="Show videos" width={iconSize} height={iconSize} fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 2.31724C0 1.70109 0 1.39302 0.0810099 1.1437C0.244736 0.639799 0.639799 0.244736 1.1437 0.0810099C1.39302 0 1.70109 0 2.31724 0H21.6828C22.2989 0 22.607 0 22.8563 0.0810099C23.3602 0.244736 23.7553 0.639799 23.919 1.1437C24 1.39302 24 1.70109 24 2.31724V21.6828C24 22.2989 24 22.607 23.919 22.8563C23.7553 23.3602 23.3602 23.7553 22.8563 23.919C22.607 24 22.2989 24 21.6828 24H2.31724C1.70109 24 1.39302 24 1.1437 23.919C0.639799 23.7553 0.244736 23.3602 0.0810099 22.8563C0 22.607 0 22.2989 0 21.6828V2.31724Z" fill="#8278FA"></path><path d="M19.4487 12.8275C18.9935 12.8068 14.1108 12.8068 13.6556 12.8275C13.2004 12.8482 12.8487 13.1999 12.828 13.6551C12.8073 14.1103 12.8073 18.993 12.828 19.4482C12.8487 19.9034 13.2004 20.2551 13.6556 20.2758C14.1108 20.2965 18.9935 20.2965 19.4487 20.2758C19.9039 20.2551 20.2556 19.9034 20.2763 19.4482C20.297 18.993 20.297 14.1103 20.2763 13.6551C20.2556 13.1999 19.9039 12.8482 19.4487 12.8275Z" fill="#F9F9FF"></path><path d="M3.72461 13.2256C3.72458 12.9196 4.10081 12.7284 4.40182 12.8814L10.9471 16.207C11.2481 16.36 11.2482 16.7424 10.9472 16.8954L4.40244 20.2219C4.10147 20.3749 3.72521 20.1837 3.72518 19.8778L3.72461 13.2256Z" fill="#F9F9FF"></path><path d="M7.44875 11.1724C9.50555 11.1724 11.1729 9.50506 11.1729 7.44826C11.1729 5.39146 9.50555 3.72412 7.44875 3.72412C5.39195 3.72412 3.72461 5.39146 3.72461 7.44826C3.72461 9.50506 5.39195 11.1724 7.44875 11.1724Z" fill="#F9F9FF"></path><path d="M13.2418 3.72414C13.4694 3.70345 19.6349 3.70345 19.8625 3.72414C20.0901 3.74483 20.2556 3.91034 20.2763 4.13793C20.297 4.36551 20.297 4.94483 20.2763 5.17241C20.2556 5.4 20.0901 5.56551 19.8625 5.5862C19.6349 5.60689 17.5039 5.60276 17.5039 5.60276C17.5039 5.60276 17.5039 10.5517 17.4832 10.7586C17.4625 10.9655 17.297 11.1517 17.0694 11.1724C16.8418 11.1931 16.2625 11.1931 16.0349 11.1724C15.8073 11.1517 15.6418 10.9862 15.6211 10.7586C15.6004 10.5517 15.6004 5.60276 15.6004 5.60276C15.6004 5.60276 13.4901 5.60689 13.2418 5.5862C12.9935 5.56551 12.8487 5.37931 12.828 5.17241C12.8073 4.96551 12.8073 4.36551 12.828 4.13793C12.8487 3.91034 13.0142 3.74483 13.2418 3.72414Z" fill="#F9F9FF"></path></svg>,
         description: "Edit your video online.",
@@ -445,12 +438,6 @@ export const actions = [
         url: 'https://asana.new'
     },
     {
-        name: 'Bitly',
-        icon: <SiBitly size={iconSize} color='#EE6123' />,
-        description: "Create memorable, short links to your website with Bitly.",
-        url: 'https://bitly.new'
-    },
-    {
         name: 'Resume',
         icon: <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" width={iconSize} height={iconSize} xmlns="http://www.w3.org/2000/svg"><path fill="none" strokeLinejoin="round" strokeWidth="32" d="M416 221.25V416a48 48 0 01-48 48H144a48 48 0 01-48-48V96a48 48 0 0148-48h98.75a32 32 0 0122.62 9.37l141.26 141.26a32 32 0 019.37 22.62z"></path><path fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="32" d="M256 56v120a32 32 0 0032 32h120m-232 80h160m-160 80h160"></path></svg>,
         description: "Build a new resume with one of CV2You's customizable templates.",
@@ -461,24 +448,6 @@ export const actions = [
         icon: <SiInvision size={iconSize} color='#FF3366' />,
         description: "Collaborate on an online whiteboard using InVision's Freehand.",
         url: 'https://freehand.new'
-    },
-    {
-        name: 'Microsoft Excel',
-        icon: <SiMicrosoftexcel size={iconSize} color='#217346' />,
-        description: "Create a spreadsheet using Excel.",
-        url: 'https://excel.new'
-    },
-    {
-        name: 'Microsoft PowerPoint',
-        icon: <SiMicrosoftpowerpoint size={iconSize} color='#B7472A' />,
-        description: "Create a new presentation using PowerPoint.",
-        url: 'https://powerpoint.new'
-    },
-    {
-        name: 'Microsoft Word',
-        icon: <SiMicrosoftword size={iconSize} color='#2B579A' />,
-        description: "Create a new document using Word.",
-        url: 'https://word.new'
     },
     {
         name: 'Prezi',
@@ -513,13 +482,44 @@ export const actions = [
     {
         name: 'Fake Person Generator',
         icon: <RiUserSearchLine size={iconSize} />,
-        description: "Create a fake profile to protect your identity using FakePersonGenerator.",
+        description: "Create a fake profile to protect your identity.",
         url: 'https://user.new'
     },
     {
         name: 'Diagram',
         icon: <SiDiagramsdotnet size={iconSize} color='#F08705'/>,
-        description: "Create a flowchart diagram using Diagrams.net",
+        description: "Create a flowchart diagram using Diagrams.net.",
         url: 'https://diagram.new'
+    },
+    {
+        name: 'bit.io',
+        icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 17" width={iconSize} height={iconSize}>
+          <path fill="#FDBD28" fillRule="evenodd" d="M8.88.56a7.9 7.9 0 010 15.8 7.9 7.9 0 010-15.8zm-6.23 7.9c0 .45.05.88.14 1.3 0 .03.06.03.06 0A6 6 0 018.88 3.8c.29 0 .52.23.52.51 0 .29-.23.52-.52.52a4.97 4.97 0 00-5 4.92c0 .06.07.07.09.02.65-1.92 2.65-3.25 4.91-3.25.29 0 .52.23.52.51 0 .29-.23.52-.52.52-2.33 0-4.1 1.66-4.1 3.56 0 1.9 1.77 3.57 4.1 3.57a6.22 6.22 0 006.09-7.59c-.01-.02-.05-.02-.05 0a5.9 5.9 0 01-5.9 5.9.52.52 0 01-.52-.52c0-.28.23-.51.51-.51 2.7 0 4.89-2.18 4.89-4.86 0-.04-.06-.05-.07-.01A4.98 4.98 0 019 10.4a.52.52 0 01-.51-.52c0-.28.23-.51.51-.51C11.27 9.37 13 7.72 13 5.8c0-1.7-1.38-3.2-3.28-3.5a6.22 6.22 0 00-7.07 6.16z" clipRule="evenodd"></path></svg>,
+        description: "Easily query bit.io data repositories.",
+        url: 'https://query.new'
+    },
+    {
+        name: 'Miro',
+        icon: <SiMiro size={iconSize} />,
+        description: "Create a wireframe for your project using Miro.",
+        url: 'https://wireframe.new'
+    },
+    {
+        name: 'Matlab',
+        icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width={iconSize} height={iconSize}><linearGradient id="Z8bG89TnZW8~BwJjzqmnXa" x1="22.645" x2="26.757" y1="10.881" y2="23.854" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#4adddf"/><stop offset=".699" stopColor="#3f5352"/><stop offset=".863" stopColor="#442729"/></linearGradient><path fill="url(#Z8bG89TnZW8~BwJjzqmnXa)" d="M21,27l-7-6c0,0,1-1.5,2.5-3s2.736-1.852,4.5-3c3.511-2.284,6.5-12,11-12L21,27z"/><linearGradient id="Z8bG89TnZW8~BwJjzqmnXb" x1="1" x2="37.775" y1="27.033" y2="27.033" gradientUnits="userSpaceOnUse"><stop offset="0" stopColor="#4adddf"/><stop offset=".792" stopColor="#3f5352"/><stop offset="1" stopColor="#442729"/></linearGradient><polygon fill="url(#Z8bG89TnZW8~BwJjzqmnXb)" points="11,33.066 1,26 14,21 21.277,26.465 14,32.066"/><linearGradient id="Z8bG89TnZW8~BwJjzqmnXc" x1="11" x2="47" y1="24" y2="24" gradientUnits="userSpaceOnUse"><stop offset=".206" stopColor="#53140f"/><stop offset=".3" stopColor="#84360f"/><stop offset=".413" stopColor="#b85b10"/><stop offset=".511" stopColor="#df7610"/><stop offset=".59" stopColor="#f68710"/><stop offset=".639" stopColor="#ff8d10"/><stop offset=".729" stopColor="#fd8a10"/><stop offset=".8" stopColor="#f58010"/><stop offset=".865" stopColor="#e86f10"/><stop offset=".925" stopColor="#d65811"/><stop offset=".982" stopColor="#c03a11"/><stop offset="1" stopColor="#b72f11"/></linearGradient><path fill="url(#Z8bG89TnZW8~BwJjzqmnXc)" d="M32,3c5,0,13,27,15,34c0,0-7.017-6.63-11-6s-5.47,6.548-9.725,10.756C23.5,44.5,21,45,21,45 s-0.206-8.124-5-11c-2.5-1.5-5-1-5-1s6.049-2.901,9.474-8.174S28.5,3,32,3z"/></svg>,
+        description: "Use MATLAB and Simulink through your web browser.",
+        url: 'https://matlab.new'
+    },
+    {
+        name: 'Railway',
+        icon: <SiRailway size={iconSize} />,
+        description: "Create a new Railway deployment in the cloud.",
+        url: 'https://dev.new'
+    },
+    {
+        name: 'RunKit',
+        icon: <SiRunkit size={iconSize} color='#DB4792' />,
+        description: "Prototype and launch your APIs using RunKit.",
+        url: 'https://api.new'
     },
 ]
