@@ -10,7 +10,7 @@ const BaseLayout = (props) => {
                     <div className="flex-col justify-between w-full max-w-6xl mt-10 mb-48 hero-content">
                         <div className="py-4 mb-2 text-center font-title lg:py-0">
                             <div className="mb-2 text-3xl lg:text-5xl font-light">
-                                <span className="capitalize">Dot</span>{' '}<span className="text-neutral capitalize">New</span>
+                                <span className="capitalize">Awesome</span>{' '}<span className="text-neutral capitalize">Shortcuts</span>
                             </div>
                             <h1 className="py-2 text-2xl font-bold">
                                 Less clicking, more creating

@@ -42,7 +42,7 @@ import { FaNode, FaReact, FaSignature } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
 import { MdOutlineTextFields, MdVpnLock } from 'react-icons/md';
 import { BiChalkboard } from 'react-icons/bi';
-import { RiUserSearchLine } from 'react-icons/ri';
+import { RiFileList3Line, RiUserSearchLine } from 'react-icons/ri';
 
 const iconSize = '3rem';
 
@@ -484,6 +484,12 @@ export const actions = [
         icon: <RiUserSearchLine size={iconSize} />,
         description: "Create a fake profile to protect your identity.",
         url: 'https://user.new'
+    },
+    {
+        name: 'Test Data',
+        icon: <RiFileList3Line size={iconSize} />,
+        description: "Generate test identities for testing purposes.",
+        url: 'https://id.new'
     },
     {
         name: 'Diagram',

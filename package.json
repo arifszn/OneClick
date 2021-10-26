@@ -1,14 +1,14 @@
 {
-    "name": "dotnew",
+    "name": "awesome-shortcuts",
     "version": "1.0.0",
     "description": "Shortcuts to your favorite actions on the websites you love",
-    "homepage": "https://dotnew.netlify.app",
+    "homepage": "https://awesomeshortcuts.netlify.app",
     "private": true,
     "license": "Apache-2.0",
     "author": "arifszn",
     "repository": {
         "type": "git",
-        "url": "https://github.com/arifszn/dotnew.git"
+        "url": "https://github.com/arifszn/awesome-shortcuts.git"
     },
     "dependencies": {
         "@craco/craco": "^6.3.0",
@@ -54,6 +54,10 @@
     },
     "keywords": [
         "shortcuts",
+        "awesome shortcuts",
+        "awesome shortcut",
+        "awesome .new",
+        "awesome new shortcuts",
         "create shortcuts",
         ".new",
         "create new",

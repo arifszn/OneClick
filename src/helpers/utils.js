@@ -23,8 +23,8 @@ export const getInitialTheme = () => {
         return config.themeConfig.themes[0];
     }
 
-    if (localStorage.hasOwnProperty('dot-new-theme')) {
-        let theme = localStorage.getItem('dot-new-theme');
+    if (localStorage.hasOwnProperty('awesome-shortcuts-theme')) {
+        let theme = localStorage.getItem('awesome-shortcuts-theme');
         return theme;
     }
 

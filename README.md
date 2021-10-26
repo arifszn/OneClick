@@ -1,18 +1,18 @@
 <p align="center">
-  <a href="https://dotnew.netlify.app" target="_blank">
-    <img src="https://arifszn.github.io/assets/img/hosted/dotnew/logo.png" alt="Dot New" title="Dot New" width="80">
+  <a href="https://awesomeshortcuts.netlify.app" target="_blank">
+    <img src="https://arifszn.github.io/assets/img/hosted/awesome-shortcuts/logo.png" alt="Awesome Shortcuts" title="Awesome Shortcuts" width="80">
   </a>
 </p>
 
-<h1 align="center">Dot New</h1>
+<h1 align="center">Awesome Shortcuts</h1>
 <p align="center">Shortcuts to your favorite actions on the websites you love.</p>
-<p align="center">https://dotnew.netlify.app</p>
+<p align="center">https://awesomeshortcuts.netlify.app</p>
 
 <br/>
 
 <p align="center">
-    <a href="https://dotnew.netlify.app">
-        <img src="https://arifszn.github.io/assets/img/hosted/dotnew/preview.png" width="60%" alt="Preview"/>
+    <a href="https://awesomeshortcuts.netlify.app">
+        <img src="https://arifszn.github.io/assets/img/hosted/awesome-shortcuts/preview.png" width="60%" alt="Preview"/>
     </a>
     <br/>
     <a href="#arifszn"><img src="https://arifszn.github.io/assets/img/drop-shadow.png" width="60%" alt="Shadow"/></a>
@@ -20,7 +20,7 @@
 
 ## Live
 
-[https://dotnew.netlify.app](https://dotnew.netlify.app)
+[https://awesomeshortcuts.netlify.app](https://awesomeshortcuts.netlify.app)
 
 
 ## Available Shortcuts
@@ -117,4 +117,4 @@ Any contributors who want to make this project better can make contributions, wh
 
 ## License
 
-**Dot New** is licensed under the [Apache-2.0 License](https://github.com/arifszn/dotnew/blob/main/LICENSE).
+**Awesome Shortcuts** is licensed under the [Apache-2.0 License](https://github.com/arifszn/awesome-shortcuts/blob/main/LICENSE).
