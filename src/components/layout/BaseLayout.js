@@ -12,7 +12,7 @@ const BaseLayout = (props) => {
                             <div className="mb-2 text-3xl lg:text-5xl font-light">
                                 <span className="capitalize">Awesome</span>{' '}<span className="text-neutral capitalize">Shortcuts</span>
                             </div>
-                            <h1 className="py-2 text-2xl font-bold">
+                            <h1 className="py-2 text-xl lg:text-2xl font-bold">
                                 Less clicking, more creating
                             </h1>
                             <p className="text-sm text-opacity-70 opacity-60">
