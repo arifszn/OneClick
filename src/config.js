@@ -26,5 +26,6 @@ module.exports = {
             'luxury',
             'dracula'
         ]
-    }
+    },
+    extension: typeof process.env.REACT_APP_EXTENSION ? process.env.REACT_APP_EXTENSION : false
 }

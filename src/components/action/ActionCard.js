@@ -1,3 +1,4 @@
+import { extension } from "../../config";
 import { ga } from "../../helpers/utils";
 
 const ActionCard = ({ action }) => {
@@ -15,13 +16,15 @@ const ActionCard = ({ action }) => {
                         onClick={(e) => {
                             e.preventDefault();
 
-                            // track google analytics event
-                            ga.event({
-                                action: "click create new button",
-                                params : {
-                                    shortcut: action.name
-                                }
-                            });
+                            if (!extension) {
+                                // track google analytics event
+                                ga.event({
+                                    action: "click create new button",
+                                    params : {
+                                        shortcut: action.name
+                                    }
+                                });
+                            }
                             
                             window.open(action.url, '_blank');
                         }}
