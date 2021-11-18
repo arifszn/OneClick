@@ -118,4 +118,4 @@ Any contributors who want to make this project better can make contributions, wh
 
 ## License
 
-**Awesome Shortcuts** is licensed under the [Apache-2.0 License](https://github.com/arifszn/awesome-shortcuts/blob/main/LICENSE).
+**Awesome Shortcuts** is licensed under the [GPL-3.0 License](https://github.com/arifszn/awesome-shortcuts/blob/main/LICENSE).
