@@ -20,7 +20,7 @@ const BaseLayout = (props) => {
                                         Less clicking, more creating
                                     </h1>
                                     <p className="text-sm text-opacity-70 opacity-60">
-                                        Shortcuts to your favorite actions on the websites you love.
+                                        Navigate to your favorite actions on the websites you love with just one click.
                                     </p>
                                 </div>
                                 <div>
