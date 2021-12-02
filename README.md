@@ -6,7 +6,11 @@
 
 <h1 align="center">Awesome Shortcuts</h1>
 <p align="center">Navigate to your favorite actions on the websites you love with just one click.</p>
-<p align="center">https://awesomeshortcuts.netlify.app</p>
+
+<p align="center">
+    <a align="left" href="https://awesomeshortcuts.netlify.app"><img width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/netlify.svg"/></a>
+    <a align="left" href="https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts"><img width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/firefox.svg"/></a>
+</p>
 
 <br/>
 
