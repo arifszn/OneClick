@@ -1,6 +1,7 @@
 import Navbar from './Navbar';
 import PropTypes from 'prop-types';
 import { extension } from '../../config';
+import { FaFirefox } from 'react-icons/fa'
 
 const BaseLayout = (props) => {
     return (
@@ -13,7 +14,7 @@ const BaseLayout = (props) => {
                             <div className="flex-col justify-between w-full max-w-6xl mt-10 mb-48 hero-content">
                                 <div className="py-4 mb-2 text-center font-title lg:py-0">
                                     <div className="mb-2 text-3xl lg:text-5xl font-light">
-                                        <span className="capitalize">Awesome</span>{' '}<span className="text-neutral capitalize">Shortcuts</span>
+                                        <span className="capitalize">Awesome</span>{' '}<span className="capitalize">Shortcuts</span>
                                     </div>
                                     <h1 className="py-2 text-xl lg:text-2xl font-bold">
                                         Less clicking, more creating
@@ -21,6 +22,16 @@ const BaseLayout = (props) => {
                                     <p className="text-sm text-opacity-70 opacity-60">
                                         Shortcuts to your favorite actions on the websites you love.
                                     </p>
+                                </div>
+                                <div>
+                                    <a 
+                                        className="btn glass"
+                                        href="https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span className="pr-3 tracking-widest normal-case">Get it for Firefox</span> <FaFirefox />
+                                    </a> 
                                 </div>
                             </div>
                         </div>

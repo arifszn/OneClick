@@ -18,7 +18,7 @@
     <a href="#arifszn"><img src="https://arifszn.github.io/assets/img/drop-shadow.png" width="60%" alt="Shadow"/></a>
 </p>
 
-## Live
+## Web
 
 [https://awesomeshortcuts.netlify.app](https://awesomeshortcuts.netlify.app)
 
@@ -107,14 +107,23 @@
 - [RunKit](https://api.new) - Prototype and launch your APIs using RunKit.
 
 
-## Support
+## Operating system
 
-If you are using this project and happy with it or just want to encourage me to continue creating stuff, you can do it by just starring and sharing the project.
+- Ubuntu or WSL preferable
 
 
-## Contributing
+## Prerequisite
 
-Any contributors who want to make this project better can make contributions, which will be greatly appreciated. To contribute, clone this repo locally and commit your code to a new branch. Feel free to create an issue or make a pull request.
+- Node (Any recent version)
+- NPM (Any recent version)
+
+
+## Build
+
+- run `npm run extension` to build the extension
+- open **`build/`** folder
+- zip the contents of the build folder.
+
 
 ## License
 
