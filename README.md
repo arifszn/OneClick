@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">Awesome Shortcuts</h1>
-<p align="center">Shortcuts to your favorite actions on the websites you love.</p>
+<p align="center">Navigate to your favorite actions on the websites you love with just one click.</p>
 <p align="center">https://awesomeshortcuts.netlify.app</p>
 
 <br/>
@@ -21,6 +21,10 @@
 ## Web
 
 [https://awesomeshortcuts.netlify.app](https://awesomeshortcuts.netlify.app)
+
+## Firefox Extension
+
+[https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts](https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts)
 
 
 ## Available Shortcuts
@@ -107,23 +111,14 @@
 - [RunKit](https://api.new) - Prototype and launch your APIs using RunKit.
 
 
-## Operating system
+## Support
 
-- Ubuntu or WSL preferable
-
-
-## Prerequisite
-
-- Node (Any recent version)
-- NPM (Any recent version)
+If you are using this project and happy with it or just want to encourage me to continue creating stuff, you can do it by just starring and sharing the project.
 
 
-## Build
+## Contributing
 
-- run `npm run extension` to build the extension
-- open **`build/`** folder
-- zip the contents of the build folder.
-
+Any contributors who want to make this project better can make contributions, which will be greatly appreciated. To contribute, clone this repo locally and commit your code to a new branch. Feel free to create an issue or make a pull request.
 
 ## License
 

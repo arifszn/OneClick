@@ -1,7 +1,7 @@
 {
     "name": "awesome-shortcuts",
     "version": "1.0.0",
-    "description": "Shortcuts to your favorite actions on the websites you love",
+    "description": "Navigate to your favorite actions on the websites you love with just one click.",
     "homepage": "https://awesomeshortcuts.netlify.app",
     "private": true,
     "license": "Apache-2.0",
