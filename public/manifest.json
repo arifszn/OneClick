@@ -1,7 +1,7 @@
 {
     "name": "Awesome Shortcuts",
     "short_name": "Awesome Shortcuts",
-    "description": "Shortcuts to your favorite actions on the websites you love",
+    "description": "Navigate to your favorite actions on the websites you love with just one click.",
     "version": "1.0.0",
     "manifest_version": 2,
     "browser_action": {
