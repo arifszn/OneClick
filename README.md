@@ -9,6 +9,7 @@
 
 <p align="center">
     <a align="left" href="https://awesomeshortcuts.netlify.app"><img width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/netlify.svg"/></a>
+    <a align="left" href="https://chrome.google.com/webstore/detail/awesome-shortcuts/laonciagkijmeofonnbjlifmjingahok"><img width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/googlechrome.svg"/></a>
     <a align="left" href="https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts"><img width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/firefox.svg"/></a>
 </p>
 
@@ -25,6 +26,10 @@
 ## Web
 
 [https://awesomeshortcuts.netlify.app](https://awesomeshortcuts.netlify.app)
+
+## Chrome Extension
+
+[https://chrome.google.com/webstore/detail/awesome-shortcuts/laonciagkijmeofonnbjlifmjingahok](https://chrome.google.com/webstore/detail/awesome-shortcuts/laonciagkijmeofonnbjlifmjingahok)
 
 ## Firefox Extension
 

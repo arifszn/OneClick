@@ -1,7 +1,7 @@
 import Navbar from './Navbar';
 import PropTypes from 'prop-types';
 import { extension } from '../../config';
-import { FaFirefox } from 'react-icons/fa'
+import { FaChrome, FaFirefox } from 'react-icons/fa';
 
 const BaseLayout = (props) => {
     return (
@@ -23,7 +23,15 @@ const BaseLayout = (props) => {
                                         Navigate to your favorite actions on the websites you love with just one click.
                                     </p>
                                 </div>
-                                <div>
+                                <div className="flex flex-col">
+                                    <a 
+                                        className="btn glass mb-3"
+                                        href="https://chrome.google.com/webstore/detail/awesome-shortcuts/laonciagkijmeofonnbjlifmjingahok"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <span className="pr-3 tracking-widest normal-case">Get it for Chrome</span> <FaChrome />
+                                    </a> 
                                     <a 
                                         className="btn glass"
                                         href="https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts"
