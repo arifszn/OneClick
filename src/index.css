@@ -40,6 +40,16 @@ code {
     monospace;
 }
 
+/* fix action card button style */
+@media (min-width: 1024px) {
+  .btn-circle:where(.lg\:btn-md) {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 9999px;
+    padding: 0px !important;
+  }
+}
+
 .fade-in {
   opacity: 1;
   animation-name: fadeIn;
