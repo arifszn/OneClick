@@ -26,7 +26,7 @@ const BaseLayout = (props) => {
               </div>
               <div className="flex flex-col">
                 <a
-                  className="btn glass mb-3"
+                  className="btn glass mb-3 text-primary-content"
                   href="https://chrome.google.com/webstore/detail/awesome-shortcuts/laonciagkijmeofonnbjlifmjingahok"
                   target="_blank"
                   rel="noreferrer"
@@ -37,7 +37,7 @@ const BaseLayout = (props) => {
                   <FaChrome />
                 </a>
                 <a
-                  className="btn glass"
+                  className="btn glass text-primary-content"
                   href="https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts"
                   target="_blank"
                   rel="noreferrer"
@@ -67,7 +67,7 @@ const BaseLayout = (props) => {
             <p className="font-mono text-sm">
               Made with ❤️ by{' '}
               <a
-                className="text-primary-focus"
+                className="text-base-content"
                 href="https://github.com/arifszn"
                 target="_blank"
                 rel="noreferrer"

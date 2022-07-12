@@ -46,8 +46,10 @@ const Navbar = ({ query, setQuery }) => {
   return (
     <div
       ref={navRef}
-      className={`inset-x-0 top-0 z-50 w-full transition duration-200 ease-in-out border-b border-transparent bg-transparent text-primary-content fixed ${
-        scrolled ? 'border-base-200 bg-base-200 text-base-content' : ''
+      className={`inset-x-0 top-0 z-50 w-full transition duration-200 ease-in-out border-b border-transparent bg-transparent fixed ${
+        scrolled
+          ? 'border-base-200 bg-base-200 text-base-content'
+          : 'text-primary-content'
       }`}
     >
       <div className="mx-auto space-x-1 navbar max-w-none">
@@ -79,8 +81,8 @@ const Navbar = ({ query, setQuery }) => {
         <div>
           <input
             placeholder="Search Shortcuts"
-            className={`w-full input input-ghost placeholder-current text-current focus:text-current focus:bg-transparent text-center ${
-              scrolled ? 'input-bordered border-current' : ''
+            className={`w-full input input-ghost placeholder-current text-current focus:text-current focus:bg-transparent text-center focus:outline-none ${
+              scrolled ? 'input-bordered' : ''
             }`}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
