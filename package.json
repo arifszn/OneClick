@@ -18,6 +18,8 @@
     "autoprefixer": "^10.4.7",
     "daisyui": "^2.19.0",
     "postcss": "^8.4.14",
+    "prop-types": "^15.8.1",
+    "react-icons": "^4.4.0",
     "tailwindcss": "^3.1.6",
     "vite": "^2.9.9"
   }
