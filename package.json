@@ -1,7 +1,15 @@
 {
-  "name": "awesome-shortcuts-vite",
+  "name": "awesome-shortcuts",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.1",
+  "description": "Navigate to your favorite actions on the websites you love with just one click.",
+  "homepage": "https://awesomeshortcuts.netlify.app",
+  "license": "Apache-2.0",
+  "author": "arifszn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arifszn/awesome-shortcuts.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -24,5 +32,32 @@
     "tailwindcss": "^3.1.6",
     "vite": "^2.9.9",
     "vite-plugin-html": "^3.2.0"
-  }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "shortcuts",
+    "awesome shortcuts",
+    "awesome shortcut",
+    "awesome .new",
+    "awesome new shortcuts",
+    "create shortcuts",
+    ".new",
+    "create new",
+    ".new shortcuts",
+    ".new website",
+    "dot new",
+    ".new",
+    "create .new"
+  ]
 }
