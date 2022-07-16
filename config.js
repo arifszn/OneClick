@@ -28,10 +28,7 @@ const config = {
       'dracula',
     ],
   },
-  extension: typeof import.meta.env.VITE_EXTENSION
-    ? import.meta.env.VITE_EXTENSION === 'true' ||
-      import.meta.env.VITE_EXTENSION === true
-    : false,
+  extension: typeof isExtension !== 'undefined' ? isExtension === true : false, // defined in vite config
 };
 
 export default config;

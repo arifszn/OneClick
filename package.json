@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:extension": "vite build --config extension.config.js && cp public/extension-manifest.json dist/manifest.json"
   },
   "dependencies": {
     "react": "^18.0.0",
