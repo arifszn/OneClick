@@ -35,7 +35,6 @@
 
 [https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts](https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts)
 
-
 ## Available Shortcuts
 
 - [Google Meet](https://meet.new) - Create a real-time meeting using Google Meet.
@@ -119,13 +118,11 @@
 - [Railway](https://dev.new) - Create a new Railway deployment in the cloud.
 - [RunKit](https://api.new) - Prototype and launch your APIs using RunKit.
 
-
 ## Support
 
 <a href="https://www.buymeacoffee.com/arifszn" target="_blank">
   <img src="https://raw.githubusercontent.com/arifszn/arifszn/main/assets/bmc-button.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
 </a>
-
 
 ## Contributing
 

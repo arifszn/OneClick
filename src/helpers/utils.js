@@ -23,7 +23,13 @@ export const getInitialTheme = () => {
     return config.themeConfig.themes[0];
   }
 
-  if (localStorage.hasOwnProperty('awesome-shortcuts-theme')) {
+  if (
+    typeof window !== 'undefined' &&
+    !(localStorage.getItem('awesome-shortcuts-theme') === null) &&
+    config.themeConfig.themes.includes(
+      localStorage.getItem('awesome-shortcuts-theme')
+    )
+  ) {
     let theme = localStorage.getItem('awesome-shortcuts-theme');
     return theme;
   }

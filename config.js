@@ -36,7 +36,9 @@ const config = {
       'winter',
     ],
   },
-  extension: typeof isExtension !== 'undefined' ? isExtension === true : false, // defined in vite config
+  // isExtension is defined in vite config
+  // eslint-disable-next-line no-undef
+  extension: typeof isExtension !== 'undefined' ? isExtension === true : false,
 };
 
 export default config;

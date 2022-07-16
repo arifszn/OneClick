@@ -3,6 +3,7 @@ import { navigateToPath } from '../../helpers/utils';
 import { AiOutlineControl } from 'react-icons/ai';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import config from '../../../config';
+import PropTypes from 'prop-types';
 
 const Navbar = ({ query, setQuery }) => {
   const [theme, setTheme] = useContext(ThemeContext);
@@ -141,6 +142,11 @@ const Navbar = ({ query, setQuery }) => {
       </div>
     </div>
   );
+};
+
+Navbar.propTypes = {
+  query: PropTypes.string,
+  setQuery: PropTypes.func,
 };
 
 export default Navbar;
