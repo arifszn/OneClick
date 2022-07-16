@@ -1,0 +1,16 @@
+{
+  "name": "Awesome Shortcuts",
+  "short_name": "Awesome Shortcuts",
+  "description": "Navigate to your favorite actions on the websites you love with just one click.",
+  "version": "1.1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Awesome Shortcuts"
+  },
+  "icons": {
+    "16": "logo16.png",
+    "48": "logo48.png",
+    "128": "logo128.png"
+  }
+}

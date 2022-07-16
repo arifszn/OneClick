@@ -1,16 +1,25 @@
 {
-    "name": "Awesome Shortcuts",
-    "short_name": "Awesome Shortcuts",
-    "description": "Navigate to your favorite actions on the websites you love with just one click.",
-    "version": "1.0.0",
-    "manifest_version": 2,
-    "browser_action": {
-        "default_popup": "index.html",
-        "default_title": "Awesome Shortcuts"
+  "short_name": "Awesome Shortcuts",
+  "name": "Navigate to your favorite actions on the websites you love with just one click.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
     },
-    "icons": {
-        "16": "logo16.png",
-        "48": "logo48.png",
-        "128": "logo128.png"
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#37cdbe",
+  "background_color": "#ffffff"
 }

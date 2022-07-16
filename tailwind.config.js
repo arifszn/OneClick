@@ -1,19 +1,11 @@
-const config = require('./src/config');
-
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-    purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-    darkMode: false,
-    theme: {
-        extend: {},
-    },
-    variants: {
-        extend: {},
-    },
-    plugins: [
-        require('daisyui')
-    ],
-    daisyui: {
-        logs: false,
-        themes: config.themeConfig.themes,
-    },
-}
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {},
+  },
+  plugins: [require('daisyui')],
+  daisyui: {
+    logs: false,
+  },
+};
