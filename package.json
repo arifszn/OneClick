@@ -14,6 +14,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "lint": "eslint --ext .js,.jsx .",
+    "lint:fix": "eslint --ext .js,.jsx --fix .",
+    "prettier": "prettier --check './**/*.{js,jsx,ts,tsx,css,md,json}'",
+    "prettier:fix": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}'",
     "build:extension:chrome": "vite build --config extension.config.js && cp public/extension-chrome-manifest.json dist/manifest.json",
     "build:extension:firefox": "vite build --config extension.config.js && cp public/extension-firefox-manifest.json dist/manifest.json"
   },
@@ -52,6 +56,13 @@
     ".new website",
     "dot new",
     ".new",
-    "create .new"
+    "create .new",
+    "vite",
+    "react",
+    "javascript",
+    "shortcut",
+    "awesome",
+    "awesome list",
+    "awesome create"
   ]
 }
