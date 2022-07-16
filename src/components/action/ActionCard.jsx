@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const ActionCard = ({ action }) => {
   return (
     <div className="card text-center shadow-2xl compact bg-base-100">
@@ -34,6 +36,15 @@ const ActionCard = ({ action }) => {
       </div>
     </div>
   );
+};
+
+ActionCard.propTypes = {
+  action: PropTypes.shape({
+    icon: PropTypes.node,
+    name: PropTypes.string,
+    description: PropTypes.string,
+    url: PropTypes.string,
+  }),
 };
 
 export default ActionCard;

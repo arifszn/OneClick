@@ -1,5 +1,6 @@
 import { createContext, useState } from 'react';
 import { getInitialTheme } from '../helpers/utils';
+import PropTypes from 'prop-types';
 
 const initialValue = getInitialTheme();
 
@@ -13,4 +14,8 @@ export const ThemeProvider = (props) => {
       {props.children}
     </ThemeContext.Provider>
   );
+};
+
+ThemeProvider.propTypes = {
+  children: PropTypes.node,
 };
