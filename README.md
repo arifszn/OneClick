@@ -1,33 +1,68 @@
-<p align="center">
-  <a href="https://awesomeshortcuts.netlify.app" target="_blank">
-    <img src="https://arifszn.github.io/assets/img/hosted/awesome-shortcuts/logo.png" alt="Awesome Shortcuts" title="Awesome Shortcuts" width="80">
-  </a>
-</p>
-
-<h1 align="center">Awesome Shortcuts</h1>
-<p align="center">Navigate to your favorite actions on the websites you love with just one click.</p>
-
-<p align="center">
-    <a align="left" href="https://awesomeshortcuts.netlify.app"><img width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/netlify.svg"/></a>
-    <a align="left" href="https://chrome.google.com/webstore/detail/awesome-shortcuts/laonciagkijmeofonnbjlifmjingahok"><img width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/googlechrome.svg"/></a>
-    <a align="left" href="https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts"><img width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/firefox.svg"/></a>
-</p>
-
 <br/>
 
 <p align="center">
-    <a href="https://awesomeshortcuts.netlify.app">
-        <img src="https://arifszn.github.io/assets/img/hosted/awesome-shortcuts/preview.png" width="60%" alt="Preview"/>
+  <img src="https://user-images.githubusercontent.com/45073703/179369141-c6e098d5-e7d4-4713-8946-1bc3c278b6cb.png" width="50%">
+
+  <h4 align="center">Navigate to your favorite actions on the websites you love with just one click</h4>
+
+  <p align="center">
+    <a href="https://chrome.google.com/webstore/detail/awesome-shortcuts/laonciagkijmeofonnbjlifmjingahok">
+      <img src="https://img.shields.io/chrome-web-store/v/laonciagkijmeofonnbjlifmjingahok"/>
     </a>
-    <br/>
-    <a href="#arifszn"><img src="https://arifszn.github.io/assets/img/drop-shadow.png" width="60%" alt="Shadow"/></a>
+    <a href="https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts/">
+      <img src="https://img.shields.io/amo/v/awesome-shortcuts"/>
+    </a>
+    <a href="https://chrome.google.com/webstore/detail/awesome-shortcuts/laonciagkijmeofonnbjlifmjingahok">
+      <img src="https://img.shields.io/chrome-web-store/rating/laonciagkijmeofonnbjlifmjingahok"/>
+    </a>
+    <a href="https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts/">
+      <img src="https://img.shields.io/amo/rating/awesome-shortcuts"/>
+    </a>
+    <a href="https://awesomeshortcuts.netlify.app/">
+      <img src="https://img.shields.io/netlify/4a57c22a-1c65-495a-b444-b180a8b07a52"/>
+    </a>
+    <a href="https://github.com/arifszn/awesome-shortcuts/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/arifszn/awesome-shortcuts"/>
+    </a>
+    <a href="https://github.com/arifszn/awesome-shortcuts/blob/main/package-lock.json">
+      <img src="https://img.shields.io/snyk/vulnerabilities/github/arifszn/awesome-shortcuts"/>
+    </a>
+    <a href="https://github.com/arifszn/awesome-shortcuts/issues">
+      <img src="https://img.shields.io/github/issues/arifszn/awesome-shortcuts"/>
+    </a>
+    <a href="https://github.com/arifszn/awesome-shortcuts/blob/main/CONTRIBUTING.md">
+      <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/>
+    </a>
+    <a href="https://www.buymeacoffee.com/arifszn">
+      <img src="https://img.shields.io/badge/sponsor-buy%20me%20a%20coffee-yellow?logo=buymeacoffee"/>
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=Navigate%20to%20your%20favorite%20actions%20on%20the%20websites%20you%20love%20with%20just%20one%20click.&url=https://github.com/arifszn/awesome-shortcuts&hashtags=javascript,opensource,js,webdev,developers">
+      <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Farifszn%2Fawesome-shortcuts"/>
+    </a>
+  </p>
+
+  <p align="center">
+    <a href="https://awesomeshortcuts.netlify.app">Website</a>
+    ·
+    <a href="https://github.com/arifszn/awesome-shortcuts/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/arifszn/awesome-shortcuts/discussions">Request Feature</a>
+  </p>
+</p>
+
+<p align="center">
+  <a href="https://awesomeshortcuts.netlify.app">
+    <img src="https://arifszn.github.io/assets/img/hosted/awesome-shortcuts/preview.png" alt="Preview" width="60%"/>
+  </a>
+  <br/>
+  <a href="#arifszn"><img src="https://arifszn.github.io/assets/img/drop-shadow.png" width="50%" alt="Shadow"/></a>
 </p>
 
 ## Web
 
 [https://awesomeshortcuts.netlify.app](https://awesomeshortcuts.netlify.app)
 
-## Chrome Extension
+## Chrome Extension (Featured)
 
 [https://chrome.google.com/webstore/detail/awesome-shortcuts/laonciagkijmeofonnbjlifmjingahok](https://chrome.google.com/webstore/detail/awesome-shortcuts/laonciagkijmeofonnbjlifmjingahok)
 
@@ -120,14 +155,15 @@
 
 ## Support
 
-<a href="https://www.buymeacoffee.com/arifszn" target="_blank">
-  <img src="https://raw.githubusercontent.com/arifszn/arifszn/main/assets/bmc-button.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
+<p>You can show your support by starring this project.</p>
+<a href="https://github.com/arifszn/awesome-shortcuts/stargazers">
+  <img src="https://img.shields.io/github/stars/arifszn/awesome-shortcuts?style=social" alt="Github Star">
 </a>
 
 ## Contributing
 
-Any contributors who want to make this project better can make contributions, which will be greatly appreciated. To contribute, clone this repo locally and commit your code to a new branch. Feel free to create an issue or make a pull request.
+To contribute, see the [Contributing guide](https://github.com/arifszn/awesome-shortcuts/blob/main/CONTRIBUTING.md).
 
 ## License
 
-**Awesome Shortcuts** is licensed under the [GPL-3.0 License](https://github.com/arifszn/awesome-shortcuts/blob/main/LICENSE).
+[GPL-3.0 License](https://github.com/arifszn/awesome-shortcuts/blob/main/LICENSE)
