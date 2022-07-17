@@ -72,7 +72,7 @@ const Navbar = ({ query, setQuery }) => {
               navigateToPath('home');
             }}
           >
-            <div className="inline-block text-2xl font-light">
+            <div className="inline-block text-2xl">
               <span className="text-base-content capitalize">Awesome</span>{' '}
               <span className="text-primary capitalize">Shortcuts</span>
             </div>
