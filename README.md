@@ -100,10 +100,12 @@
 - [Next.js](https://next.new) - Create a new Next.js project online with stackblitz.
 - [JavaScript](https://js.new) - Create a new Javascript project online with CodeSandbox.
 - [TypeScript](https://ts.new) - Create a new Typescript project online with CodeSandbox.
+- [Vite](https://vite.new) - Create a new Vite.js project online with Stackblitz.
 - [Flutter](https://flutter.new) - Create a new Flutter project online with dartpad.
 - [Ionic](https://ionic.new) - Create a high quality, cross-platform native and web app with Ionic.
 - [.NET](https://dotnet.new) - Create a .NET application in Microsoft's Try .NET environment.
 - [Svelte](https://svelte.new) - Create a new Svelte project online with CodeSandbox.
+- [Rust](https://rust.new) - Run a Rust Program.
 - [CodeSandbox](https://csb.new) - Create a new project online with CodeSandbox.
 - [Glitch](https://glitch.new) - Create a full-stack app in your browser and collaborate live.
 - [Microsoft Excel](https://excel.new) - Create a spreadsheet using Excel.
@@ -115,6 +117,7 @@
 - [Stackbit](https://jamstack.new) - Create a new Jamstack site.
 - [Tailwind](https://tailwindcss.new) - Create a new Tailwind Play page.
 - [Vercel](https://deploy.new) - Create a new project in Vercel for preview and deployment.
+- [Docusaurus](https://docusaurus.new) - Create a new docusaurus project in your browser.
 - [PDF Compress](https://compresspdf.new) - Compress PDF documents with simple drag and drop with Adobe Acrobat.
 - [Merge PDF](https://mergepdf.new) - Combine PDFs into one file with Adobe.
 - [PDF to Word](https://pdftoword.new) - Convert PDFs to Word documents with Adobe.

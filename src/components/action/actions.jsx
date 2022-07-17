@@ -618,7 +618,7 @@ export const actions = [
   {
     name: 'Rust',
     icon: <FaRust size={iconSize} />,
-    description: 'Run a Rust Program',
+    description: 'Run a Rust Program.',
     url: 'https://rust.new',
   },
   {
