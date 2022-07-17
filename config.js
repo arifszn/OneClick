@@ -3,7 +3,7 @@
 const config = {
   themeConfig: {
     disableSwitch: false,
-    respectPrefersColorScheme: true,
+    respectPrefersColorScheme: false,
     themes: [
       'cupcake',
       'dark',
