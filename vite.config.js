@@ -22,7 +22,7 @@ export default defineConfig({
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'logo.svg'],
       manifest: {
         name: 'Awesome Shortcuts',
-        short_name: 'Awesome Shortcuts',
+        short_name: 'Shortcuts',
         description:
           'Navigate to your favorite actions on the websites you love with just one click',
         theme_color: '#ffffff',
@@ -41,12 +41,6 @@ export default defineConfig({
             src: 'logo512.png',
             sizes: '512x512',
             type: 'image/png',
-          },
-          {
-            src: 'logo512.png',
-            sizes: '512x512',
-            type: 'image/png',
-            purpose: 'any maskable',
           },
         ],
       },
