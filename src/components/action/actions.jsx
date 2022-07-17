@@ -46,6 +46,7 @@ import {
 } from 'react-icons/si';
 import { FaNode, FaReact, FaRust, FaSignature } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
+import { TbBarcode } from 'react-icons/tb';
 import { MdOutlineTextFields, MdVpnLock } from 'react-icons/md';
 import { BiChalkboard } from 'react-icons/bi';
 import { RiFileList3Line, RiUserSearchLine } from 'react-icons/ri';
@@ -634,6 +635,12 @@ export const actions = [
     description:
       'Create a full-stack app in your browser and collaborate live.',
     url: 'https://glitch.new',
+  },
+  {
+    name: 'UUID',
+    icon: <TbBarcode size={iconSize} />,
+    description: 'Generate a new UUID.',
+    url: 'https://uuid.new',
   },
   {
     name: 'Microsoft Excel',

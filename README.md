@@ -108,6 +108,7 @@
 - [Rust](https://rust.new) - Run a Rust Program.
 - [CodeSandbox](https://csb.new) - Create a new project online with CodeSandbox.
 - [Glitch](https://glitch.new) - Create a full-stack app in your browser and collaborate live.
+- [UUID](https://uuid.new) - Generate a new UUID.
 - [Microsoft Excel](https://excel.new) - Create a spreadsheet using Excel.
 - [Microsoft PowerPoint](https://powerpoint.new) - Create a new presentation using PowerPoint.
 - [Microsoft Word](https://word.new) - Create a new document using Word.
