@@ -91,6 +91,7 @@
 - [SurveyMonkey](https://surveymonkey.new) - Create a new survey using SurveyMonkey.
 - [GitHub](https://github.new) - Create a new GitHub repository.
 - [GitHub Gist](https://gist.new) - Create a new GitHub gist.
+- [Figma](https://figma.new) - Design and prototype using Figma's collaborative interface.
 - [CodePen](https://pen.new) - Prototype your frontend code in CodePen's online development sandbox.
 - [Codespace](https://snippet.new) - Create a new code snippet on Codespace.
 - [React.js](https://react.new) - Create a new React project online with CodeSandbox.
@@ -100,12 +101,15 @@
 - [Next.js](https://next.new) - Create a new Next.js project online with stackblitz.
 - [JavaScript](https://js.new) - Create a new Javascript project online with CodeSandbox.
 - [TypeScript](https://ts.new) - Create a new Typescript project online with CodeSandbox.
+- [Vite](https://vite.new) - Create a new Vite.js project online with Stackblitz.
 - [Flutter](https://flutter.new) - Create a new Flutter project online with dartpad.
 - [Ionic](https://ionic.new) - Create a high quality, cross-platform native and web app with Ionic.
 - [.NET](https://dotnet.new) - Create a .NET application in Microsoft's Try .NET environment.
 - [Svelte](https://svelte.new) - Create a new Svelte project online with CodeSandbox.
+- [Rust](https://rust.new) - Run a Rust Program.
 - [CodeSandbox](https://csb.new) - Create a new project online with CodeSandbox.
 - [Glitch](https://glitch.new) - Create a full-stack app in your browser and collaborate live.
+- [UUID](https://uuid.new) - Generate a new UUID.
 - [Microsoft Excel](https://excel.new) - Create a spreadsheet using Excel.
 - [Microsoft PowerPoint](https://powerpoint.new) - Create a new presentation using PowerPoint.
 - [Microsoft Word](https://word.new) - Create a new document using Word.
@@ -113,7 +117,9 @@
 - [Microsoft Teams](https://teams.new) - Chat with your team using Microsoft Teams.
 - [Editor X](https://editorx.new) - Create a website using Editor X's online tool.
 - [Stackbit](https://jamstack.new) - Create a new Jamstack site.
+- [Tailwind](https://tailwindcss.new) - Create a new Tailwind Play page.
 - [Vercel](https://deploy.new) - Create a new project in Vercel for preview and deployment.
+- [Docusaurus](https://docusaurus.new) - Create a new docusaurus project in your browser.
 - [PDF Compress](https://compresspdf.new) - Compress PDF documents with simple drag and drop with Adobe Acrobat.
 - [Merge PDF](https://mergepdf.new) - Combine PDFs into one file with Adobe.
 - [PDF to Word](https://pdftoword.new) - Convert PDFs to Word documents with Adobe.
@@ -121,12 +127,14 @@
 - [Word to PDF](https://wordtopdf.new) - Convert Microsoft Word documents to PDF.
 - [Buffer](https://buffer.new) - Schedule and manage your social media posts.
 - [Email Signature](https://emailsignature.new) - Create a professional email signature in 30 seconds HoneyBook.
+- [Canva](https://design.new) - Create a new Canva design.
 - [Canva Menu](https://menu.new) - Create an appetizing menu using customizable templates from Canva.
 - [Canva Resume](https://resumes.new) - Create a professional-looking resume using templates from Canva.
 - [Indeed](https://profile.new) - Create your online resume with Indeed.
 - [Shopify](https://shopify.new) - Start a new online shop on Shopify.
 - [Business Name](https://businessname.new) - Designate your business name on Shopify.
 - [Business Card](https://businesscard.new) - Design personalized business cards with Namecheap.
+- [Anchor](https://podcast.new) - Create a new podcast episode using Anchor.
 - [Personio](https://candidate.new) - Track your candidate pipeline using Personio.
 - [Wix](https://wix.new) - Build a new website using Wix.
 - [Adobe Spark](https://create.new) - Design beautiful social media posts and more with Adobe Spark.
