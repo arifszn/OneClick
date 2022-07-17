@@ -38,6 +38,7 @@ import {
   SiStackbit,
   SiSurveymonkey,
   SiSvelte,
+  SiTailwindcss,
   SiVercel,
   SiWix,
   SiWordpress,
@@ -713,6 +714,12 @@ export const actions = [
     icon: <SiStackbit size={iconSize} color="#207BEA" />,
     description: 'Create a new Jamstack site.',
     url: 'https://jamstack.new',
+  },
+  {
+    name: 'Tailwind',
+    icon: <SiTailwindcss size={iconSize} color="#06B6D4" />,
+    description: 'Create a new Tailwind Play page.',
+    url: 'https://tailwindcss.new',
   },
   {
     name: 'Vercel',
