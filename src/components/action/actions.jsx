@@ -42,7 +42,7 @@ import {
   SiWix,
   SiWordpress,
 } from 'react-icons/si';
-import { FaNode, FaReact, FaSignature } from 'react-icons/fa';
+import { FaNode, FaReact, FaRust, FaSignature } from 'react-icons/fa';
 import { IoLogoIonic } from 'react-icons/io';
 import { MdOutlineTextFields, MdVpnLock } from 'react-icons/md';
 import { BiChalkboard } from 'react-icons/bi';
@@ -613,6 +613,12 @@ export const actions = [
     icon: <SiSvelte size={iconSize} color="#FF3E00" />,
     description: 'Create a new Svelte project online with CodeSandbox.',
     url: 'https://svelte.new',
+  },
+  {
+    name: 'Rust',
+    icon: <FaRust size={iconSize} />,
+    description: 'Run a Rust Program',
+    url: 'https://rust.new',
   },
   {
     name: 'CodeSandbox',
