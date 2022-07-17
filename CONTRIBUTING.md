@@ -32,3 +32,21 @@ Run dev server:
 ```sh
 npm start
 ```
+
+Build website:
+
+```sh
+npm run build
+```
+
+Build chrome extension:
+
+```sh
+npm run build:extension:chrome
+```
+
+Build firefox extension:
+
+```sh
+npm run build:extension:firefox
+```
