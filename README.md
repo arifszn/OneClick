@@ -125,6 +125,7 @@
 - [Word to PDF](https://wordtopdf.new) - Convert Microsoft Word documents to PDF.
 - [Buffer](https://buffer.new) - Schedule and manage your social media posts.
 - [Email Signature](https://emailsignature.new) - Create a professional email signature in 30 seconds HoneyBook.
+- [Canva](https://design.new) - Create a new Canva design.
 - [Canva Menu](https://menu.new) - Create an appetizing menu using customizable templates from Canva.
 - [Canva Resume](https://resumes.new) - Create a professional-looking resume using templates from Canva.
 - [Indeed](https://profile.new) - Create your online resume with Indeed.

@@ -833,6 +833,12 @@ export const actions = [
     url: 'https://emailsignature.new',
   },
   {
+    name: 'Canva',
+    icon: <SiCanva size={iconSize} color="#00C4CC" />,
+    description: 'Create a new Canva design.',
+    url: 'https://design.new',
+  },
+  {
     name: 'Canva Menu',
     icon: <SiCanva size={iconSize} color="#00C4CC" />,
     description:
