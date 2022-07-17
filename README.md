@@ -91,6 +91,7 @@
 - [SurveyMonkey](https://surveymonkey.new) - Create a new survey using SurveyMonkey.
 - [GitHub](https://github.new) - Create a new GitHub repository.
 - [GitHub Gist](https://gist.new) - Create a new GitHub gist.
+- [Figma](https://figma.new) - Design and prototype using Figma's collaborative interface.
 - [CodePen](https://pen.new) - Prototype your frontend code in CodePen's online development sandbox.
 - [Codespace](https://snippet.new) - Create a new code snippet on Codespace.
 - [React.js](https://react.new) - Create a new React project online with CodeSandbox.
