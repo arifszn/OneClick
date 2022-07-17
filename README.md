@@ -1,7 +1,7 @@
 <br/>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/45073703/179369141-c6e098d5-e7d4-4713-8946-1bc3c278b6cb.png" width="50%">
+  <img src="https://user-images.githubusercontent.com/45073703/179396214-b0b778c4-a6fd-4a69-8b13-9a931b71d4ee.png" width="50%">
 
   <h4 align="center">Navigate to your favorite actions on the websites you love with just one click</h4>
 
