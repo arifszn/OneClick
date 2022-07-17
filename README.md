@@ -132,6 +132,7 @@
 - [Shopify](https://shopify.new) - Start a new online shop on Shopify.
 - [Business Name](https://businessname.new) - Designate your business name on Shopify.
 - [Business Card](https://businesscard.new) - Design personalized business cards with Namecheap.
+- [Anchor](https://podcast.new) - Create a new podcast episode using Anchor.
 - [Personio](https://candidate.new) - Track your candidate pipeline using Personio.
 - [Wix](https://wix.new) - Build a new website using Wix.
 - [Adobe Spark](https://create.new) - Design beautiful social media posts and more with Adobe Spark.

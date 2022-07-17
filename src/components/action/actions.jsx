@@ -6,6 +6,7 @@ import {
 import {
   SiAdobeacrobatreader,
   SiAdobephotoshop,
+  SiAnchor,
   SiAsana,
   SiBitly,
   SiBuffer,
@@ -875,6 +876,12 @@ export const actions = [
     icon: <SiNamecheap size={iconSize} color="#DE3723" />,
     description: 'Design personalized business cards with Namecheap.',
     url: 'https://businesscard.new',
+  },
+  {
+    name: 'Anchor',
+    icon: <SiAnchor size={iconSize} color="#5000B9" />,
+    description: 'Create a new podcast episode using Anchor.',
+    url: 'https://podcast.new',
   },
   {
     name: 'Personio',
