@@ -1,0 +1,42 @@
+name: Test Pull Request
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  test-pull-request:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: |
+            **/node_modules
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run lint
+        run: npm run lint
+
+      - name: Run prettier
+        run: npm run prettier
+
+      - name: Build website
+        run: npm run build
+
+      - name: Build chrome extension
+        run: npm run build:extension:chrome
+
+      - name: Build firefox extension
+        run: npm run build:extension:firefox
