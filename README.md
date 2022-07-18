@@ -21,6 +21,9 @@
     <a href="https://awesomeshortcuts.netlify.app/">
       <img src="https://img.shields.io/netlify/4a57c22a-1c65-495a-b444-b180a8b07a52"/>
     </a>
+    <a href="https://codeclimate.com/github/arifszn/awesome-shortcuts/maintainability">
+      <img src="https://api.codeclimate.com/v1/badges/1e96ae5d249e36e1ce44/maintainability" />
+    </a>
     <a href="https://github.com/arifszn/awesome-shortcuts/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/arifszn/awesome-shortcuts"/>
     </a>
