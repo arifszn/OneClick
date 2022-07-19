@@ -61,7 +61,7 @@
   <a href="#arifszn"><img src="https://arifszn.github.io/assets/img/drop-shadow.png" width="50%" alt="Shadow"/></a>
 </p>
 
-## Web
+## Web + PWA
 
 [https://awesomeshortcuts.netlify.app](https://awesomeshortcuts.netlify.app)
 
