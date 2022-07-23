@@ -173,7 +173,7 @@
 
 ## Contributing
 
-To contribute, see the [Contributing guide](https://github.com/arifszn/awesome-shortcuts/blob/main/CONTRIBUTING.md).
+To contribute, see the [contributing guide](https://github.com/arifszn/awesome-shortcuts/blob/main/CONTRIBUTING.md).
 
 ## License
 

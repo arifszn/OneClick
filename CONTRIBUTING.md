@@ -12,40 +12,41 @@ If you find a bug in the source code or a mistake in the documentation, you can 
 submitting an issue to our [GitHub Repository](https://github.com/arifszn/awesome-shortcuts/issues/new). Even better you can submit a Pull Request
 with a fix.
 
-### Developing
+## Developing
 
-Fork, then clone the repo:
+Fork the repo and clone it.
 
 ```sh
 git clone https://github.com/your-username/awesome-shortcuts.git
+
 cd awesome-shortcuts
 ```
 
-Install dependencies:
+### Install dependencies
 
 ```sh
 npm install
 ```
 
-Run dev server:
+### Run dev server
 
 ```sh
 npm start
 ```
 
-Build website:
+### Build website
 
 ```sh
 npm run build
 ```
 
-Build chrome extension:
+### Build chrome extension
 
 ```sh
 npm run build:extension:chrome
 ```
 
-Build firefox extension:
+### Build firefox extension
 
 ```sh
 npm run build:extension:firefox
