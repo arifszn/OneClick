@@ -19,7 +19,12 @@ export default defineConfig({
     }),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'logo.svg'],
+      includeAssets: [
+        'apple-touch-icon.png',
+        'favicon.ico',
+        'logo.svg',
+        'home.png',
+      ],
       manifest: {
         name: 'Awesome Shortcuts',
         short_name: 'Shortcuts',
