@@ -45,7 +45,7 @@
   </p>
 
   <p align="center">
-    <a href="https://awesomeshortcuts.netlify.app">Website</a>
+    <a href="https://awesomeshortcuts.netlify.app">Home</a>
     ·
     <a href="https://github.com/arifszn/awesome-shortcuts/issues">Report Bug</a>
     ·
