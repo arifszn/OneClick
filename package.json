@@ -30,7 +30,7 @@
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^2.0.0",
     "autoprefixer": "^10.4.7",
-    "daisyui": "^2.19.0",
+    "daisyui": "^2.20.0",
     "eslint": "^8.20.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
