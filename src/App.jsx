@@ -1,6 +1,6 @@
 import BaseLayout from './components/layout/BaseLayout';
 import ActionCard from './components/action/ActionCard';
-import { actions } from './components/action/actions';
+import { actions } from './data';
 import { useState } from 'react';
 import config from '../config';
 

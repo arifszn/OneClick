@@ -163,6 +163,7 @@
 - [Matlab](https://matlab.new) - Use MATLAB and Simulink through your web browser.
 - [Railway](https://dev.new) - Create a new Railway deployment in the cloud.
 - [RunKit](https://api.new) - Prototype and launch your APIs using RunKit.
+- [Notion](https://notion.new) - Take notes, track your progress and organize project details.
 
 ## Support
 

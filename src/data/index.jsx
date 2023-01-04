@@ -31,6 +31,7 @@ import {
   SiMiro,
   SiNamecheap,
   SiNextdotjs,
+  SiNotion,
   SiPrezi,
   SiRailway,
   SiRunkit,
@@ -1302,5 +1303,12 @@ export const actions = [
     icon: <SiRunkit size={iconSize} color="#DB4792" />,
     description: 'Prototype and launch your APIs using RunKit.',
     url: 'https://api.new',
+  },
+  {
+    name: 'Notion',
+    icon: <SiNotion size={iconSize} />,
+    description:
+      'Take notes, track your progress and organize project details.',
+    url: 'https://notion.new',
   },
 ];
