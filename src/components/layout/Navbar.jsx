@@ -82,8 +82,8 @@ const Navbar = ({ query, setQuery }) => {
         <div>
           <input
             placeholder="Search Shortcuts"
-            className={`w-full input input-ghost placeholder-gray-500 placeholder-opacity-80 text-current focus:text-current focus:bg-transparent text-center focus:placeholder-transparent focus:outline-none ${
-              scrolled ? 'input-bordered' : ''
+            className={`w-full input input-sm input-ghost placeholder-gray-500 placeholder-opacity-80 text-current focus:text-current focus:bg-transparent text-center  ${
+              scrolled ? 'input-bordered focus:outline-none' : ''
             }`}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
