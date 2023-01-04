@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const ActionCard = ({ action }) => {
   return (
     <div className="card text-center shadow-2xl compact bg-base-100">
-      <figure className="pt-6 lg:pt-10">{action.icon}</figure>
+      <figure className="pt-6 lg:pt-10 w-full h-full">{action.icon}</figure>
       <div className="card-body md:mx-2 flex flex-col h-full justify-between">
         <h2 className="text-sm lg:text-lg font-medium">{action.name}</h2>
         <p className="opacity-80 text-2xs lg:text-sm">{action.description}</p>
