@@ -50,7 +50,7 @@ import { IoLogoIonic } from 'react-icons/io';
 import { TbBarcode } from 'react-icons/tb';
 import { MdOutlineTextFields, MdVpnLock } from 'react-icons/md';
 import { BiChalkboard } from 'react-icons/bi';
-import { RiFileList3Line, RiUserSearchLine } from 'react-icons/ri';
+import { RiFileList3Line } from 'react-icons/ri';
 import {
   AdobeSpark,
   AngularJs,
@@ -575,12 +575,6 @@ export const actions = [
     description:
       'Start a new Discord community where you can hang out and chat with friends.',
     url: 'https://discord.new',
-  },
-  {
-    name: 'Fake Person Generator',
-    icon: <RiUserSearchLine size={iconSize} />,
-    description: 'Create a fake profile to protect your identity.',
-    url: 'https://user.new',
   },
   {
     name: 'Test Data',

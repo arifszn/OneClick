@@ -155,7 +155,6 @@
 - [Kahoot](https://quiz.new) - Create an online quiz using Kahoot.
 - [Dashlane](https://password.new) - Keep your online accounts secure with Dashlane's password generator.
 - [Discord](https://discord.new) - Start a new Discord community where you can hang out and chat with friends.
-- [Fake Person Generator](https://user.new) - Create a fake profile to protect your identity.
 - [Test Data](https://id.new) - Generate test identities for testing purposes.
 - [Diagram](https://diagram.new) - Create a flowchart diagram using Diagrams.net.
 - [bit.io](https://query.new) - Easily query bit.io data repositories.
