@@ -73,8 +73,8 @@ const Navbar = ({ query, setQuery }) => {
             }}
           >
             <div className="inline-block text-2xl">
-              <span className="text-base-content capitalize">Awesome</span>{' '}
-              <span className="text-primary capitalize">Shortcuts</span>
+              <span className="text-primary capitalize">Awesome</span>{' '}
+              <span className="text-base-content capitalize">Shortcuts</span>
             </div>
           </a>
         </div>

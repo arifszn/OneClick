@@ -61,23 +61,6 @@ const BaseLayout = (props) => {
           </div>
         </div>
       </div>
-      {!config.extension && (
-        <footer className="p-4 footer bg-base-300 text-base-content footer-center">
-          <div>
-            <p className="font-mono text-sm">
-              Made with ❤️ by{' '}
-              <a
-                className="text-base-content"
-                href="https://github.com/arifszn"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Ariful Alam
-              </a>
-            </p>
-          </div>
-        </footer>
-      )}
     </div>
   );
 };
