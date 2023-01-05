@@ -87,6 +87,7 @@ export const actions = [
     icon: GoogleMeet,
     description: 'Create a real-time meeting using Google Meet.',
     url: 'https://meet.new',
+    tags: ['zoom', 'meeting'],
   },
   {
     name: 'Google Calendar',
