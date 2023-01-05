@@ -10,7 +10,7 @@ const BaseLayout = (props) => {
       <div id="home">
         {!config.extension && (
           <div className="min-h-screen pt-16 overflow-hidden hero bg-gradient-to-br to-primary from-secondary text-primary-content">
-            <div className="flex-col justify-between w-full max-w-6xl mt-10 mb-36 hero-content">
+            <div className="flex-col justify-between w-full max-w-6xl mt-10 mb-40 hero-content">
               <div className="p-4 mb-2 text-center font-title lg:py-0">
                 <div className="mb-2 text-3xl lg:text-5xl font-light">
                   <span className="capitalize">Awesome</span>{' '}
