@@ -5,7 +5,7 @@ const config = {
     disableSwitch: false,
     respectPrefersColorScheme: false,
     themes: [
-      'cupcake',
+      'pastel',
       'dark',
       'light',
       'bumblebee',
@@ -20,7 +20,7 @@ const config = {
       'forest',
       'aqua',
       'lofi',
-      'pastel',
+      'cupcake',
       'fantasy',
       'wireframe',
       'black',
