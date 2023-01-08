@@ -7,6 +7,24 @@ import config from '../config';
 const App = () => {
   const [query, setQuery] = useState('');
 
+  const getActions = (query) => {
+    if (query) {
+      return actions.filter((item) => {
+        return (
+          item.name.toLowerCase().includes(query.toLowerCase()) ||
+          (item.description &&
+            item.description.toLowerCase().includes(query.toLowerCase())) ||
+          (item.tags &&
+            item.tags.some((tag) =>
+              tag.toLowerCase().includes(query.toLowerCase())
+            ))
+        );
+      });
+    } else {
+      return actions;
+    }
+  };
+
   return (
     <BaseLayout query={query} setQuery={setQuery}>
       <div
@@ -23,18 +41,9 @@ const App = () => {
                   : 'grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6'
               }`}
             >
-              {actions
-                .filter((action) => {
-                  return (
-                    action.name.toLowerCase().includes(query.toLowerCase()) ||
-                    action.description
-                      .toLowerCase()
-                      .includes(query.toLowerCase())
-                  );
-                })
-                .map((action, index) => (
-                  <ActionCard key={index} action={action} />
-                ))}
+              {getActions(query).map((action, index) => (
+                <ActionCard key={index} action={action} />
+              ))}
             </div>
           </div>
         </div>
