@@ -1,13 +1,11 @@
 import BaseLayout from './components/layout/BaseLayout';
 import ActionCard from './components/action/ActionCard';
 import { actions as rawActions } from './data';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import config from '../config';
 import { RiFileListLine } from 'react-icons/ri';
 import { AiOutlineHeart } from 'react-icons/ai';
-
-const active_tab_key = 'awesome-shortcuts-active-tab';
-const favorite_actions_key = 'awesome-shortcuts-favorite-actions';
+import { active_tab_key, favorite_actions_key } from './helpers/utils';
 
 const tabs = {
   all: 'all',
@@ -17,13 +15,10 @@ const tabs = {
 const App = () => {
   const [query, setQuery] = useState('');
   const [activeTab, setActiveTab] = useState(tabs.all);
-  const [actions, setActions] = useState(rawActions);
+  const [actions, setActions] = useState([]);
 
-  useState(() => {
-    if (
-      typeof window !== 'undefined' &&
-      !(localStorage.getItem(active_tab_key) === null)
-    ) {
+  useEffect(() => {
+    if (!(localStorage.getItem(active_tab_key) === null)) {
       let savedTab = localStorage.getItem(active_tab_key);
 
       if (savedTab === tabs.all || savedTab === tabs.favorites) {
@@ -31,22 +26,21 @@ const App = () => {
       }
     }
 
-    const savedActions =
-      typeof window !== 'undefined' &&
-      JSON.parse(localStorage.getItem(favorite_actions_key));
+    const savedActions = JSON.parse(localStorage.getItem(favorite_actions_key));
 
-    const actionsWithFavorites = actions.map((action) => {
-      return {
-        ...action,
-        favorite:
-          (savedActions &&
-            savedActions.find((storedAction) => storedAction.key === action.key)
-              ?.favorite) ||
-          false,
-      };
-    });
-
-    setActions(actionsWithFavorites);
+    if (savedActions) {
+      const actionsWithFavorites = rawActions.map((action) => {
+        return {
+          ...action,
+          favorite: savedActions.find(
+            (storedAction) => storedAction === action.key
+          )
+            ? true
+            : false,
+        };
+      });
+      setActions(actionsWithFavorites);
+    }
   }, []);
 
   const getActions = (query, showFavoritesOnly) => {
@@ -81,8 +75,7 @@ const App = () => {
 
     setActiveTab(tab);
 
-    typeof window !== 'undefined' &&
-      localStorage.setItem('awesome-shortcuts-active-tab', tab);
+    localStorage.setItem('awesome-shortcuts-active-tab', tab);
   };
 
   const renderActions = () => {
@@ -97,8 +90,14 @@ const App = () => {
               : 'grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6'
           }`}
         >
-          {filteredActions.map((action, index) => (
-            <ActionCard key={index} action={action} />
+          {filteredActions.map((action) => (
+            <ActionCard
+              key={action.key}
+              action={action}
+              setActions={(newActions) => {
+                setActions(newActions);
+              }}
+            />
           ))}
         </div>
       );
