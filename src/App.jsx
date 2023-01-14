@@ -28,19 +28,17 @@ const App = () => {
 
     const savedActions = JSON.parse(localStorage.getItem(favorite_actions_key));
 
-    if (savedActions) {
-      const actionsWithFavorites = rawActions.map((action) => {
-        return {
-          ...action,
-          favorite: savedActions.find(
-            (storedAction) => storedAction === action.key
-          )
+    const actionsWithFavorites = rawActions.map((action) => {
+      return {
+        ...action,
+        favorite:
+          savedActions &&
+          savedActions.find((storedAction) => storedAction === action.key)
             ? true
             : false,
-        };
-      });
-      setActions(actionsWithFavorites);
-    }
+      };
+    });
+    setActions(actionsWithFavorites);
   }, []);
 
   const getActions = (query, showFavoritesOnly) => {
