@@ -84,6 +84,7 @@ import {
 export const actions = [
   {
     name: 'Google Meet',
+    key: 'google-meet',
     icon: GoogleMeet,
     description: 'Create a real-time meeting using Google Meet.',
     url: 'https://meet.new',
@@ -105,6 +106,7 @@ export const actions = [
   },
   {
     name: 'Google Calendar',
+    key: 'google-calendar',
     icon: GoogleCalendar,
     description: 'Create and send a new Google Calendar invite.',
     url: 'https://meeting.new',
@@ -121,6 +123,7 @@ export const actions = [
   },
   {
     name: 'Google Docs',
+    key: 'google-docs',
     icon: GoogleDocs,
     description: 'Create a new document using Google Docs.',
     url: 'https://docs.new',
@@ -136,6 +139,7 @@ export const actions = [
   },
   {
     name: 'Google Sheet',
+    key: 'google-sheet',
     icon: <SiGooglesheets size={iconSize} color="#34A853" />,
     description: 'Create a new spreadsheet using Google Sheets.',
     url: 'https://sheets.new',
@@ -150,6 +154,7 @@ export const actions = [
   },
   {
     name: 'Google Keep',
+    key: 'google-keep',
     icon: <SiGooglekeep size={iconSize} color="#FFBB00" />,
     description: 'Create a new note using Google Keep.',
     url: 'https://keep.new',
@@ -165,6 +170,7 @@ export const actions = [
   },
   {
     name: 'Google Forms',
+    key: 'google-forms',
     icon: GoogleForms,
     description: 'Create a new form using Google Forms.',
     url: 'https://form.new',
@@ -183,6 +189,7 @@ export const actions = [
   },
   {
     name: 'Google Slides',
+    key: 'google-slides',
     icon: GoogleSlides,
     description: 'Create an online presentation using Google Slides.',
     url: 'https://slide.new',
@@ -196,6 +203,7 @@ export const actions = [
   },
   {
     name: 'Google Sites',
+    key: 'google-sites',
     icon: GoogleSites,
     description: 'Create and publish a website using Google Sites.',
     url: 'https://site.new',
@@ -213,6 +221,7 @@ export const actions = [
   },
   {
     name: 'Google Jamboard',
+    key: 'google-jamboard',
     icon: <SiJamboard size={iconSize} color="#F37C20" />,
     description: 'Create a new Jamboard with Google.',
     url: 'https://jam.new',
@@ -230,6 +239,7 @@ export const actions = [
   },
   {
     name: 'Google AppScript',
+    key: 'google-appScript',
     icon: GoogleAppScript,
     description:
       'Create and share new editor functions using Google App Script.',
@@ -238,6 +248,7 @@ export const actions = [
   },
   {
     name: 'Bitly',
+    key: 'bitly',
     icon: <SiBitly size={iconSize} color="#EE6123" />,
     description: 'Create memorable, short links to your website with Bitly.',
     url: 'https://bitly.new',
@@ -253,6 +264,7 @@ export const actions = [
   },
   {
     name: 'BeFunky',
+    key: 'beFunky',
     icon: BeFunky,
     description: 'Quickly edit, filter, and enhance your photos with BeFunky.',
     url: 'https://befunky.new',
@@ -269,6 +281,7 @@ export const actions = [
   },
   {
     name: 'Proxy',
+    key: 'proxy',
     icon: <MdVpnLock size={iconSize} />,
     description: 'Use a proxy server without having to connect to a VPN.',
     url: 'https://vpn.new',
@@ -283,6 +296,7 @@ export const actions = [
   },
   {
     name: 'Medium',
+    key: 'medium',
     icon: <SiMedium size={iconSize} />,
     description: 'Create a new story on Medium.',
     url: 'https://story.new',
@@ -301,6 +315,7 @@ export const actions = [
   },
   {
     name: 'Hashnode',
+    key: 'hashnode',
     icon: <SiHashnode size={iconSize} color="#2962FF" />,
     description: 'Create a new developer blog post using hashnode.',
     url: 'https://hn.new',
@@ -319,6 +334,7 @@ export const actions = [
   },
   {
     name: 'Spotify',
+    key: 'spotify',
     icon: <SiSpotify size={iconSize} color="#1DB954" />,
     description: 'Create a new Spotify playlist.',
     url: 'https://playlist.new',
@@ -326,6 +342,7 @@ export const actions = [
   },
   {
     name: 'SurveyMonkey',
+    key: 'survey-monkey',
     icon: <SiSurveymonkey size={iconSize} color="#00BF6F" />,
     description: 'Create a new survey using SurveyMonkey.',
     url: 'https://surveymonkey.new',
@@ -344,6 +361,7 @@ export const actions = [
   },
   {
     name: 'GitHub',
+    key: 'github',
     icon: <AiFillGithub size={iconSize} />,
     description: 'Create a new GitHub repository.',
     url: 'https://github.new',
@@ -361,6 +379,7 @@ export const actions = [
   },
   {
     name: 'GitHub Gist',
+    key: 'github-gist',
     icon: GitHubGist,
     description: 'Create a new GitHub gist.',
     url: 'https://gist.new',
@@ -368,6 +387,7 @@ export const actions = [
   },
   {
     name: 'Figma',
+    key: 'figma',
     icon: Figma,
     description: "Design and prototype using Figma's collaborative interface.",
     url: 'https://figma.new',
@@ -384,6 +404,7 @@ export const actions = [
   },
   {
     name: 'CodePen',
+    key: 'codepen',
     icon: <AiOutlineCodepen size={iconSize} />,
     description:
       "Prototype your frontend code in CodePen's online development sandbox.",
@@ -392,6 +413,7 @@ export const actions = [
   },
   {
     name: 'Codespace',
+    key: 'codespace',
     icon: Codespace,
     description: 'Create a new code snippet on Codespace.',
     url: 'https://snippet.new',
@@ -399,6 +421,7 @@ export const actions = [
   },
   {
     name: 'React.js',
+    key: 'react-js',
     icon: <FaReact size={iconSize} color="#61DAFB" />,
     description: 'Create a new React project online with CodeSandbox.',
     url: 'https://react.new',
@@ -406,6 +429,7 @@ export const actions = [
   },
   {
     name: 'Vue.js',
+    key: 'vue-js',
     icon: VueJs,
     description: 'Create a new vue.js project online with CodeSandbox.',
     url: 'https://vue.new',
@@ -413,6 +437,7 @@ export const actions = [
   },
   {
     name: 'Angular.js',
+    key: 'angular-js',
     icon: AngularJs,
     description: 'Create a new Angular project online with CodeSandbox.',
     url: 'https://ng.new',
@@ -420,6 +445,7 @@ export const actions = [
   },
   {
     name: 'Node.js',
+    key: 'node-js',
     icon: <FaNode size={iconSize} color="#5C9553" />,
     description: 'Create a new Node.js project online with CodeSandbox.',
     url: 'https://nodejs.new',
@@ -427,6 +453,7 @@ export const actions = [
   },
   {
     name: 'Next.js',
+    key: 'next-js',
     icon: <SiNextdotjs size={iconSize} />,
     description: 'Create a new Next.js project online with stackblitz.',
     url: 'https://next.new',
@@ -434,6 +461,7 @@ export const actions = [
   },
   {
     name: 'JavaScript',
+    key: 'javascript',
     icon: JavaScript,
     description: 'Create a new Javascript project online with CodeSandbox.',
     url: 'https://js.new',
@@ -441,6 +469,7 @@ export const actions = [
   },
   {
     name: 'TypeScript',
+    key: 'typescript',
     icon: TypeScript,
     description: 'Create a new Typescript project online with CodeSandbox.',
     url: 'https://ts.new',
@@ -448,6 +477,7 @@ export const actions = [
   },
   {
     name: 'Vite',
+    key: 'vite',
     icon: Vite,
     description: 'Create a new Vite.js project online with Stackblitz.',
     url: 'https://vite.new',
@@ -455,6 +485,7 @@ export const actions = [
   },
   {
     name: 'Flutter',
+    key: 'flutter',
     icon: Flutter,
     description: 'Create a new Flutter project online with dartpad.',
     url: 'https://flutter.new',
@@ -462,6 +493,7 @@ export const actions = [
   },
   {
     name: 'Ionic',
+    key: 'ionic',
     icon: <IoLogoIonic size={iconSize} color="#3880FF" />,
     description:
       'Create a high quality, cross-platform native and web app with Ionic.',
@@ -470,6 +502,7 @@ export const actions = [
   },
   {
     name: '.NET',
+    key: 'dot-net',
     icon: <SiDotnet size={iconSize} color="#512BD4" />,
     description:
       "Create a .NET application in Microsoft's Try .NET environment.",
@@ -478,6 +511,7 @@ export const actions = [
   },
   {
     name: 'Svelte',
+    key: 'svelte',
     icon: <SiSvelte size={iconSize} color="#FF3E00" />,
     description: 'Create a new Svelte project online with CodeSandbox.',
     url: 'https://svelte.new',
@@ -485,6 +519,7 @@ export const actions = [
   },
   {
     name: 'Rust',
+    key: 'rust',
     icon: <FaRust size={iconSize} />,
     description: 'Run a Rust Program.',
     url: 'https://rust.new',
@@ -492,6 +527,7 @@ export const actions = [
   },
   {
     name: 'CodeSandbox',
+    key: 'codeSandbox',
     icon: <AiOutlineCodeSandbox size={iconSize} />,
     description: 'Create a new project online with CodeSandbox.',
     url: 'https://csb.new',
@@ -499,6 +535,7 @@ export const actions = [
   },
   {
     name: 'Glitch',
+    key: 'glitch',
     icon: <SiGlitch size={iconSize} color="#3333FF" />,
     description:
       'Create a full-stack app in your browser and collaborate live.',
@@ -507,12 +544,14 @@ export const actions = [
   },
   {
     name: 'UUID',
+    key: 'uuid',
     icon: <TbBarcode size={iconSize} />,
     description: 'Generate a new UUID.',
     url: 'https://uuid.new',
   },
   {
     name: 'Microsoft Excel',
+    key: 'microsoft-excel',
     icon: <SiMicrosoftexcel size={iconSize} color="#217346" />,
     description: 'Create a spreadsheet using Excel.',
     url: 'https://excel.new',
@@ -531,6 +570,7 @@ export const actions = [
   },
   {
     name: 'Microsoft PowerPoint',
+    key: 'microsoft-powerPoint',
     icon: <SiMicrosoftpowerpoint size={iconSize} color="#B7472A" />,
     description: 'Create a new presentation using PowerPoint.',
     url: 'https://powerpoint.new',
@@ -548,6 +588,7 @@ export const actions = [
   },
   {
     name: 'Microsoft Word',
+    key: 'microsoft-word',
     icon: <SiMicrosoftword size={iconSize} color="#2B579A" />,
     description: 'Create a new document using Word.',
     url: 'https://word.new',
@@ -571,6 +612,7 @@ export const actions = [
   },
   {
     name: 'Microsoft Visual Studio',
+    key: 'microsoft-visual-studio',
     icon: MicrosoftVisualStudio,
     description: 'Create a new Visual Studio codespace for your project.',
     url: 'https://env.new',
@@ -589,6 +631,7 @@ export const actions = [
   },
   {
     name: 'Microsoft Teams',
+    key: 'microsoft-teams',
     icon: <SiMicrosoftteams size={iconSize} color="#6264A7" />,
     description: 'Chat with your team using Microsoft Teams.',
     url: 'https://teams.new',
@@ -596,6 +639,7 @@ export const actions = [
   },
   {
     name: 'Editor X',
+    key: 'editor-x',
     icon: EditorX,
     description: "Create a website using Editor X's online tool.",
     url: 'https://editorx.new',
@@ -603,6 +647,7 @@ export const actions = [
   },
   {
     name: 'Stackbit',
+    key: 'stackbit',
     icon: <SiStackbit size={iconSize} color="#207BEA" />,
     description: 'Create a new Jamstack site.',
     url: 'https://jamstack.new',
@@ -621,6 +666,7 @@ export const actions = [
   },
   {
     name: 'Tailwind',
+    key: 'tailwind',
     icon: <SiTailwindcss size={iconSize} color="#06B6D4" />,
     description: 'Create a new Tailwind Play page.',
     url: 'https://tailwindcss.new',
@@ -628,6 +674,7 @@ export const actions = [
   },
   {
     name: 'Vercel',
+    key: 'vercel',
     icon: <SiVercel size={iconSize} />,
     description: 'Create a new project in Vercel for preview and deployment.',
     url: 'https://deploy.new',
@@ -642,6 +689,7 @@ export const actions = [
   },
   {
     name: 'Docusaurus',
+    key: 'docusaurus',
     icon: Docusaurus,
     description: 'Create a new docusaurus project in your browser.',
     url: 'https://docusaurus.new',
@@ -657,6 +705,7 @@ export const actions = [
   },
   {
     name: 'PDF Compress',
+    key: 'pdf-compress',
     icon: <SiAdobeacrobatreader size={iconSize} color="#EC1C24" />,
     description:
       'Compress PDF documents with simple drag and drop with Adobe Acrobat.',
@@ -664,7 +713,8 @@ export const actions = [
     tags: ['productivity'],
   },
   {
-    name: 'Merge PDF',
+    name: 'PDF Merge',
+    key: 'pdf-merge',
     icon: <SiAdobeacrobatreader size={iconSize} color="#EC1C24" />,
     description: 'Combine PDFs into one file with Adobe.',
     url: 'https://mergepdf.new',
@@ -672,6 +722,7 @@ export const actions = [
   },
   {
     name: 'PDF to Word',
+    key: 'pdf-to-word',
     icon: <SiAdobeacrobatreader size={iconSize} color="#EC1C24" />,
     description: 'Convert PDFs to Word documents with Adobe.',
     url: 'https://pdftoword.new',
@@ -679,6 +730,7 @@ export const actions = [
   },
   {
     name: 'JPG to PDF',
+    key: 'jpg-to-pdf',
     icon: <SiAdobeacrobatreader size={iconSize} color="#EC1C24" />,
     description: 'Convert JPG images to PDF with Adobe Acrobat.',
     url: 'https://jpgtopdf.new',
@@ -686,6 +738,7 @@ export const actions = [
   },
   {
     name: 'Word to PDF',
+    key: 'word-to-pdf',
     icon: <SiAdobeacrobatreader size={iconSize} color="#EC1C24" />,
     description: 'Convert Microsoft Word documents to PDF.',
     url: 'https://wordtopdf.new',
@@ -693,6 +746,7 @@ export const actions = [
   },
   {
     name: 'Buffer',
+    key: 'buffer',
     icon: <SiBuffer size={iconSize} />,
     description: 'Schedule and manage your social media posts.',
     url: 'https://buffer.new',
@@ -700,14 +754,16 @@ export const actions = [
   },
   {
     name: 'Email Signature',
+    key: 'email-signature',
     icon: <FaSignature size={iconSize} />,
     description:
       'Create a professional email signature in 30 seconds HoneyBook.',
     url: 'https://emailsignature.new',
-    tags: [],
+    tags: ['template', 'productivity'],
   },
   {
     name: 'Canva',
+    key: 'canva',
     icon: <SiCanva size={iconSize} color="#00C4CC" />,
     description: 'Create a new Canva design.',
     url: 'https://design.new',
@@ -724,6 +780,7 @@ export const actions = [
   },
   {
     name: 'Canva Menu',
+    key: 'canva-menu',
     icon: <SiCanva size={iconSize} color="#00C4CC" />,
     description:
       'Create an appetizing menu using customizable templates from Canva.',
@@ -741,6 +798,7 @@ export const actions = [
   },
   {
     name: 'Canva Resume',
+    key: 'canva-resume',
     icon: <SiCanva size={iconSize} color="#00C4CC" />,
     description:
       'Create a professional-looking resume using templates from Canva.',
@@ -759,6 +817,7 @@ export const actions = [
   },
   {
     name: 'Indeed',
+    key: 'indeed',
     icon: <SiIndeed size={iconSize} color="#003A9B" />,
     description: 'Create your online resume with Indeed.',
     url: 'https://profile.new',
@@ -775,6 +834,7 @@ export const actions = [
   },
   {
     name: 'Shopify',
+    key: 'shopify',
     icon: <SiShopify size={iconSize} color="#7AB55C" />,
     description: 'Start a new online shop on Shopify.',
     url: 'https://shopify.new',
@@ -792,6 +852,7 @@ export const actions = [
   },
   {
     name: 'Business Name',
+    key: 'business-name',
     icon: <SiShopify size={iconSize} color="#7AB55C" />,
     description: 'Designate your business name on Shopify.',
     url: 'https://businessname.new',
@@ -799,6 +860,7 @@ export const actions = [
   },
   {
     name: 'Business Card',
+    key: 'business-card',
     icon: <SiNamecheap size={iconSize} color="#DE3723" />,
     description: 'Design personalized business cards with Namecheap.',
     url: 'https://businesscard.new',
@@ -806,6 +868,7 @@ export const actions = [
   },
   {
     name: 'Anchor',
+    key: 'anchor',
     icon: <SiAnchor size={iconSize} color="#5000B9" />,
     description: 'Create a new podcast episode using Anchor.',
     url: 'https://podcast.new',
@@ -822,6 +885,7 @@ export const actions = [
   },
   {
     name: 'Personio',
+    key: 'personio',
     icon: Personio,
     description: 'Track your candidate pipeline using Personio.',
     url: 'https://candidate.new',
@@ -838,6 +902,7 @@ export const actions = [
   },
   {
     name: 'Wix',
+    key: 'wix',
     icon: <SiWix size={iconSize} color="#0C6EFC" />,
     description: 'Build a new website using Wix.',
     url: 'https://wix.new',
@@ -854,6 +919,7 @@ export const actions = [
   },
   {
     name: 'Adobe Spark',
+    key: 'adobe-spark',
     icon: AdobeSpark,
     description:
       'Design beautiful social media posts and more with Adobe Spark.',
@@ -871,6 +937,7 @@ export const actions = [
   },
   {
     name: 'Logo',
+    key: 'logo',
     icon: AdobeSpark,
     description: 'Create a new logo for your business with Adobe Spark.',
     url: 'https://logo.new',
@@ -887,6 +954,7 @@ export const actions = [
   },
   {
     name: 'Photoshop',
+    key: 'photoshop',
     icon: <SiAdobephotoshop size={iconSize} color="#31A8FF" />,
     description: 'Edit an image using Adobe Photoshop online.',
     url: 'https://photo.new',
@@ -903,6 +971,7 @@ export const actions = [
   },
   {
     name: 'Wordpress',
+    key: 'wordpress',
     icon: <SiWordpress size={iconSize} color="#21759B" />,
     description: 'Create a new blog on wordpress.com.',
     url: 'https://blog.new',
@@ -919,6 +988,7 @@ export const actions = [
   },
   {
     name: 'Blog Post',
+    key: 'blog-post',
     icon: <SiWordpress size={iconSize} color="#21759B" />,
     description: 'Create a new blog post on your Wordpress blog.',
     url: 'https://post.new',
@@ -935,6 +1005,7 @@ export const actions = [
   },
   {
     name: 'Video Editor',
+    key: 'video-editor',
     icon: VideoEditor,
     description: 'Edit your video online.',
     url: 'https://recording.new',
@@ -942,6 +1013,7 @@ export const actions = [
   },
   {
     name: 'Board',
+    key: 'board',
     icon: <BiChalkboard size={iconSize} />,
     description: 'Collaborate remotely on an online whiteboard.',
     url: 'https://board.new',
@@ -949,6 +1021,7 @@ export const actions = [
   },
   {
     name: 'Asana',
+    key: 'asana',
     icon: <SiAsana size={iconSize} />,
     description: 'Add a new task to your Asana project.',
     url: 'https://asana.new',
@@ -965,6 +1038,7 @@ export const actions = [
   },
   {
     name: 'Resume',
+    key: 'resume',
     icon: Resume,
     description:
       "Build a new resume with one of CV2You's customizable templates.",
@@ -982,6 +1056,7 @@ export const actions = [
   },
   {
     name: 'InVision',
+    key: 'invision',
     icon: <SiInvision size={iconSize} color="#FF3366" />,
     description:
       "Collaborate on an online whiteboard using InVision's Freehand.",
@@ -999,6 +1074,7 @@ export const actions = [
   },
   {
     name: 'Prezi',
+    key: 'prezi',
     icon: <SiPrezi size={iconSize} color="#3181FF" />,
     description: 'Design beautiful presentations using Prezi.',
     url: 'https://prezi.new',
@@ -1016,6 +1092,7 @@ export const actions = [
   },
   {
     name: 'Text Editor',
+    key: 'text-editor',
     icon: <MdOutlineTextFields size={iconSize} />,
     description: 'Quickly write a note in online text editor.',
     url: 'https://text.new',
@@ -1023,6 +1100,7 @@ export const actions = [
   },
   {
     name: 'Kahoot',
+    key: 'kahoot',
     icon: <SiKahoot size={iconSize} color="#46178F" />,
     description: 'Create an online quiz using Kahoot.',
     url: 'https://quiz.new',
@@ -1041,6 +1119,7 @@ export const actions = [
   },
   {
     name: 'Dashlane',
+    key: 'dashlane',
     icon: <SiDashlane size={iconSize} color="#0E353D" />,
     description:
       "Keep your online accounts secure with Dashlane's password generator.",
@@ -1055,6 +1134,7 @@ export const actions = [
   },
   {
     name: 'Discord',
+    key: 'discord',
     icon: <SiDiscord size={iconSize} color="#5865F2" />,
     description:
       'Start a new Discord community where you can hang out and chat with friends.',
@@ -1074,6 +1154,7 @@ export const actions = [
   },
   {
     name: 'Test Data',
+    key: 'test-data',
     icon: <RiFileList3Line size={iconSize} />,
     description: 'Generate test identities for testing purposes.',
     url: 'https://id.new',
@@ -1081,6 +1162,7 @@ export const actions = [
   },
   {
     name: 'Diagram',
+    key: 'diagram',
     icon: <SiDiagramsdotnet size={iconSize} color="#F08705" />,
     description: 'Create a flowchart diagram using Diagrams.net.',
     url: 'https://diagram.new',
@@ -1097,6 +1179,7 @@ export const actions = [
   },
   {
     name: 'bit.io',
+    key: 'bit-io',
     icon: BitIo,
     description: 'Easily query bit.io data repositories.',
     url: 'https://query.new',
@@ -1104,6 +1187,7 @@ export const actions = [
   },
   {
     name: 'Miro',
+    key: 'miro',
     icon: <SiMiro size={iconSize} />,
     description: 'Create a wireframe for your project using Miro.',
     url: 'https://wireframe.new',
@@ -1117,6 +1201,7 @@ export const actions = [
   },
   {
     name: 'Matlab',
+    key: 'matlab',
     icon: Matlab,
     description: 'Use MATLAB and Simulink through your web browser.',
     url: 'https://matlab.new',
@@ -1135,6 +1220,7 @@ export const actions = [
   },
   {
     name: 'Railway',
+    key: 'railway',
     icon: <SiRailway size={iconSize} />,
     description: 'Create a new Railway deployment in the cloud.',
     url: 'https://dev.new',
@@ -1142,6 +1228,7 @@ export const actions = [
   },
   {
     name: 'RunKit',
+    key: 'runkit',
     icon: <SiRunkit size={iconSize} color="#DB4792" />,
     description: 'Prototype and launch your APIs using RunKit.',
     url: 'https://api.new',
@@ -1157,6 +1244,7 @@ export const actions = [
   },
   {
     name: 'Notion',
+    key: 'notion',
     icon: <SiNotion size={iconSize} />,
     description:
       'Take notes, track your progress and organize project details.',
