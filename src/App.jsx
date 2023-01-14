@@ -139,14 +139,14 @@ const App = () => {
               </p>
               {query ? (
                 <button
-                  className="btn btn-primary btn-outline capitalize opacity-70 btn-sm"
+                  className="btn btn-primary btn-outline capitalize opacity-90 btn-sm"
                   onClick={() => setQuery('')}
                 >
                   Clear Search
                 </button>
               ) : (
                 <button
-                  className="btn btn-primary btn-outline capitalize opacity-70 btn-sm"
+                  className="btn btn-primary btn-outline capitalize opacity-90 btn-sm"
                   onClick={() => {
                     changeTab(tabs.all);
                   }}
