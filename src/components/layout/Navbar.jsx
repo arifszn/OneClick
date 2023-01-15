@@ -1,10 +1,7 @@
-import { useState, useRef, useEffect, useContext } from 'react';
+import { useEffect, useContext } from 'react';
 import { navigateToPath } from '../../helpers/utils';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import config from '../../../config';
-import PropTypes from 'prop-types';
-import { VscSymbolColor } from 'react-icons/vsc';
-import { TbPalette } from 'react-icons/tb';
 import { RiPaintFill } from 'react-icons/ri';
 
 const Navbar = () => {
