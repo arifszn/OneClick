@@ -2,6 +2,7 @@ import Navbar from './Navbar';
 import PropTypes from 'prop-types';
 import { FaChrome, FaFirefox } from 'react-icons/fa';
 import config from '../../../config';
+import heroImg from '../../assets/hero.gif';
 
 const BaseLayout = (props) => {
   return (
@@ -12,7 +13,13 @@ const BaseLayout = (props) => {
           <div className="pt-20 pb-10 overflow-hidden hero bg-base-200">
             <div className="flex-col justify-between w-full max-w-6xl mt-10 mb-40 hero-content">
               <div className="p-4 mb-2 text-center font-title lg:py-0">
-                <div className="mb-2 text-3xl lg:text-5xl font-light text-primary">
+                <div>
+                  <img
+                    src={heroImg}
+                    className="w-20 h-20 mx-auto bg-primary bg-opacity-30 rounded-3xl p-3 opacity-90"
+                  />
+                </div>
+                <div className="my-2 text-3xl lg:text-5xl font-light text-primary">
                   <span className="capitalize">Awesome</span>{' '}
                   <span className="capitalize">Shortcuts</span>
                 </div>

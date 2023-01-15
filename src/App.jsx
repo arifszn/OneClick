@@ -166,7 +166,7 @@ const App = () => {
 
   const renderTabs = () => {
     return (
-      <div className="tabs tabs-boxed p-2 opacity-90">
+      <div className="tabs tabs-boxed p-2 bg-base-100 shadow-md">
         <div className="tooltip" data-tip="All Shortcuts">
           <a
             className={`tab gap-2 ${
@@ -214,7 +214,7 @@ const App = () => {
             <input
               type="text"
               placeholder="Search…"
-              className="input input-md"
+              className="input input-md shadow-md"
               ref={searchInputRef}
             />
             <button
