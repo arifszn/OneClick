@@ -170,7 +170,7 @@ const App = () => {
         <div className="tooltip" data-tip="All Shortcuts">
           <a
             className={`tab gap-2 ${
-              activeTab === tabs.all ? 'tab-active' : ''
+              activeTab === tabs.all ? 'tab-active opacity-70' : ''
             }`}
             onClick={() => changeTab(tabs.all)}
           >
@@ -182,7 +182,7 @@ const App = () => {
         <div className="tooltip" data-tip="Favorites">
           <a
             className={`tab gap-2 ${
-              activeTab === tabs.favorites ? 'tab-active' : ''
+              activeTab === tabs.favorites ? 'tab-active opacity-70' : ''
             }`}
             onClick={() => changeTab(tabs.favorites)}
           >
