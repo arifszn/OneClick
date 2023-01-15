@@ -164,6 +164,84 @@ const App = () => {
     }
   };
 
+  const renderTabs = () => {
+    return (
+      <div className="tabs tabs-boxed p-2 opacity-90">
+        <div className="tooltip" data-tip="All Shortcuts">
+          <a
+            className={`tab gap-2 ${
+              activeTab === tabs.all ? 'tab-active' : ''
+            }`}
+            onClick={() => changeTab(tabs.all)}
+          >
+            <div>
+              <RiFileListLine className="h-5 w-5" />
+            </div>
+          </a>
+        </div>
+        <div className="tooltip" data-tip="Favorites">
+          <a
+            className={`tab gap-2 ${
+              activeTab === tabs.favorites ? 'tab-active' : ''
+            }`}
+            onClick={() => changeTab(tabs.favorites)}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    );
+  };
+
+  const renderSearchBar = () => {
+    return (
+      <div className="opacity-90">
+        <div className="form-control">
+          <div className="input-group">
+            <input
+              type="text"
+              placeholder="Search…"
+              className="input input-md"
+              ref={searchInputRef}
+            />
+            <button
+              className="btn btn-square"
+              onClick={() => setQuery(searchInputRef.current.value)}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <BaseLayout>
       <div
@@ -174,75 +252,11 @@ const App = () => {
         <div className={config.extension ? '' : 'p-4'}>
           <div className="w-full transition-colors ease-linear">
             <div className="flex flex-col">
-              <div className="flex items-center justify-between my-3 mx-4">
-                <div className="tabs tabs-boxed p-2 md:p-3 lg:p-4 opacity-90">
-                  <div className="tooltip" data-tip="All Shortcuts">
-                    <a
-                      className={`tab gap-2 ${
-                        activeTab === tabs.all ? 'tab-active' : ''
-                      }`}
-                      onClick={() => changeTab(tabs.all)}
-                    >
-                      <div>
-                        <RiFileListLine className="h-5 w-5" />
-                      </div>
-                    </a>
-                  </div>
-                  <div className="tooltip" data-tip="Favorites">
-                    <a
-                      className={`tab gap-2 ${
-                        activeTab === tabs.favorites ? 'tab-active' : ''
-                      }`}
-                      onClick={() => changeTab(tabs.favorites)}
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-                        />
-                      </svg>
-                    </a>
-                  </div>
+              <div className="flex flex-col md:flex-row items-center justify-between my-3 mx-4">
+                <div className="mb-4 md:mb-0">
+                  <div className="my-auto">{renderTabs()}</div>
                 </div>
-                <div className="opacity-90">
-                  <div className="form-control">
-                    <div className="input-group">
-                      <input
-                        type="text"
-                        placeholder="Search…"
-                        className="input input-md"
-                        ref={searchInputRef}
-                      />
-                      <button
-                        className="btn btn-square"
-                        onClick={() => setQuery(searchInputRef.current.value)}
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-6 w-6"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                          />
-                        </svg>
-                      </button>
-                    </div>
-                  </div>
-                </div>
+                <div>{renderSearchBar()}</div>
               </div>
               {renderActions()}
             </div>
