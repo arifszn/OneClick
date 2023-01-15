@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import { RxEnter } from 'react-icons/rx';
 import { FaRegHeart } from 'react-icons/fa';
+import { TbArrowBarUp } from 'react-icons/tb';
 import { favorite_actions_key } from '../../helpers/utils';
 
 const ActionCard = ({ action, setActions }) => {
@@ -42,7 +42,7 @@ const ActionCard = ({ action, setActions }) => {
                 window.open(action.url, '_blank');
               }}
             >
-              <RxEnter />
+              <TbArrowBarUp />
             </button>
           </div>
           <div
