@@ -7,7 +7,7 @@ import { VscSymbolColor } from 'react-icons/vsc';
 import { TbPalette } from 'react-icons/tb';
 import { RiPaintFill } from 'react-icons/ri';
 
-const Navbar = ({ query, setQuery }) => {
+const Navbar = () => {
   const [theme, setTheme] = useContext(ThemeContext);
   const [scrolled, setScrolled] = useState(config.extension);
   const navRef = useRef(null);
@@ -81,16 +81,6 @@ const Navbar = ({ query, setQuery }) => {
           </a>
         </div>
         <div className="flex-1" />
-        <div>
-          <input
-            placeholder="Search Shortcuts"
-            className={`w-full input input-sm input-ghost placeholder-base-content placeholder-opacity-50 text-current focus:text-current focus:bg-transparent text-center  ${
-              scrolled ? 'input-bordered focus:outline-none' : ''
-            }`}
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-          />
-        </div>
         <div title="Change Theme" className="dropdown dropdown-end">
           <div tabIndex={0} className="btn btn-ghost m-1 normal-case">
             <RiPaintFill className="inline-block w-5 h-5 stroke-current" />
@@ -145,11 +135,6 @@ const Navbar = ({ query, setQuery }) => {
       </div>
     </div>
   );
-};
-
-Navbar.propTypes = {
-  query: PropTypes.string,
-  setQuery: PropTypes.func,
 };
 
 export default Navbar;

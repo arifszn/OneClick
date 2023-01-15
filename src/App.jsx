@@ -1,7 +1,7 @@
 import BaseLayout from './components/layout/BaseLayout';
 import ActionCard from './components/action/ActionCard';
 import { actions as rawActions } from './data';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import config from '../config';
 import { RiFileListLine } from 'react-icons/ri';
 import { AiOutlineHeart } from 'react-icons/ai';
@@ -16,6 +16,7 @@ const App = () => {
   const [query, setQuery] = useState('');
   const [activeTab, setActiveTab] = useState(tabs.all);
   const [actions, setActions] = useState([]);
+  const searchInputRef = useRef(null);
 
   useEffect(() => {
     if (!(localStorage.getItem(active_tab_key) === null)) {
@@ -67,9 +68,13 @@ const App = () => {
     return filteredActions;
   };
 
-  const changeTab = (tab) => {
-    // clear search query
+  const clearSearch = () => {
+    searchInputRef.current.value = '';
     setQuery('');
+  };
+
+  const changeTab = (tab) => {
+    clearSearch();
 
     setActiveTab(tab);
 
@@ -138,7 +143,7 @@ const App = () => {
               {query ? (
                 <button
                   className="btn btn-primary btn-outline capitalize opacity-90 btn-sm"
-                  onClick={() => setQuery('')}
+                  onClick={() => clearSearch()}
                 >
                   Clear Search
                 </button>
@@ -160,7 +165,7 @@ const App = () => {
   };
 
   return (
-    <BaseLayout query={query} setQuery={setQuery}>
+    <BaseLayout>
       <div
         className={`grid w-full md:w-11/12 gap-4 ${
           config.extension ? 'pt-5' : '-mt-48 glass mb-48'
@@ -169,7 +174,7 @@ const App = () => {
         <div className={config.extension ? '' : 'p-4'}>
           <div className="w-full transition-colors ease-linear">
             <div className="flex flex-col">
-              <div className="flex items-center justify-center md:justify-end my-3 mx-4">
+              <div className="flex items-center justify-between my-3 mx-4">
                 <div className="tabs tabs-boxed p-2 md:p-3 lg:p-4 opacity-90">
                   <div className="tooltip" data-tip="All Shortcuts">
                     <a
@@ -205,6 +210,37 @@ const App = () => {
                         />
                       </svg>
                     </a>
+                  </div>
+                </div>
+                <div className="opacity-90">
+                  <div className="form-control">
+                    <div className="input-group">
+                      <input
+                        type="text"
+                        placeholder="Search…"
+                        className="input input-md"
+                        ref={searchInputRef}
+                      />
+                      <button
+                        className="btn btn-square"
+                        onClick={() => setQuery(searchInputRef.current.value)}
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>

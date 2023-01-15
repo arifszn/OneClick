@@ -6,7 +6,7 @@ import config from '../../../config';
 const BaseLayout = (props) => {
   return (
     <div className="fade-in">
-      <Navbar query={props.query} setQuery={props.setQuery} />
+      <Navbar />
       <div id="home">
         {!config.extension && (
           <div className="min-h-screen pt-16 overflow-hidden hero bg-gradient-to-br to-primary from-secondary text-primary-content">
@@ -67,8 +67,6 @@ const BaseLayout = (props) => {
 
 BaseLayout.propTypes = {
   children: PropTypes.node,
-  query: PropTypes.string.isRequired,
-  setQuery: PropTypes.func.isRequired,
 };
 
 export default BaseLayout;
