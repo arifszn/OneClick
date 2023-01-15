@@ -9,20 +9,6 @@ import { RiPaintFill } from 'react-icons/ri';
 
 const Navbar = () => {
   const [theme, setTheme] = useContext(ThemeContext);
-  const [scrolled, setScrolled] = useState(config.extension);
-  const navRef = useRef(null);
-
-  useEffect(() => {
-    if (!config.extension) {
-      window.addEventListener('scroll', handleScroll);
-    }
-
-    return () => {
-      if (!config.extension) {
-        window.removeEventListener('scroll', handleScroll);
-      }
-    };
-  }, []);
 
   useEffect(() => {
     if (theme) {
@@ -38,31 +24,18 @@ const Navbar = () => {
     setTheme(selectedTheme);
   };
 
-  const handleScroll = () => {
-    if (window.scrollY > navRef.current.offsetTop) {
-      setScrolled(true);
-    } else {
-      setScrolled(false);
-    }
-  };
-
   return (
     <div
-      ref={navRef}
-      className={`inset-x-0 top-0 z-50 w-full transition duration-200 ease-in-out border-b border-transparent bg-transparent fixed ${
-        scrolled
+      className={`inset-x-0 top-0 z-50 w-full transition duration-200 ease-in-out border-b border-transparent bg-transparent absolute ${
+        config.extension
           ? 'border-base-200 bg-base-200 text-base-content'
           : 'text-primary-content'
       }`}
     >
-      <div className="mx-auto space-x-1 navbar max-w-none">
+      <div className="mx-auto space-x-1 navbar max-w-none text-base-content">
         <div
           className={`${
-            config.extension
-              ? 'flex items-center flex-none'
-              : `${
-                  !scrolled ? 'hidden' : 'hidden md:flex items-center flex-none'
-                }`
+            config.extension ? 'flex items-center flex-none' : `hidden`
           }`}
         >
           {/* eslint-disable-next-line */}

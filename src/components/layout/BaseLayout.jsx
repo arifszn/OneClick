@@ -9,10 +9,10 @@ const BaseLayout = (props) => {
       <Navbar />
       <div id="home">
         {!config.extension && (
-          <div className="min-h-screen pt-16 overflow-hidden hero bg-gradient-to-br to-primary from-secondary text-primary-content">
+          <div className="pt-20 pb-10 overflow-hidden hero bg-base-200">
             <div className="flex-col justify-between w-full max-w-6xl mt-10 mb-40 hero-content">
               <div className="p-4 mb-2 text-center font-title lg:py-0">
-                <div className="mb-2 text-3xl lg:text-5xl font-light">
+                <div className="mb-2 text-3xl lg:text-5xl font-light text-primary">
                   <span className="capitalize">Awesome</span>{' '}
                   <span className="capitalize">Shortcuts</span>
                 </div>
@@ -26,7 +26,7 @@ const BaseLayout = (props) => {
               </div>
               <div className="flex flex-col">
                 <a
-                  className="btn glass mb-3 text-primary-content"
+                  className="btn mb-3 btn-outline"
                   href="https://chrome.google.com/webstore/detail/awesome-shortcuts/laonciagkijmeofonnbjlifmjingahok"
                   target="_blank"
                   rel="noreferrer"
@@ -37,7 +37,7 @@ const BaseLayout = (props) => {
                   <FaChrome />
                 </a>
                 <a
-                  className="btn glass text-primary-content"
+                  className="btn btn-outline"
                   href="https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts"
                   target="_blank"
                   rel="noreferrer"
