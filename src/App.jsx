@@ -15,7 +15,7 @@ const tabs = {
 const App = () => {
   const [query, setQuery] = useState('');
   const [activeTab, setActiveTab] = useState(tabs.all);
-  const [actions, setActions] = useState([]);
+  const [actions, setActions] = useState(rawActions);
   const searchInputRef = useRef(null);
 
   useEffect(() => {
@@ -29,7 +29,7 @@ const App = () => {
 
     const savedActions = JSON.parse(localStorage.getItem(favorite_actions_key));
 
-    const actionsWithFavorites = rawActions.map((action) => {
+    const actionsWithFavorites = actions.map((action) => {
       return {
         ...action,
         favorite:
@@ -252,10 +252,12 @@ const App = () => {
         <div className={config.extension ? '' : 'p-4'}>
           <div className="w-full transition-colors ease-linear">
             <div className="flex flex-col">
-              <div className="flex flex-col md:flex-row items-center justify-between my-3 mx-4">
-                <div className="mb-4 md:mb-0">
-                  <div className="my-auto">{renderTabs()}</div>
-                </div>
+              <div
+                className={`flex ${
+                  !config.extension ? 'flex-col md:flex-row' : 'flex-row'
+                } items-center justify-between my-3 mx-4 gap-3`}
+              >
+                <div>{renderTabs()}</div>
                 <div>{renderSearchBar()}</div>
               </div>
               {renderActions()}

@@ -31,9 +31,7 @@ const ActionCard = ({ action, setActions }) => {
         <div className="flex items-center flex-col gap-2">
           <figure className="pt-6 w-full h-full">{action.icon}</figure>
           <h2 className="text-sm lg:text-lg font-medium">{action.name}</h2>
-          <p className="text-base-content text-opacity-70 text-sm">
-            {action.description}
-          </p>
+          <p className="opacity-70 text-xs lg:text-sm">{action.description}</p>
         </div>
         <div className="justify-center mt-3 lg:mt-6 gap-2 flex">
           <div className="tooltip" data-tip="Open shortcut">
@@ -94,7 +92,7 @@ ActionCard.propTypes = {
     description: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
     key: PropTypes.string.isRequired,
-    favorite: PropTypes.bool.isRequired,
+    favorite: PropTypes.bool,
   }),
   setActions: PropTypes.func.isRequired,
 };
