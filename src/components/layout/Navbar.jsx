@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
         <div className="flex-1" />
         <div title="Change Theme" className="dropdown dropdown-end">
-          <div tabIndex={0} className="btn btn-ghost m-1 normal-case">
+          <div tabIndex={0} className="btn btn-ghost normal-case">
             <RiPaintFill className="inline-block w-5 h-5 stroke-current" />
             <svg
               xmlns="http://www.w3.org/2000/svg"
