@@ -27,11 +27,15 @@ const ActionCard = ({ action, setActions }) => {
   };
 
   return (
-    <div className="card text-center shadow-2xl compact bg-base-100">
-      <figure className="pt-6 lg:pt-10 w-full h-full">{action.icon}</figure>
-      <div className="card-body md:mx-2 flex flex-col h-full justify-between">
-        <h2 className="text-sm lg:text-lg font-medium">{action.name}</h2>
-        <p className="opacity-80 text-2xs lg:text-sm">{action.description}</p>
+    <div className="card text-center shadow-2xl compact bg-base-100 justify-between">
+      <div className="flex justify-between flex-col p-4 h-full w-full">
+        <div className="flex items-center flex-col gap-2">
+          <figure className="pt-6 w-full h-full">{action.icon}</figure>
+          <h2 className="text-sm lg:text-lg font-medium">{action.name}</h2>
+          <p className="text-base-content text-opacity-70 text-sm">
+            {action.description}
+          </p>
+        </div>
         <div className="justify-center mt-3 lg:mt-6 gap-2 flex">
           <div className="tooltip" data-tip="Open shortcut">
             <button
