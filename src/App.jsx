@@ -216,6 +216,11 @@ const App = () => {
               placeholder="Search…"
               className="input input-md shadow-md"
               ref={searchInputRef}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                  setQuery(searchInputRef.current.value);
+                }
+              }}
             />
             <button
               className="btn btn-square"
