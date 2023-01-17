@@ -2,7 +2,7 @@
   "name": "Awesome Shortcuts",
   "short_name": "Awesome Shortcuts",
   "description": "Navigate to your favorite actions on the websites you love with just one click.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "index.html",
