@@ -26,7 +26,7 @@ const BaseLayout = (props) => {
                 <h1 className="py-2 text-xl lg:text-2xl font-bold">
                   Less clicking, more creating
                 </h1>
-                <p className="text-sm text-opacity-70 opacity-60">
+                <p className="text-sm opacity-90">
                   Navigate to your favorite actions on the websites you love
                   with just one click.
                 </p>
