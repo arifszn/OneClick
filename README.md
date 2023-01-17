@@ -55,7 +55,7 @@ The extension is available as a web app, Chrome extension, and Firefox add-on.
 
 <p align="center">
   <a href="https://awesomeshortcuts.netlify.app">
-    <img src="https://user-images.githubusercontent.com/45073703/212866251-ba5b2ed0-b254-43b5-a394-f4536bc04148.png" alt="Preview" width="60%"/>
+    <img src="https://user-images.githubusercontent.com/45073703/212967960-29d33b52-c5a4-4c3e-87bc-3f37f65530a7.png" alt="Preview" width="60%"/>
   </a>
   <br/>
   <a href="#arifszn"><img src="https://arifszn.github.io/assets/img/drop-shadow.png" width="50%" alt="Shadow"/></a>

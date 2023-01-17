@@ -3,7 +3,7 @@ import ActionCard from './components/action/ActionCard';
 import { actions as rawActions } from './data';
 import { useEffect, useRef, useState } from 'react';
 import config from '../config';
-import { RiFileListLine } from 'react-icons/ri';
+import { CgMenuGridO } from 'react-icons/cg';
 import { AiOutlineHeart } from 'react-icons/ai';
 import { active_tab_key, favorite_actions_key } from './helpers/utils';
 
@@ -175,7 +175,7 @@ const App = () => {
             onClick={() => changeTab(tabs.all)}
           >
             <div>
-              <RiFileListLine className="h-5 w-5" />
+              <CgMenuGridO className="h-5 w-5" />
             </div>
           </a>
         </div>
