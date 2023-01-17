@@ -1,7 +1,7 @@
 <br/>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/45073703/179396214-b0b778c4-a6fd-4a69-8b13-9a931b71d4ee.png" width="50%">
+  <h1 align="center">Awesome Shortcuts</h1>
 
   <p align="center">
     <a href="https://chrome.google.com/webstore/detail/awesome-shortcuts/laonciagkijmeofonnbjlifmjingahok">
@@ -47,7 +47,9 @@
 
 ## Description
 
-**Awesome Shortcuts** is a browser extension that allows you to navigate to your favorite actions on the websites you love with just one click. It is available as a web app, Chrome extension, and Firefox add-on.
+**Awesome Shortcuts** is a browser extension that allows users to quickly access a wide variety of actions with just one click. The extension includes 88 shortcuts, 29 themes, and a clean, minimalist UI. It is also open-source and free of ads. Some of the available shortcuts include creating a meeting on Google Meet, editing photos, creating new projects with popular frameworks, designing a website.
+
+The extension is available as a web app, Chrome extension, and Firefox add-on.
 
 <br/>
 
