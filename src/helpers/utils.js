@@ -1,5 +1,8 @@
 import config from '../../config';
 
+export const active_tab_key = 'awesome-shortcuts-active-tab';
+export const favorite_actions_key = 'awesome-shortcuts-favorite-actions';
+
 export const navigateToPath = (_path) => {
   if (_path[0] === '/') {
     _path = _path.substring(1);
