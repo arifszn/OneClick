@@ -2,8 +2,9 @@ import { useEffect, useContext } from 'react';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import config from '../../../config';
 import { RiPaintFill } from 'react-icons/ri';
+import PropTypes from 'prop-types';
 
-const ThemeChanger = () => {
+const ThemeChanger = ({ buttonClass, dropdownEnd = true }) => {
   const [theme, setTheme] = useContext(ThemeContext);
 
   useEffect(() => {
@@ -21,8 +22,11 @@ const ThemeChanger = () => {
   };
 
   return (
-    <div title="Change Theme" className="dropdown dropdown-end">
-      <div tabIndex={0} className="btn btn-ghost normal-case">
+    <div
+      title="Change Theme"
+      className={`dropdown ${dropdownEnd ? 'dropdown-end' : ''}`}
+    >
+      <div tabIndex={0} className={`btn btn-ghost normal-case ${buttonClass}`}>
         <RiPaintFill className="inline-block w-5 h-5 stroke-current" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +38,7 @@ const ThemeChanger = () => {
       </div>
       <div
         tabIndex={0}
-        className="mt-16 overflow-y-auto shadow-2xl top-px dropdown-content h-96 w-52 rounded-b-box bg-base-200 text-base-content"
+        className="mt-16 overflow-y-auto shadow-2xl top-px dropdown-content h-96 w-52 rounded-b-box bg-base-100 text-base-content"
       >
         <ul className="p-4 menu compact">
           {config.themeConfig.themes.map((item, index) => (
@@ -54,6 +58,11 @@ const ThemeChanger = () => {
       </div>
     </div>
   );
+};
+
+ThemeChanger.propTypes = {
+  buttonClass: PropTypes.string,
+  dropdownEnd: PropTypes.bool,
 };
 
 export default ThemeChanger;

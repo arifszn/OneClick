@@ -6,6 +6,7 @@ import config from '../config';
 import { CgMenuGridO } from 'react-icons/cg';
 import { AiOutlineHeart } from 'react-icons/ai';
 import { active_tab_key, favorite_actions_key } from './helpers/utils';
+import ThemeChanger from './components/theme-changer';
 
 const tabs = {
   all: 'all',
@@ -263,7 +264,15 @@ const App = () => {
                 } items-center justify-between my-3 mx-4 gap-3`}
               >
                 <div>{renderTabs()}</div>
-                <div>{renderSearchBar()}</div>
+                <div className="flex gap-3">
+                  {config.extension && (
+                    <ThemeChanger
+                      buttonClass="bg-base-100 shadow-md"
+                      dropdownEnd={false}
+                    />
+                  )}
+                  <div>{renderSearchBar()}</div>
+                </div>
               </div>
               {renderActions()}
             </div>
