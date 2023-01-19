@@ -168,41 +168,39 @@ const App = () => {
   const renderTabs = () => {
     return (
       <div className="tabs tabs-boxed p-2 bg-base-100 shadow-md">
-        <div className="tooltip" data-tip="All Shortcuts">
-          <a
-            className={`tab gap-2 ${
-              activeTab === tabs.all ? 'tab-active opacity-70' : ''
-            }`}
-            onClick={() => changeTab(tabs.all)}
+        <a
+          className={`tab gap-2 ${
+            activeTab === tabs.all ? 'tab-active opacity-70' : ''
+          }`}
+          onClick={() => changeTab(tabs.all)}
+          title="All Shortcuts"
+        >
+          <div>
+            <CgMenuGridO className="h-5 w-5" />
+          </div>
+        </a>
+        <a
+          className={`tab gap-2 ${
+            activeTab === tabs.favorites ? 'tab-active opacity-70' : ''
+          }`}
+          onClick={() => changeTab(tabs.favorites)}
+          title="Favorites"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
           >
-            <div>
-              <CgMenuGridO className="h-5 w-5" />
-            </div>
-          </a>
-        </div>
-        <div className="tooltip" data-tip="Favorites">
-          <a
-            className={`tab gap-2 ${
-              activeTab === tabs.favorites ? 'tab-active opacity-70' : ''
-            }`}
-            onClick={() => changeTab(tabs.favorites)}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-              />
-            </svg>
-          </a>
-        </div>
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+            />
+          </svg>
+        </a>
       </div>
     );
   };
