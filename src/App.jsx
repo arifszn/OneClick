@@ -170,7 +170,7 @@ const App = () => {
       <div className="tabs tabs-boxed p-2 bg-base-100 shadow-md">
         <a
           className={`tab gap-2 ${
-            activeTab === tabs.all ? 'tab-active opacity-70' : ''
+            activeTab === tabs.all ? 'tab-active opacity-80' : ''
           }`}
           onClick={() => changeTab(tabs.all)}
           title="All Shortcuts"
@@ -181,7 +181,7 @@ const App = () => {
         </a>
         <a
           className={`tab gap-2 ${
-            activeTab === tabs.favorites ? 'tab-active opacity-70' : ''
+            activeTab === tabs.favorites ? 'tab-active opacity-80' : ''
           }`}
           onClick={() => changeTab(tabs.favorites)}
           title="Favorites"
@@ -261,16 +261,16 @@ const App = () => {
                   !config.extension ? 'flex-col md:flex-row' : 'flex-row'
                 } items-center justify-between my-3 mx-4 gap-3`}
               >
-                <div>{renderTabs()}</div>
                 <div className="flex gap-3">
+                  <div>{renderTabs()}</div>
                   {config.extension && (
                     <ThemeChanger
                       buttonClass="bg-base-100 shadow-md"
                       dropdownEnd={false}
                     />
                   )}
-                  <div>{renderSearchBar()}</div>
                 </div>
+                <div>{renderSearchBar()}</div>
               </div>
               {renderActions()}
             </div>

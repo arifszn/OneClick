@@ -7,7 +7,7 @@ import heroImg from '../../assets/hero.gif';
 const BaseLayout = (props) => {
   return (
     <div className="fade-in">
-      <Navbar />
+      {!config.extension && <Navbar />}
       <div id="home">
         {!config.extension && (
           <div className="pt-20 pb-10 overflow-hidden hero bg-base-200">
@@ -61,7 +61,7 @@ const BaseLayout = (props) => {
         <div className="relative z-10">
           <div
             className={`hero bg-gradient-to-br from-base-100 to-base-300 text-base-content ${
-              config.extension ? 'pt-14' : 'pt-10'
+              !config.extension ? 'pt-10' : ''
             }`}
           >
             {props.children}
