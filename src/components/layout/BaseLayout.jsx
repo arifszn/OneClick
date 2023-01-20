@@ -60,7 +60,7 @@ const BaseLayout = (props) => {
         )}
         <div className="relative z-10">
           <div
-            className={`hero bg-gradient-to-br from-base-100 to-base-300 text-base-content ${
+            className={`hero text-base-content ${
               !config.extension ? 'pt-10' : ''
             }`}
           >
