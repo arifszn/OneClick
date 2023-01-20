@@ -5,29 +5,16 @@ import { useEffect, useRef, useState } from 'react';
 import config from '../config';
 import { CgMenuGridO } from 'react-icons/cg';
 import { AiOutlineHeart } from 'react-icons/ai';
-import { active_tab_key, favorite_actions_key } from './helpers/utils';
+import { favorite_actions_key, getSavedTab, tabs } from './helpers/utils';
 import ThemeChanger from './components/theme-changer';
-
-const tabs = {
-  all: 'all',
-  favorites: 'favorites',
-};
 
 const App = () => {
   const [query, setQuery] = useState('');
-  const [activeTab, setActiveTab] = useState(tabs.all);
+  const [activeTab, setActiveTab] = useState(getSavedTab());
   const [actions, setActions] = useState(rawActions);
   const searchInputRef = useRef(null);
 
   useEffect(() => {
-    if (!(localStorage.getItem(active_tab_key) === null)) {
-      let savedTab = localStorage.getItem(active_tab_key);
-
-      if (savedTab === tabs.all || savedTab === tabs.favorites) {
-        setActiveTab(savedTab);
-      }
-    }
-
     const savedActions = JSON.parse(localStorage.getItem(favorite_actions_key));
 
     const actionsWithFavorites = actions.map((action) => {
@@ -107,7 +94,7 @@ const App = () => {
       );
     } else {
       return (
-        <div className="card text-center shadow-2xl bg-base-100 m-4">
+        <div className="card text-center shadow-lg bg-base-100 m-4">
           <div className="flex items-center justify-center m-10 md:m-16">
             <div className="text-center">
               <div className="text-6xl text-primary-content mb-4">
