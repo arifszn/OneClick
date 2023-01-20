@@ -2,6 +2,10 @@ import config from '../../config';
 
 export const active_tab_key = 'awesome-shortcuts-active-tab';
 export const favorite_actions_key = 'awesome-shortcuts-favorite-actions';
+export const tabs = {
+  all: 'all',
+  favorites: 'favorites',
+};
 
 export const navigateToPath = (_path) => {
   if (_path[0] === '/') {
@@ -47,4 +51,16 @@ export const getInitialTheme = () => {
   }
 
   return config.themeConfig.themes[0];
+};
+
+export const getSavedTab = () => {
+  if (!(localStorage.getItem(active_tab_key) === null)) {
+    const savedTab = localStorage.getItem(active_tab_key);
+
+    if (savedTab in tabs) {
+      return savedTab;
+    }
+  }
+
+  return tabs.all;
 };
