@@ -61,6 +61,12 @@ The extension is available as a web app, Chrome extension, and Firefox add-on.
   <a href="#arifszn"><img src="https://arifszn.github.io/assets/img/drop-shadow.png" width="50%" alt="Shadow"/></a>
 </p>
 
+## Links
+
+- [**Chrome Extension**](https://chrome.google.com/webstore/detail/awesome-shortcuts/laonciagkijmeofonnbjlifmjingahok)
+- [**Firefox Add-on**](https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts)
+- [**Web App**](https://awesomeshortcuts.netlify.app)
+
 ## Features
 
 - One-click navigation to frequently used actions on websites.
@@ -68,12 +74,6 @@ The extension is available as a web app, Chrome extension, and Firefox add-on.
 - Mark and quickly access frequently used shortcuts in a separate "favorites" section.
 - Time-saving solution for managing and organizing links.
 - Integrations with popular online services, such as Google, Bitly, Medium, Hashnode, SurveyMonkey, GitHub, Figma, CodePen, and more.
-
-## Usage
-
-- [**Chrome Extension**](https://chrome.google.com/webstore/detail/awesome-shortcuts/laonciagkijmeofonnbjlifmjingahok)
-- [**Firefox Add-on**](https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts)
-- [**Web App**](https://awesomeshortcuts.netlify.app)
 
 ## Support
 
