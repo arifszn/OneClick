@@ -38,10 +38,10 @@ const BaseLayout = (props) => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span className="pr-3 tracking-widest normal-case">
-                    Get it for Chrome
+                  <FaChrome className="mr-3 text-lg" />
+                  <span className="tracking-widest normal-case">
+                    Download for Chrome
                   </span>{' '}
-                  <FaChrome />
                 </a>
                 <a
                   className="btn btn-outline"
@@ -49,10 +49,10 @@ const BaseLayout = (props) => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span className="pr-3 tracking-widest normal-case">
-                    Get it for Firefox
+                  <FaFirefox className="mr-3 text-lg" />
+                  <span className="tracking-widest normal-case">
+                    Download for Firefox
                   </span>{' '}
-                  <FaFirefox />
                 </a>
               </div>
             </div>
