@@ -20,11 +20,15 @@ const App = () => {
     const actionsWithFavorites = actions.map((action) => {
       return {
         ...action,
-        favorite:
+        markedFavoriteAt:
           savedActions &&
-          savedActions.find((storedAction) => storedAction === action.key)
-            ? true
-            : false,
+          savedActions.find((storedAction) => storedAction.key === action.key)
+            ? new Date(
+                savedActions.find(
+                  (storedAction) => storedAction.key === action.key
+                ).markedFavoriteAt
+              )
+            : null,
       };
     });
     setActions(actionsWithFavorites);
@@ -48,9 +52,9 @@ const App = () => {
     }
 
     if (showFavoritesOnly) {
-      filteredActions = filteredActions.filter(
-        (item) => item.favorite === true
-      );
+      filteredActions = filteredActions
+        .filter((item) => item.markedFavoriteAt)
+        .sort((a, b) => a.markedFavoriteAt - b.markedFavoriteAt);
     }
 
     return filteredActions;
