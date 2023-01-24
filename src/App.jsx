@@ -54,7 +54,9 @@ const App = () => {
     if (showFavoritesOnly) {
       filteredActions = filteredActions
         .filter((item) => item.markedFavoriteAt)
-        .sort((a, b) => a.markedFavoriteAt - b.markedFavoriteAt);
+        .sort(
+          (a, b) => new Date(a.markedFavoriteAt) - new Date(b.markedFavoriteAt)
+        );
     }
 
     return filteredActions;
