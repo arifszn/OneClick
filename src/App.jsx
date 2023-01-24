@@ -203,7 +203,7 @@ const App = () => {
           <div className="input-group">
             <input
               type="text"
-              placeholder="Search…"
+              placeholder="Search"
               className="input input-md shadow-md"
               ref={searchInputRef}
               onKeyDown={(e) => {
