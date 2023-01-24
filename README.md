@@ -1,6 +1,7 @@
 <br/>
 
 <p align="center">
+  <img src="https://user-images.githubusercontent.com/45073703/214260079-7a9b0c84-287a-4567-833f-a7b836f6eae3.gif" width="5%">
   <h1 align="center">Awesome Shortcuts</h1>
 
   <p align="center">
