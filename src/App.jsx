@@ -18,13 +18,15 @@ const App = () => {
     const savedActions = JSON.parse(localStorage.getItem(favorite_actions_key));
 
     const actionsWithFavorites = actions.map((action) => {
+      const foundAction =
+        savedActions &&
+        savedActions.find((storedAction) => storedAction.key === action.key);
+
       return {
         ...action,
-        favorite:
-          savedActions &&
-          savedActions.find((storedAction) => storedAction === action.key)
-            ? true
-            : false,
+        markedFavoriteAt: foundAction
+          ? new Date(foundAction.markedFavoriteAt)
+          : null,
       };
     });
     setActions(actionsWithFavorites);
@@ -48,9 +50,11 @@ const App = () => {
     }
 
     if (showFavoritesOnly) {
-      filteredActions = filteredActions.filter(
-        (item) => item.favorite === true
-      );
+      filteredActions = filteredActions
+        .filter((item) => item.markedFavoriteAt)
+        .sort(
+          (a, b) => new Date(a.markedFavoriteAt) - new Date(b.markedFavoriteAt)
+        );
     }
 
     return filteredActions;
@@ -199,7 +203,7 @@ const App = () => {
           <div className="input-group">
             <input
               type="text"
-              placeholder="Search…"
+              placeholder="Search"
               className="input input-md shadow-md"
               ref={searchInputRef}
               onKeyDown={(e) => {

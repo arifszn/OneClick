@@ -8,17 +8,24 @@ const ActionCard = ({ action, setActions }) => {
     setActions((prevActions) => {
       const clonedActions = [...prevActions];
       const index = clonedActions.findIndex((action) => action.key === key);
+      const currentDate = new Date();
+
       clonedActions[index] = {
         ...clonedActions[index],
-        favorite: !clonedActions[index].favorite,
+        markedFavoriteAt: clonedActions[index].markedFavoriteAt
+          ? null
+          : currentDate,
       };
 
       localStorage.setItem(
         favorite_actions_key,
         JSON.stringify(
           clonedActions
-            .filter((action) => action.favorite)
-            .map((action) => action.key)
+            .filter((action) => action.markedFavoriteAt)
+            .map((action) => ({
+              key: action.key,
+              markedFavoriteAt: action.markedFavoriteAt,
+            }))
         )
       );
 
@@ -72,14 +79,16 @@ const ActionCard = ({ action, setActions }) => {
           </button>
           <button
             className={`btn ${
-              action.favorite ? 'btn-primary' : 'btn-outline'
+              action.markedFavoriteAt ? 'btn-primary' : 'btn-outline'
             } btn-circle btn-sm`}
             onClick={(e) => {
               e.preventDefault();
 
               toggleFavorite(action.key);
             }}
-            title={`${action.favorite ? 'Remove from' : 'Add to'} Favorites`}
+            title={`${
+              action.markedFavoriteAt ? 'Remove from' : 'Add to'
+            } Favorites`}
           >
             <FaRegHeart />
           </button>
@@ -96,7 +105,7 @@ ActionCard.propTypes = {
     description: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
     key: PropTypes.string.isRequired,
-    favorite: PropTypes.bool,
+    markedFavoriteAt: PropTypes.instanceOf(Date),
   }),
   setActions: PropTypes.func.isRequired,
 };
