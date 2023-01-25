@@ -18,17 +18,15 @@ const App = () => {
     const savedActions = JSON.parse(localStorage.getItem(favorite_actions_key));
 
     const actionsWithFavorites = actions.map((action) => {
+      const foundAction =
+        savedActions &&
+        savedActions.find((storedAction) => storedAction.key === action.key);
+
       return {
         ...action,
-        markedFavoriteAt:
-          savedActions &&
-          savedActions.find((storedAction) => storedAction.key === action.key)
-            ? new Date(
-                savedActions.find(
-                  (storedAction) => storedAction.key === action.key
-                ).markedFavoriteAt
-              )
-            : null,
+        markedFavoriteAt: foundAction
+          ? new Date(foundAction.markedFavoriteAt)
+          : null,
       };
     });
     setActions(actionsWithFavorites);
