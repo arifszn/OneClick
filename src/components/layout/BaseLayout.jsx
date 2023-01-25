@@ -20,8 +20,7 @@ const BaseLayout = (props) => {
                   />
                 </div>
                 <div className="my-2 text-3xl lg:text-5xl font-light text-primary">
-                  <span className="capitalize">Awesome</span>{' '}
-                  <span className="capitalize">Shortcuts</span>
+                  <span className="capitalize">OneClick</span>
                 </div>
                 <h1 className="py-2 text-xl lg:text-2xl font-bold">
                   Less clicking, more creating
@@ -34,7 +33,7 @@ const BaseLayout = (props) => {
               <div className="flex flex-col">
                 <a
                   className="btn mb-3 btn-outline"
-                  href="https://chrome.google.com/webstore/detail/awesome-shortcuts/laonciagkijmeofonnbjlifmjingahok"
+                  href="https://chrome.google.com/webstore/detail/oneclick/laonciagkijmeofonnbjlifmjingahok"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -45,7 +44,7 @@ const BaseLayout = (props) => {
                 </a>
                 <a
                   className="btn btn-outline"
-                  href="https://addons.mozilla.org/en-US/firefox/addon/awesome-shortcuts"
+                  href="https://addons.mozilla.org/en-US/firefox/addon/oneclick"
                   target="_blank"
                   rel="noreferrer"
                 >
