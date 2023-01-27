@@ -1,7 +1,8 @@
 import config from '../../config';
 
-export const active_tab_key = 'awesome-shortcuts-active-tab';
-export const favorite_actions_key = 'awesome-shortcuts-favorite-actions';
+export const active_tab_key = 'oneclick-active-tab';
+export const favorite_actions_key = 'oneclick-favorite-actions';
+export const theme_key = 'oneclick-theme';
 export const tabs = {
   all: 'all',
   favorites: 'favorites',
@@ -32,12 +33,10 @@ export const getInitialTheme = () => {
 
   if (
     typeof window !== 'undefined' &&
-    !(localStorage.getItem('awesome-shortcuts-theme') === null) &&
-    config.themeConfig.themes.includes(
-      localStorage.getItem('awesome-shortcuts-theme')
-    )
+    !(localStorage.getItem(theme_key) === null) &&
+    config.themeConfig.themes.includes(localStorage.getItem(theme_key))
   ) {
-    let theme = localStorage.getItem('awesome-shortcuts-theme');
+    let theme = localStorage.getItem(theme_key);
     return theme;
   }
 

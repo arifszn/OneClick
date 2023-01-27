@@ -3,8 +3,9 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import config from '../../../config';
 import { RiPaintFill } from 'react-icons/ri';
 import PropTypes from 'prop-types';
+import { theme_key } from '../../helpers/utils';
 
-const ThemeChanger = ({ buttonClass, dropdownEnd = true }) => {
+const ThemeChanger = ({ buttonClass = '', dropdownEnd = true }) => {
   const [theme, setTheme] = useContext(ThemeContext);
 
   useEffect(() => {
@@ -16,7 +17,7 @@ const ThemeChanger = ({ buttonClass, dropdownEnd = true }) => {
   const changeTheme = (e, selectedTheme) => {
     e.preventDefault();
     document.querySelector('html').setAttribute('data-theme', selectedTheme);
-    localStorage.setItem('awesome-shortcuts-theme', selectedTheme);
+    localStorage.setItem(theme_key, selectedTheme);
 
     setTheme(selectedTheme);
   };

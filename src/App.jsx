@@ -5,7 +5,12 @@ import { useEffect, useRef, useState } from 'react';
 import config from '../config';
 import { CgMenuGridO } from 'react-icons/cg';
 import { AiOutlineHeart } from 'react-icons/ai';
-import { favorite_actions_key, getSavedTab, tabs } from './helpers/utils';
+import {
+  active_tab_key,
+  favorite_actions_key,
+  getSavedTab,
+  tabs,
+} from './helpers/utils';
 import ThemeChanger from './components/theme-changer';
 
 const App = () => {
@@ -70,7 +75,7 @@ const App = () => {
 
     setActiveTab(tab);
 
-    localStorage.setItem('awesome-shortcuts-active-tab', tab);
+    localStorage.setItem(active_tab_key, tab);
   };
 
   const renderActions = () => {

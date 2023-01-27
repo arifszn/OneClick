@@ -1,14 +1,14 @@
 {
-  "name": "awesome-shortcuts",
+  "name": "oneclick",
   "private": true,
   "version": "1.2.0",
   "description": "Navigate to your favorite actions on the websites you love with just one click.",
-  "homepage": "https://awesomeshortcuts.netlify.app",
+  "homepage": "https://oneclickweb.netlify.app",
   "license": "Apache-2.0",
   "author": "arifszn",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arifszn/awesome-shortcuts.git"
+    "url": "https://github.com/arifszn/oneclick.git"
   },
   "scripts": {
     "dev": "vite",
@@ -63,7 +63,12 @@
     "javascript",
     "shortcut",
     "awesome",
+    "one click",
+    "one click shortcut",
     "awesome list",
+    "extension",
+    "browser extension",
+    "navigation",
     "awesome create"
   ]
 }

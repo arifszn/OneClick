@@ -26,8 +26,8 @@ export default defineConfig({
         'home.png',
       ],
       manifest: {
-        name: 'Awesome Shortcuts',
-        short_name: 'Shortcuts',
+        name: 'OneClick',
+        short_name: '1click',
         description:
           'Navigate to your favorite actions on the websites you love with just one click',
         theme_color: '#ffffff',
