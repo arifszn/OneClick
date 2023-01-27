@@ -48,15 +48,13 @@
 
 ## Description
 
-**OneClick** is a browser extension that allows users to quickly access a wide variety of actions with just one click. The extension includes 88 shortcuts, 29 themes, and a clean, minimalist UI. It is also open-source and free of ads. Some of the available shortcuts include creating a meeting on Google Meet, editing photos, creating new projects with popular frameworks, designing a website.
-
-The extension is available as a web app, Chrome extension, and Firefox add-on.
+**OneClick** is the ultimate productivity tool for your browser. With just one click, access a wide variety of actions and shortcuts, including creating a meeting on Google Meet, editing photos, creating new projects with popular frameworks, and designing a website. The extension includes 88 shortcuts, 29 customizable themes, and a clean, minimalist UI. Plus, it's open-source and free of ads. OneClick is available as a web app, Chrome extension, and Firefox add-on, making it easy to use across all your devices. Upgrade your browsing experience with OneClick today!
 
 <br/>
 
 <p align="center">
   <a href="https://oneclickweb.netlify.app">
-    <img src="https://user-images.githubusercontent.com/45073703/212967960-29d33b52-c5a4-4c3e-87bc-3f37f65530a7.png" alt="Preview" width="60%"/>
+    <img src="https://user-images.githubusercontent.com/45073703/215089263-a676c8fa-f49b-4614-bdcc-cf7beeb3e651.png" alt="Preview" width="60%"/>
   </a>
   <br/>
   <a href="#arifszn"><img src="https://arifszn.github.io/assets/img/drop-shadow.png" width="50%" alt="Shadow"/></a>
