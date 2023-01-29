@@ -48,7 +48,7 @@
 
 ## Description
 
-**OneClick** is the ultimate productivity tool for your browser. With just one click, access a wide variety of actions and shortcuts, including creating a meeting on Google Meet, editing photos, creating new projects with popular frameworks, and designing a website. The extension includes 88 shortcuts, 29 customizable themes, and a clean, minimalist UI. Plus, it's open-source and free of ads. OneClick is available as a web app, Chrome extension, and Firefox add-on, making it easy to use across all your devices. Upgrade your browsing experience with OneClick today!
+**OneClick** is the ultimate productivity tool for your browser. With just one click, access a wide variety of actions and shortcuts, including creating a meeting on Google Meet, editing photos, creating new projects with popular frameworks, designing a website. The extension includes 88 shortcuts, 29 customizable themes, and a clean, minimalist UI. Plus, it's open-source and free of ads. OneClick is available as a web app, Chrome extension, and Firefox add-on, making it easy to use across all your devices. Upgrade your browsing experience with OneClick today!
 
 <br/>
 
