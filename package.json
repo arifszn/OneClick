@@ -35,7 +35,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
-    "postcss": "^8.4.20",
+    "postcss": "^8.4.24",
     "prettier": "^2.7.1",
     "prop-types": "^15.8.1",
     "react-icons": "^4.4.0",
