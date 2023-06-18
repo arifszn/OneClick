@@ -57,7 +57,7 @@
     <img src="https://user-images.githubusercontent.com/45073703/215089263-a676c8fa-f49b-4614-bdcc-cf7beeb3e651.png" alt="Preview" width="60%"/>
   </a>
   <br/>
-  <a href="#arifszn"><img src="https://arifszn.github.io/assets/img/drop-shadow.png" width="50%" alt="Shadow"/></a>
+  <a href="#arifszn"><img src="https://arifszn.netlify.app/assets/img/drop-shadow.png" width="50%" alt="Shadow"/></a>
 </p>
 
 ## Links
