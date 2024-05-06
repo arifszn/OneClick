@@ -20,9 +20,6 @@
     <a href="https://github.com/arifszn/oneclick/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/arifszn/oneclick"/>
     </a>
-    <a href="https://github.com/arifszn/oneclick/blob/main/package-lock.json">
-      <img src="https://img.shields.io/snyk/vulnerabilities/github/arifszn/oneclick"/>
-    </a>
     <a href="https://github.com/arifszn/oneclick/issues">
       <img src="https://img.shields.io/github/issues/arifszn/oneclick"/>
     </a>
